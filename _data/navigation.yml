@@ -1,0 +1,24 @@
+# main links links
+main:
+
+  - title: "Posts"
+    url: /
+
+  - title: "About"
+    url: /about/
+
+  - title: "Tags"
+    url: /tags/
+
+  - title: "Category"
+    url : /categories/
+
+  - title: "Posts by date"
+    url: /year-archive/
+
+  - title: "Collection"
+    url: /collection-archive/
+
+  - title: "Pages"
+    url: /page-archive/
+
