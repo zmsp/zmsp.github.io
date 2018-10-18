@@ -91,7 +91,6 @@ social:
     - "https://github.com/zmsp"
     - "https://www.linkedin.com/in/zshahadat"
     - "https://plus.google.com/+BiggZee"
-    - 
     - "https://twitter.com/littlebigcoder"
 
 # Analytics
@@ -108,12 +107,12 @@ author:
   bio              : "Full time coder"
   location         : "United States"
   email            : "zobair.career@gmail.com"
-  uri              : "zobairshahadat.com"
+  uri              : "/"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "https://www.flickr.com/photos/12565927@N03/"
+  flickr           : "photos/zprime/"
   facebook         :
   foursquare       :
   github           : "zmsp"
