@@ -90,7 +90,8 @@ social:
   links: # An array of links to social media profiles
     - "https://github.com/zmsp"
     - "https://www.linkedin.com/in/zshahadat"
-    - "https://plus.google.com/+biggzee"
+    - "https://plus.google.com/+BiggZee"
+    - 
     - "https://twitter.com/littlebigcoder"
 
 # Analytics
@@ -107,19 +108,19 @@ author:
   bio              : "Full time coder"
   location         : "United States"
   email            : "zobair.career@gmail.com"
-  uri              :
+  uri              : "zobairshahadat.com"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "https://www.flickr.com/photos/12565927@N03/"
   facebook         :
   foursquare       :
   github           : "zmsp"
   gitlab           :
-  google_plus      : "BiggZee"
+  google_plus      : "+BiggZee"
   keybase          :
-  instagram        :
+  instagram        : "bigzei"
   lastfm           :
   linkedin         : "zshahadat"# "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -131,7 +132,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://www.youtube.com/user/ShahadatZ" 
 
 
 # Reading Files
