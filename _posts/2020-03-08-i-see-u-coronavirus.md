@@ -1,9 +1,9 @@
 ---
 title:  "Coronavirus webapp development"
 header:
-  teaser: https://i.imgur.com/gtEYHHz.jpg
-  og_image: https://i.imgur.com/gtEYHHz.jpg
-  overlay_image: https://i.imgur.com/gtEYHHz.jpg
+  teaser: https://i.imgur.com/OV5rOI3.png
+  og_image: https://i.imgur.com/OV5rOI3.png
+  overlay_image: https://i.imgur.com/OV5rOI3.png
 categories:
   - datascience
 tags:
@@ -20,7 +20,6 @@ TODO
 
 
 ## Data Analytics  
-TODO
 
 ## Data sources
 The data is updated form Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) repository and hosted on
@@ -38,15 +37,19 @@ More info TODO
 * FontAwesome
 * Windows.bat scripts
 
+## Designing the User Interface
+Borrowed some ideas form Material Design Philosophy.
+
 
 ## Future Plans
 * Add map plot (added 3/8)
 * Add time series data 
-
+* Look into more data sources
+* Improve upon UI
 
 ## Project timeline
 * 3/6, built the API
 * 3/7, finished creating initial site.
-* 3/8, added Google Map plot for coronavirus data, Conntected site to the domain name
+* 3/8, added Google Map plot for coronavirus data
 
 
