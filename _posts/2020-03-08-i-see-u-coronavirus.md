@@ -15,7 +15,7 @@ tags:
 ---
 
 
-# This page documents the motivation and process behind building [coronavirus2020.icu/](coronavirus2020.icu/)
+# This page documents the motivation and the process behind building a webapp using COVID-19 data. 
 TODO
 
 
