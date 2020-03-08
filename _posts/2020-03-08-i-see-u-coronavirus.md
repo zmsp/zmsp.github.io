@@ -16,7 +16,7 @@ tags:
 
 
 # This page documents the motivation and the process behind building a webapp using COVID-19 data. 
-App : [www.coronavirus2020.icu](www.coronavirus2020.icu)
+App : [coronavirus2020.icu](http://www.coronavirus2020.icu)
 
 
 
