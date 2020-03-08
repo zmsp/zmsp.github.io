@@ -16,7 +16,8 @@ tags:
 
 
 # This page documents the motivation and the process behind building a webapp using COVID-19 data. 
-TODO
+App : [coronavirus2020.icu](coronavirus2020.icu)
+
 
 
 ## Data Analytics  
@@ -46,6 +47,7 @@ Borrowed some ideas form Material Design Philosophy.
 * Add time series data 
 * Look into more data sources
 * Improve upon UI
+* Attempt to build an android app using the same source. 
 
 ## Project timeline
 * 3/6, built the API
