@@ -20,13 +20,21 @@ App : [coronavirus2020.icu](http://www.coronavirus2020.icu)
 
 
 
-## Data Analytics  
+# Why I built this?
+
+I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to read and userfriendly.  I also wanted to inform people that coronavirus is not that severe compared to other global crisis by highlighting recovery and death rate. 
+
+Coronavirus mortality rate is around 3%. Coronavirus would stack at almost near the bottom compared to other diseases including ebola. 
+Although I agree, we need to be careful and protect ourselves from the disease, the need for panic is unnessesary. The data shows that at least 53% of the people with the disease were cured.
+
+
+
+
 
 ## Data sources
-The data is updated form Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) repository and hosted on
+The data is updated from Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) repository and hosted on
 https://github.com/zmsp/coronavirus-json-api/
 
-More info TODO
 
 ## Tech Stack
 * Flutter Web
@@ -39,19 +47,28 @@ More info TODO
 * Windows.bat scripts
 
 ## Designing the User Interface
-Borrowed some ideas form Material Design Philosophy.
+Borrowed some ideas form Material Design Philosophy. Flutter widgets provide some ready to use interfaces that's aesthetically pleasing. 
+
+
+## issues faced while building 
+* The data source needed to be normalized as there were some missing values.
+* The UI framework, flutter web, is still a beta product. I had to use a nontraditional way of implementing maps. 
+* The UI needed to be tuned to be used in desktop and mobiles. Making it universally compatible was a challenge. 
 
 
 ## Future Plans
 * Add map plot (added 3/8)
-* Add time series data 
+* Add time-series data  (3/10)
 * Look into more data sources
 * Improve upon UI
 * Attempt to build an android app using the same source. 
+* Add statistics by demography
+
 
 ## Project timeline
 * 3/6, built the API
-* 3/7, finished creating initial site.
+* 3/7, finished creating an initial site.
 * 3/8, added Google Map plot for coronavirus data
-
+* 3/10 Add time-series data 
+* 3/12Incorporated external dashboards
 
