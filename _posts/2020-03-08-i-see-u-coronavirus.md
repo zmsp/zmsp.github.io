@@ -1,9 +1,9 @@
 ---
 title:  "Coronavirus webapp development"
 header:
-  teaser: https://i.imgur.com/OV5rOI3.png
-  og_image: https://i.imgur.com/OV5rOI3.png
-  overlay_image: https://i.imgur.com/OV5rOI3.png
+  teaser: https://i.imgur.com/khtGild.png
+  og_image: https://i.imgur.com/khtGild.png
+  overlay_image: https://i.imgur.com/khtGild.png
 categories:
   - datascience
 tags:
