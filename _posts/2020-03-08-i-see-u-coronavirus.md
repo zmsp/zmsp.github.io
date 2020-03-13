@@ -22,10 +22,7 @@ App : [coronavirus2020.icu](http://www.coronavirus2020.icu)
 
 # Why I built this?
 
-I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to read and userfriendly.  I also wanted to inform people that coronavirus is not that severe compared to other global crisis by highlighting recovery and death rate. 
-
-Coronavirus mortality rate is around 3%. Coronavirus would stack at almost near the bottom compared to other diseases including ebola. 
-Although I agree, we need to be careful and protect ourselves from the disease, the need for panic is unnessesary. The data shows that at least 53% of the people with the disease were cured.
+I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to read and user friendly.
 
 
 
