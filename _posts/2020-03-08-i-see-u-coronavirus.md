@@ -27,11 +27,11 @@ I built this [web app](http://coronavirusdashboard.live/)  with the motivation o
 # Analytics 
 Here are some insights on death rate, recovery rate and population infection rate by countries. 
 
-<iframe width="800" height="600" src="https://datastudio.google.com/embed/reporting/8b0b2857-1f24-4e1f-b4e9-df7082dafe72/page/8sXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="800" height="650" src="https://datastudio.google.com/embed/reporting/8b0b2857-1f24-4e1f-b4e9-df7082dafe72/page/8sXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 # Raw Data:
 You can explore the raw data from here
-<iframe width="800" height="600" src="https://datastudio.google.com/embed/reporting/b9437400-6abc-431e-a608-cdbb988fa6a8/page/tzXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe width="800" height="650" src="https://datastudio.google.com/embed/reporting/b9437400-6abc-431e-a608-cdbb988fa6a8/page/tzXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 
