@@ -16,21 +16,31 @@ tags:
 
 
 # This page documents the motivation and the process behind building a webapp using COVID-19 data. 
-App : [coronavirus2020.icu](http://www.coronavirus2020.icu)
+App : [http://coronavirusdashboard.live/](http://coronavirusdashboard.live/)
 
 
 
 # Why I built this?
 
-I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to read and user friendly.
+I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus.
 
+# Analytics 
+Here are some insights on death rate, recovery rate and population infection rate by countries. 
 
+<iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/8b0b2857-1f24-4e1f-b4e9-df7082dafe72/page/8sXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+# Raw Data:
+You can explore the raw data from here
+* https://coronavirusdashboard.live/analysis/data.html
+* https://github.com/zmsp/coronavirus-json-api/
 
 
 ## Data sources
-The data is updated from Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE) repository and hosted on
-https://github.com/zmsp/coronavirus-json-api/
+The data is updated from Johns Hopkins University Center for Systems Science and Engineering [JHU CSSE](https://github.com/CSSEGISandData/COVID-19) repository and hosted on
+https://github.com/zmsp/coronavirus-json-api/ JHU CSSE updates the data about twice daily. 
+
+Additionally, the total counts are updated every hour from https://www.worldometers.info/
+
 
 
 ## Tech Stack
