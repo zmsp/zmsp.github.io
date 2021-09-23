@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -21,14 +21,15 @@ title_separator: "-"
 subtitle: "Today I Learned"# site tagline that appears below site title in masthead
 name: "Zobair Shahadat"
 description: "Today I learned"
-url: "http://zmsp.github.io"
+url: "https://zobairshahadat.com"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "zmsp/zmsp.github.io"
 teaser: "images/preview.JPG" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo: "/assets/images/site-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: false # true, false (default)
 words_per_minute: 200
+
 
 comments:
   provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -77,7 +78,7 @@ bing_site_verification: "B8B1FAF0921F46854E19AB3D4D215381"
 alexa_site_verification:
 yandex_site_verification: "629540d8a5db783f"
 naver_site_verification:
-
+baidu_site_verification:
 # Social Sharing
 twitter:
   username: "littlebigcoder"
@@ -196,7 +197,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -276,6 +277,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"

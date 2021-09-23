@@ -1,12 +1,12 @@
 ---
 title:  "Tesla Python API"
 excerpt: "Python library to control Tesla"
+toc: true
 categories:
 - software
 tags:
 - API
 - python
-
 ---
 [![GitHub stars](https://img.shields.io/github/stars/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla/stargazers) [![GitHub forks](https://img.shields.io/github/forks/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla)
 https://github.com/zmsp/python-my-tesla

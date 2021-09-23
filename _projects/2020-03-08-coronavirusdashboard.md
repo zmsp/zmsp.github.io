@@ -1,6 +1,7 @@
 ---
 title:  "coronavirus dashboard"
 excerpt: "Dashboard visualizing COVID spreads"
+toc: true
 header:
   teaser: https://i.imgur.com/khtGild.png
   og_image: https://i.imgur.com/khtGild.png
