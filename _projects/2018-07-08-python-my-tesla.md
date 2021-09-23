@@ -2,8 +2,8 @@
 title:  "Tesla Python API"
 excerpt: "Python library to control Tesla"
 categories:
-
-- software tags:
+- software
+tags:
 - API
 - python
 

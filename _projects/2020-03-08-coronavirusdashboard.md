@@ -2,12 +2,14 @@
 title:  "coronavirus dashboard"
 excerpt: "Dashboard visualizing COVID spreads"
 header:
-teaser: https://i.imgur.com/khtGild.png
-og_image: https://i.imgur.com/khtGild.png
-overlay_image: https://i.imgur.com/khtGild.png
+  teaser: https://i.imgur.com/khtGild.png
+  og_image: https://i.imgur.com/khtGild.png
+  overlay_image: https://i.imgur.com/khtGild.png
 categories:
 
-- software tags:
+- software
+
+tags:
 - data
 - analytics
 - visualization
