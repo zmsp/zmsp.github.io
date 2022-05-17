@@ -2,7 +2,7 @@
 title: "About me"
 excerpt: "A guy who likes to build"
 date: 2016-05-01
-modified: 2017-04-24
+modified: 2022-05-14
 image:
 feature: https://avatars0.githubusercontent.com/u/949058?v=3&s=460
 teaser: preview.JPG
@@ -13,14 +13,19 @@ permalink: /about/
 layout: single
 ---
 
-Ever since I was a child, technology was my biggest interest. I grew up in Bangladesh, where personal computers were rare. My first introduction to a PC became an instant fascination when my uncle purchased one. In my spare time, I would interpret books to grasp some knowledge about PC usage. I would practice what I learned when I had the chance to visit my uncle. Around age 10, I was fixing my uncle’s hardware, software, and bios issues.My family moved to the United States in 2006 where I started high school. There, I took all the available computer related courses in computer science, business, and graphics design. During that time, I realized that my ambition was to become a software engineer.
 
-As a first-generation immigrant, cost was the limiting factor when it came to selecting a college. Regardless, I ended up going to George Mason rather than a community college, while working close to minimum wage. I ended up earning only a 3.40 GPA for my first semester. However, I quickly adapted to managing a college routine with a job and graduated with 3.70 GPA while also taking the most rigorous courses in the IT program. While attending, I was a member of ethical hacking and Linux clubs where I learned and shared various areas of technologies with my peers.
+I am passionate about being a successful software engineer because it is a field that is constantly evolving and offers a lot of opportunities for creativity and innovation. I enjoy working with code and solving complex problems, and I am always looking for ways to improve my skills and knowledge. I am passionate about helping others learn and grow in their careers, and I enjoy sharing my knowledge
 
-My dream of working with technology as a career turned into a reality during my senior year when I got an internship at Pragmatics. I worked 3 days a week at Pragmatics going above and beyond the expectations, while also maintaining 3.95 GPA over the 2-semester span. I transformed from an intern who supported various DevOps tasks, to part time software engineer where I created rapid software prototypes, to a full-stack software engineer who deals with big data to help provide insights to our military troops.
+My interests include
+* Arial, drone, and landscape photography
+* Reducing cognative load by improving user interface
+* Use of computer vision tools to extract data form media
+* Designing automation though software and hardware
+* Reducing complexity of this complex world though software and automation. .  
+* Volleyball and staying active
+* Mentoring... and learning from others. 
+* ... and I care very much about climate change. 
 
 
 
----
-
-Living the dream.
+As I grew and developed in my career field, I am greatful to everyone who guided me though the development journy. Hopefully these notes will inform a few people about the tools, the technologies and the practices out there. When we share knowledge, we empower others to make better decisions, to be more informed, and to lead more fulfilling lives. Knowledge is a gift that we can give to others, and I am committed to learning and sharing what I gathered through this TLI (Today I learned site).
