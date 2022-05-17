@@ -1,22 +1,19 @@
 ---
-title: "About me"
-excerpt: "A guy who likes to build"
-date: 2016-05-01
-modified: 2022-05-14
-image:
-feature: https://avatars0.githubusercontent.com/u/949058?v=3&s=460
-teaser: preview.JPG
-ads: false
-share: false
-author: true
 permalink: /about/
+title: "About Zobair"
+excerpt: "Some guy who likes to build"
 layout: single
+date: 2022-05-01
+modified: 2022-05-01
+
 ---
 
+This is a TLI site for sharing my learning related notes. 
 
-I am passionate about being a successful software engineer because it is a field that is constantly evolving and offers a lot of opportunities for creativity and innovation. I enjoy working with code and solving complex problems, and I am always looking for ways to improve my skills and knowledge. I am passionate about helping others learn and grow in their careers, and I enjoy sharing my knowledge
+I am passionate about being an well-rounded software engineer because it is a field that is constantly evolving and offers a lot of opportunities for creativity and innovation. I enjoy working with code and solving complex problems, and I am always looking for ways to improve my skills and knowledge. I am passionate about helping others learn and grow in their careers.
 
-My interests include
+
+###  My interests include
 * Arial, drone, and landscape photography
 * Reducing cognative load by improving user interface
 * Use of computer vision tools to extract data form media
@@ -24,7 +21,19 @@ My interests include
 * Reducing complexity of this complex world though software and automation. .  
 * Volleyball and staying active
 * Mentoring... and learning from others. 
-* ... and I care very much about climate change. 
+* I care very much about climate change, it's very real!   
+
+
+... and I like being funny, often it works, sometimes it fails to amuse everyone. 
+
+
+### Please visit ---
+
+* [Projects](/projects/) section of this site to learn about few of my projects
+
+* [Posts](/tags/) section to read my learning notes. 
+
+
 
 
 
