@@ -24,7 +24,7 @@ I am passionate about being an well-rounded SWE (software engineer). SWE is a fi
 * And... I care about climate change, it's very real!   
 
 
-... and I love being funny, often it works, sometimes it fails to amuse everyone. 
+... and I like being funny, often it works, sometimes it fails to amuse everyone. 
 
 
 ### Please visit ---
