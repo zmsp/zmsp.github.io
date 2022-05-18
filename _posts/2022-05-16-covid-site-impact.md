@@ -1,5 +1,5 @@
 ---
-title:  "Impact of COVID App"
+title:  "Story about impact of a an app for covid"
 excerpt: "This blog describes stats for web/mobile app built for tracking coronavirus"
 header:
   teaser: https://i.imgur.com/R7CbUmn.jpg
