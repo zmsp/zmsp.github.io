@@ -17,10 +17,30 @@ tags:
 
 ---
 
+
+
+
+
+
 ## Code:
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirus-json-api?style=for-the-badge)](https://github.com/zmsp/coronavirus-json-api/stargazers) [![GitHub forks](https://img.shields.io/github/forks/zmsp/coronavirus-json-api?style=for-the-badge)](https://github.com/zmsp/coronavirus-json-api)
-https://github.com/zmsp/coronavirus-json-api
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirus-json-api?style=for-the-badge)](https://github.com/zmsp/coronavirus-json-api/stargazers)   
+  
+
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/coronavirus-json-api?style=for-the-badge)](https://github.com/zmsp/coronavirus-json-api)  
+  
+
+Code repository: [coronavirus-json-api](https://github.com/zmsp/coronavirus-json-api)  
+
+
+## The story
+
+When the COVID-19 pandemic first started, the World Health Organization released it's data. JHU hold the data in a github repository. However, there were no good way to access the data initially. So, I created some scripts to pull csv data hourly from JHU data repository, and produce json data that could be consumed by other tools.
+
+The JSON files were commited in a github repo which would allow anyone to link their app to these data without using any 3RD party service. 
+
+
+I used the same data API to build coronavirusdashboard.live which was recently replaced and moved to zobairshahadat.com/coronavirus/
 
 ## Purpose:
 

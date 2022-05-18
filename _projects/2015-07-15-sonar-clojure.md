@@ -1,6 +1,6 @@
 ---
-title:  "Tesla Python API"
-excerpt: "Python library to control Tesla"
+title:  "Sonar-clojure plugin"
+excerpt: "A plugin that can detect security issues in clojure code"
 toc: true
 categories:
 - software
@@ -8,40 +8,24 @@ tags:
 - API
 - python
 ---
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla/stargazers)   
+
+
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/sonar-clojure?style=for-the-badge)](https://github.com/zmsp/sonar-clojure/stargazers)   
   
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla)  
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/sonar-clojure?style=for-the-badge)](https://github.com/zmsp/sonar-clojure)  
   
 
-Code repository: [python-my-tesla](https://github.com/zmsp/python-my-tesla)  
+Code repository: [sonar-clojure](https://github.com/zmsp/sonar-clojure)  
 
-# The story 
-
-I was excited to create a Tesla Python library that would allow others to easily interface with the Tesla API. Finally, I released the library to the public and it was an instant hit! People were able to use it to do all sorts of of stuffs. 
+# The story: 
 
 
-A story posted by a blogger on medium: 
-https://medium.com/@Dei8ht/can-i-control-my-tesla-with-a-python-program-83e3e115af40
+The sonar-security plugin was created to help secure clojure code. It does this by scanning code and identifying potential security threats. If a threat is identified, the plugin would detect the error and hilight the code where the error occured. It used some 3rd party modules wrapped around sonar API to push errors back to a sonar instance. 
+
+Code was written by me and another intern who helped out with testing. 
 
 
-
-
-
-
-
-Download stats as of : 
-
-```
-PyPI link
-https://pypi.org/project/mytesla
-Total downloads
-9,197
-Total downloads - 30 days
-217
-Total downloads - 7 days
-51
-```
 # Documentation
 
 # Install
