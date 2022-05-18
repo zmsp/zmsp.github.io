@@ -1,5 +1,5 @@
 ---
-title:  "How do youuuoo mentor interns?"
+title:  "How do I mentor interns?"
 excerpt: "Personal Perspective - on running an internship program in a tech company"
 header:
   teaser: https://i.imgur.com/R7CbUmn.jpg
@@ -32,16 +32,16 @@ We hire interns with a wide variety of unique talents from diverse backgrounds, 
 
 
 ### Mentoring
-__Mentoring__  is more about “how” and “why” and less about “what”. As a mentor, the role might include:
+Mentoring-  is more about “how” and “why” and less about “what”. As a mentor, the role might include:
 
 
 
 ### Managing
-__Managing__  is more about “what” and “when”. When managing interns, your role is to provide tasks and make sure they are done on time. You are also responsible for making sure that your interns have all the tools and knowledge they need to do their assigned tasks. Planning and ensuring work quality is a key part of management. 
+Managing-  is more about “what” and “when”. When managing interns, your role is to provide tasks and make sure they are done on time. You are also responsible for making sure that your interns have all the tools and knowledge they need to do their assigned tasks. Planning and ensuring work quality is a key part of management. 
 
-# The approach
+## The approach
 
-## First Week
+### First Week
 Managing interns takes a lot of time and effort at the beginning if you want to get a good return during the internship's time. I would plan to spend 5-10 hours helping the intern get started during their first week. If you want them to contribute to a tech project, I recommend you to do the following during the first week: 
 
 * Help them set up a development environment
@@ -55,7 +55,7 @@ Managing interns takes a lot of time and effort at the beginning if you want to 
 
 Next, I would give a small, meaningful task and point them in a direction where they can learn how to do it. I think it’s important that we don’t just tell them to “go learn this technology” but rather “please do this, and this is what you need to learn to accomplish the task”; this teaching method sets some accountability and expectations for the student. I would let them figure out a few things on their own and guide them when needed.
 
-## Later on 
+### Later on 
 An internship is typically a student’s first job. For most interns, their goal is to learn, grow, contribute, and get experience in the real world. Interns should be treated as regular employees with reasonable expectations. When assigning tasks, I would give them the same type of work I expect myself or my peers to complete and make sure that the individuals know I’m there to help them along the way. However, the tasks given to the interns should be tasks with delivery time in mind. Remember that your trainees can drop out any time, take vacations, or have exams to study for. It is best to avoid assigning critical tasks to interns. Give them work that is not due until they leave, or have a backup plan if the task is left unfinished. Assessing and testing new technology that you plan on adapting could be another area that fits in this domain. 
 
 Planning and routine meetings are important when it comes to managing interns effectively. This summer, some of my trainees would finish everything assigned to them faster than I planned, while others could run into unexpected blockers. So I was sure to have a list of extra tasks that I could provide to them if needed. Routine meetings are also important to make sure you know your intern’s progress and can help with any issues or challenges that may have unfolded. 
@@ -72,7 +72,7 @@ Having a support system for the interns is critical to avoid burnout and will ma
 
 * Requesting help from other experts. If something is too challenging for me and not in my realm of expertise, point them to someone who can better explain. 
 
-## At the end
+### At the end
 Having an exit plan for when the interns leave is important. Before the last week, I would:
 
 * Ask them to give a list of items they worked on and make sure those are accessible.
@@ -88,7 +88,7 @@ After reviewing the above items, have a debriefing interview to figure out if an
 Furthermore, it would be a good idea for the interns to put together a presentation for your team. This could be a compilation of what they worked on (i.e. any visualization or demo), what was completed, and any challenges they encountered. This not only benefits the company, but can also help interns reflect on their work, provide some closure for the internship, and help them polish their presentation skills.
 
 
-# Takeaways
+### Takeaways
 Running a successful internship program would enable off-loading some of the tasks from your project, if, you plan, manage, and mentor interns effectively. 
 
 When mentoring interns, make sure you are aware of the time commitment. When deciding on managing and mentoring interns, consider the project complexity, how much work is in your hands, and the interns’ experience and capabilities. 
