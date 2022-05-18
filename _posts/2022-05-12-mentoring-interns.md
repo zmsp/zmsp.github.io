@@ -1,5 +1,5 @@
 ---
-title:  "How do you mentor inters? How??????"
+title:  "How do youuuoo mentor interns?"
 excerpt: "Personal Perspective - on running an internship program in a tech company"
 header:
   teaser: https://i.imgur.com/R7CbUmn.jpg
