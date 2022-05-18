@@ -21,8 +21,9 @@ Code repository: [python-my-tesla](https://github.com/zmsp/python-my-tesla)
 I was excited to create a Tesla Python library that would allow others to easily interface with the Tesla API. Finally, I released the library to the public and it was an instant hit! People were able to use it to do all sorts of of stuffs. 
 
 
-A story posted by a blogger on medium: 
-https://medium.com/@Dei8ht/can-i-control-my-tesla-with-a-python-program-83e3e115af40
+Some stories posted by a bloggers on medium: 
+* https://mikesml.com/2021/01/30/i-hacked-my-tesla-it-turned-out-to-be-a-bad-idea/
+* https://medium.com/@Dei8ht/can-i-control-my-tesla-with-a-python-program-83e3e115af40
 
 
 
