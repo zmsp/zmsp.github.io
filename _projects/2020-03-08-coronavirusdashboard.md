@@ -2,12 +2,7 @@
 title:  "coronavirus dashboard"
 excerpt: "Dashboard visualizing COVID spreads"
 toc: true
-header:
-  teaser: https://i.imgur.com/khtGild.png
-  og_image: https://i.imgur.com/khtGild.png
-  overlay_image: https://i.imgur.com/khtGild.png
 categories:
-
 - software
 
 tags:
@@ -17,8 +12,17 @@ tags:
 - flutter
 
 ---
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard/stargazers) [![GitHub forks](https://img.shields.io/github/forks/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard)
-https://github.com/zmsp/coronavirusdashboard/tree/master/flutter_code
+
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard/stargazers)   
+  
+
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard)  
+  
+
+Code repository: [coronavirusdashboard](https://github.com/zmsp/coronavirusdashboard)  
+
+
+
 
 # This page documents the motivation and the process behind building a webapp using COVID-19 data.
 

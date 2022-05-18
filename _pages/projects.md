@@ -9,4 +9,4 @@ projects"
 classes: wide
 ---
 
-Some cool projects :) 
+Some cool projects of mine :) 

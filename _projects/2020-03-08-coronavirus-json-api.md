@@ -1,10 +1,6 @@
 ---
 title:  "coronavirus json api"
 excerpt: "COVID statistics automatically pulled"
-header:
-  teaser: https://i.imgur.com/khtGild.png
-  og_image: https://i.imgur.com/khtGild.png
-  overlay_image: https://i.imgur.com/khtGild.png
 categories:
 
 - software 
