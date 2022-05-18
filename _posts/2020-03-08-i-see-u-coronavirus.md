@@ -13,7 +13,7 @@ tags:
   
 
 ---
-
+I built this web app with the motivation of visualizing the data that’s easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus.
 
 # This page documents the motivation and the process behind building a webapp using COVID-19 data. 
 App : [http://coronavirusdashboard.live/](http://coronavirusdashboard.live/)

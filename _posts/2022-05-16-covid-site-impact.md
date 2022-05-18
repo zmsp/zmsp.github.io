@@ -15,6 +15,14 @@ tags:
 toc: true
 
 ---
+
+
+
+tldr- I created a COVID-19 tracker called https://coronavirustracker.live and it had 91 hours of total user engagement before the domain name expired.
+
+# The story
+
+
 I was sitting in my room, scrolling through my phone when I saw the news. Another outbreak of a new virus. This one was called Covid-19. I immediately thought of my family and friends and how this could affect them. I decided to do something about it by writing a covid stat tracking application. 
 
 The COVID data is in and it's not good. COVID-19 has taken a toll on the world, and the numbers are showing it. Hospitals are overwhelmed, economies are struggling, and people are dying. The data shows that the virus is spreading rapidly and there is no end in sight.

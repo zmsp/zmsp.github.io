@@ -14,7 +14,17 @@ tags:
 
 ---
 
-##### *TLDR: The Government shutdown was bad for the software industry.*
+TLDR: 
+Government shutdowns can have a big impact on the software industry. Some specific examples include:
+
+* Technology projects stop receiving funds
+* Authoritative data source services go down
+* Transportation industry becomes less efficient
+* Many Tech projects are affected indirectly
+* Tech revenue goes down during
+
+
+# Main event
 
 Starting on December 22, the US Government was shut down for the longest period of time of 35 days. This article lists the effect of the government shutdown on software industry but before we go further let's start with why government shutdown happens.
 
@@ -48,7 +58,7 @@ For instance, the following data sources were down and/or not up to date by the 
 *   Oceanic and Atmospheric data – Data needed for various weather calculations
 *   Data.gov - one biggest source of public data. A subset of linked data was not available during the shutdown.
 
-Personally, I was involved in a project in Oceanic and Atmospheric data for making predictions and produce different analytics based on past weather and climate data. This means our product is essentially useless since we can't get up-to-date data. The world is transforming into data-driven decision making which would be rendered useless while authoritative data sources go down.
+I am aware of a project dealing with Oceanic and Atmospheric data project team.  The team uses a variety of data sources to study, making predictions and produce different analytics based on past weather and climate data. This means our product is essentially useless since we can't get up-to-date data. The world is transforming into data-driven decision making which would be rendered useless while authoritative data sources go down.
 
 Furthermore, data collections stop. Due to a government shutdown, data can't be collected when the linked specific government offices are closed. Which causes an information gap,
 
@@ -81,4 +91,3 @@ Data Link: [Yahoo finance](https://goo.gl/xNNNRi)
 *   IRS operations are halted – resulting in delayed processing on your tax refund
 *   Economy shows the signs of depression: Government employees don't get paid. For the 2018 instance, 1.3 million federal worker's payment delayed and 0.8 million people were locked of their paycheck [source](https://www.economist.com/united-states/2013/10/03/closed-until-further-notice). Which means amount equaled to their paycheck isn't getting circulated back to the economy. Some of the effects of US [Great Depression]( https://en.wikipedia.org/wiki/Great_Depression) is visible which becomes more extreme as the shutdown becomes longer.
 
-Cross post: [medium](https://link.medium.com/fuSJJfc20T)

@@ -12,6 +12,20 @@ tags:
   - postgres
 ---
 
+: 
+tldr: 
+
+```
+sudo su
+service postgresql stop
+ pg_ctl -D /var/lib/pgsql/data -l logfile start
+```
+
+## To verify that the database is running 
+
+```
+database-# ps aux | grep post
+
 ## Reset process
 
 

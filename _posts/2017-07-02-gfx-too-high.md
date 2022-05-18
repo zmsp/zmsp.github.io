@@ -15,6 +15,9 @@ tags:
   - nvidia
   
 ---
+
+TLDR: The cryptocurrency price hike is the reason for the current graphics card price inflation.
+
 Today I learned why graphics card prices are so high. 
 
 

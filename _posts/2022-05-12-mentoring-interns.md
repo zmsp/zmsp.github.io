@@ -17,6 +17,8 @@ toc: true
 
 ---
 
+Tldr - Consider the pros and cons of mentoring and managing interns before taking on the challenge. Be prepared to spend extra time at the beginning to get the interns up to speed. Be clear about your expectations, give them tasks that are not due until they leave, and have a support system in place.
+
 # My approach on intern management
 
 Mentoring is something that I am passionate about because it provides an opportunity for me to share my knowledge and experience with others. It is a way for me to help others learn and grow, and it is something that I enjoy doing and I hope to do more of. 

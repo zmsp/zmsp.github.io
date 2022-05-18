@@ -10,6 +10,8 @@ tags:
   - dream
   - education
 ---
+TLDR: I want to get an education from a top tier university like Georgia Tech so that I can be a better mentor, expand my knowledge in technology, and hopefully make big impacts on my mentees' lives like my mentor, Mr. Mike G.
+
 Why OMSCS (Online Master of Science in Computer Science) at Georgia Tech?
 
 Technology and electronics were my passion for as long as I can remember. My first programming project was in artificial intelligence when I created several bot programs which played a massive online multiplayer game called Runescape. Through this project, I understood the value that AI and robotics can bring to the world. My interest since then has been to build things that would help cut down manual tasks via computers and machines.

@@ -8,7 +8,7 @@ tags:
   
 ---
 
-Lists my experiences 
+Lists of my experiece as of this day. 
 
 
 # Docker

@@ -10,6 +10,12 @@ tags:
   - extjs
   - javascript
 ---
+# tldr: 
+- Do not edit Extjs core.
+- Do not use ID.
+- Keep your code clean and simple.
+- Learn and use debugging tools.
+
 # Extjs 
 
 After coding in ExtJs for more then a year, these are my tips. Some of these are from readings others are personal experience. 

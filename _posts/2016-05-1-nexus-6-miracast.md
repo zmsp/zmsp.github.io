@@ -11,6 +11,21 @@ tags:
   - miracast
   - android
 ---
+tldr:
+
+1.  Connect your device to your PC
+
+2.  Go to recovery mode (AKA twrp recovery)
+
+3.  Mount your system by going to mount and check system
+
+4.  Open adb on your PC
+
+5.  Run
+
+
+
+
 ### How to Enable Miracast on Nexus 6 on Android N Preview
 
 Miracast is a wireless display standard designed for mirroring a smartphone, tablet, or PC's screen to a television without requiring any physical HDMI cables. Nexus 6 hardware wise supports miracast. For some reason however, Google decided to disable quite a few different features including miracast. I recently bought a Miracast enabled device but couldn’t project my nexus 6 screen on my TV. I went my one night quest to enable Miracast on nexus 6. After searching it seemed that people enabled Miracast on different devices by editing build.prop. However, it seemed that Google has disabled editing that file even when you have root enabled. So apps like BuildProp Editor can’t Without further due here is how to enable it –

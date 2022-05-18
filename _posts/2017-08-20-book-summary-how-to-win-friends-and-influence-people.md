@@ -13,8 +13,14 @@ tags:
   
 ---
 
-“Any fool can criticize, complain, and condemn—and most fools do. But it takes character and self-control to be understanding and forgiving.” 
 
+
+
+Tl;dr: Read the book and don't be the annoying guy.
+
+
+
+“Any fool can criticize, complain, and condemn—and most fools do. But it takes character and self-control to be understanding and forgiving.” 
 
 ### Overview
 How to Win Friends and Influence People was written in 1936 and to this day, it's one of the top selling books in its category. It's a timeless self-help book and the ideas still hold true. Many of the modern books in the category of self-help and communication are based on How to Win Friends and Influence People. This book teaches you how to value of people and make them feel appreciated. The book is divided into 4 major parts and at the end of each chapter, the book has a summary of the main ideas. I am posting the main ideas here:

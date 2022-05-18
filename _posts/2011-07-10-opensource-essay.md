@@ -10,6 +10,12 @@ tags:
   - open source software
 ---
 
+TLDR: 
+This was a paper I wrote during my school year. Kept it to compare my writing skill improveemnts. 
+It's summary: 
+Open source software has many advantages, including being free, flexible, and more secure. However, it also has some disadvantages, including the potential for security concerns and a lack of support. Overall, the benefits of open source software outweigh the disadvantages.
+
+
 
 **Introduction:** Who would want to pay for software when they can get it for free? No, my paper is not about software piracy or how to pirate software. The ever popular software Microsoft Office for example costs $150.00 at amazon.com compare to open source OpenOffice.org which anyone can get for a price of free! The free, fully featured, open source, OpenOffice.org suite does the same basic things as Microsoft Office Suite. So what is open source software? Open source software is software in which the source code is available freely to the public for redistribution, examination, modification or any other purposes. My goal in this paper is to point out the advantages and disadvantages of open source software and why open source software is today&#39;s revolution.
 
