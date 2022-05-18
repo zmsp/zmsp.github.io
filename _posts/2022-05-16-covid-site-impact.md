@@ -1,5 +1,5 @@
 ---
-title:  "Story about impact of a an app for covid"
+title:  "Story on the impact of an app on COVID-19"
 excerpt: "This blog describes stats for web/mobile app built for tracking coronavirus"
 header:
   teaser: https://i.imgur.com/R7CbUmn.jpg
@@ -45,8 +45,8 @@ The end.
 
 
 
-## Wanna see a demo?
+## Like to see a demo?
 
 Visit the site [zobairshahadat.com/coronavirus/](https://www.zobairshahadat.com/coronavirus/) to see the demo aka prod? 
 
-Read this  [blogpost](https://www.zobairshahadat.com/projects/2020-03-08-coronavirusdashboar) to learn more on how the site was built. 
+Read this  [blogpost](https://www.zobairshahadat.com/projects/2020-03-08-coronavirusdashboard) to learn more on how the site was built. 
