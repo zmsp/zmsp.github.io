@@ -5,12 +5,11 @@ header:
   og_image: https://i.imgur.com/khtGild.png
   overlay_image: https://i.imgur.com/khtGild.png
 categories:
-  - datascience
+  - Project
 tags:
-  - data
-  - analytics
-  - visualization
-  
+  - Data
+  - Analytics
+  - Visualization  
 
 ---
 I built this web app with the motivation of visualizing the data that’s easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus.

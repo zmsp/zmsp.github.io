@@ -6,13 +6,11 @@ header:
   og_image: https://i.imgur.com/R7CbUmn.jpg
   overlay_image: https://i.imgur.com/R7CbUmn.jpg
 categories:
-  - devops
+  - Guide
 tags:
-  - devops
-  - unix
-  - linux
-  
-
+  - DevOps
+  - Unix
+  - Linux
 ---
 
 TLDR: the following command creates a group and adds two users. We, then, link the group to the

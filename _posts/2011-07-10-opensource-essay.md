@@ -5,13 +5,13 @@ header:
     overlay_color: "#8d9eba"
     teaser: "/images/nexus6-cast.jpg"
 categories:
-  - education
+  - Thought
 tags:
-  - opensource
-  - paper
-  - history
-  - advantages
-  - disadvantages
+  - Opensource
+  - Paper
+  - History
+  - Advantages
+  - Disadvantages
   
 ---
 

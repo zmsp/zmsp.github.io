@@ -5,12 +5,10 @@ header:
   teaser: "/images/nexus6-cast.jpg"
   overlay_color: "#8d9eba"
 categories:
-  - technology
+  - Guide
 tags:
-  - android
-  - nexus6
-  - miracast
-  - tutorial
+  - Android
+  - Tutorial
   - adb
   - screenmirroring
 ---

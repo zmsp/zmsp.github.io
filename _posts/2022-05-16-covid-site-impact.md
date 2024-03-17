@@ -6,12 +6,12 @@ header:
   og_image: https://i.imgur.com/R7CbUmn.jpg
   overlay_image: https://i.imgur.com/R7CbUmn.jpg
 categories:
-  - programming
+  - Project
 tags:
-  - software
-  - flutter
-  - mobile
-  - application
+  - Software
+  - Flutter
+  - Mobile
+  - Application
 toc: true
 
 ---

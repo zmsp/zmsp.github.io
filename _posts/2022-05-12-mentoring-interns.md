@@ -6,13 +6,13 @@ header:
   og_image: https://i.imgur.com/R7CbUmn.jpg
   overlay_image: https://i.imgur.com/R7CbUmn.jpg
 categories:
-  - thoughts
+  - Guide
 tags:
-  - interns
-  - internship
-  - leadership
-  - management
-  - mentorship
+  - Interns
+  - Internship
+  - Leadership
+  - Management
+  - Mentorship
 toc: true
 
 ---

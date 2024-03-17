@@ -4,15 +4,13 @@ header:
   teaser: /images/crypto/too-damn-hgih.jpg
   overlay_image: /images/crypto/rx480.jpg
 categories: 
-  - hardware
-  - cryptocurrency 
+  - Thought 
 tags:
-  - hardware
   - cryptocurrency
-  - bitcoin
+  - graphics-cards
+  - mining
   - ethereum
-  - amd
-  - nvidia
+  - bitcoin
   
 ---
 

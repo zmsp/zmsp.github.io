@@ -5,10 +5,12 @@ header:
     teaser: "/images/extjs.jpg"
     overlay_color: "#3b9943git "
 categories: 
-  - programming
+  - Guide
 tags:
-  - extjs
-  - javascript
+  - ExtJS
+  - JavaScript
+  - WebDevelopment
+  - FrontendDevelopment
 ---
 # tldr: 
 - Do not edit Extjs core.

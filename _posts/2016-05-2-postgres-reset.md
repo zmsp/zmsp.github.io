@@ -3,7 +3,7 @@ title:  "How to Reset PostgreSQL"
 header:
     teaser: "images/til-page.jpg"
 categories: 
-  - Database
+  - Guide
 tags:
   - PostgreSQL
   - Reset

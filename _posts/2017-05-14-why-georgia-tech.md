@@ -4,7 +4,7 @@ header:
   overlay_image: "/images/20170514-gt.jpg"
   teaser: "/images/20170514-gt.jpg"
 categories:
-  - Education
+  - Thought
 tags:
   - Education
   - University

@@ -4,11 +4,13 @@ header:
     overlay_image: "/images/kubernetes.png"
     teaser: "/images/kubernetes_teaser.jpg"
 categories: 
-  - devops
+  - Guide
 tags:
   - devops
   - infrastructure
   - education
+  - kubernetes
+  - containerization
 ---
 
 TLDR: Kubernetes is a container orchestration tool made by Google. It is popular and feature rich. 

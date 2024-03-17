@@ -6,15 +6,13 @@ header:
   og_image: https://i.imgur.com/R7CbUmn.jpg
   overlay_image: https://i.imgur.com/R7CbUmn.jpg
 categories:
-  - Language
+  - Guide
 tags:
   - Travel
   - Spanish
   - Language
   - Guide
-
 toc: true
-
 ---
 
 

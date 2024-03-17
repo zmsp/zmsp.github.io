@@ -2,10 +2,12 @@
 title:  "Experience in Docker, Clojure and JVM"
 header: "Experience"
 categories: 
-  - thoughts
+  - Thought
 tags:
-  - experience
-  
+  - Experience
+  - Docker
+  - Clojure
+  - JVM  
 ---
 
 Lists of my experiece as of this day. 
