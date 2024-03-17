@@ -4,10 +4,15 @@ excerpt: "A paper from school year"
 header: 
     overlay_color: "#8d9eba"
     teaser: "/images/nexus6-cast.jpg"
-categories: 
-  - software
+categories:
+  - education
 tags:
-  - open source software
+  - opensource
+  - paper
+  - history
+  - advantages
+  - disadvantages
+  
 ---
 
 TLDR: 

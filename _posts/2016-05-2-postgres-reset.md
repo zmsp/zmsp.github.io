@@ -1,60 +1,76 @@
 ---
-title:  "Postgres reset"
+title:  "How to Reset PostgreSQL"
 header:
     teaser: "images/til-page.jpg"
 categories: 
-  - devops
-  - database
+  - Database
 tags:
-  - database
-  - devops
-  - software
-  - postgres
+  - PostgreSQL
+  - Reset
+  - Configuration
+  - Version
+  - Password
+  - Security
 ---
 
-: 
-tldr: 
+**How to Reset PostgreSQL**
+
+**Title: How to Reset PostgreSQL**
+
+**TLDR:**
+
+If you're looking to reset PostgreSQL, follow these steps:
 
 ```
-sudo su
-service postgresql stop
- pg_ctl -D /var/lib/pgsql/data -l logfile start
+sudo systemctl stop postgresql
+sudo -u postgres pg_ctl -D /var/lib/pgsql/data -l logfile start
 ```
 
-## To verify that the database is running 
+**Checking Database Status:**
+
+To make sure the database is running, use the command:
 
 ```
-database-# ps aux | grep post
-
-## Reset process
-
-
-Warning: This process supposed to delete all postgres data and configuration  
-
-#### Run The following: 
-
-Note: replace X.x with version number
-
-```
-sudo su
-service postgres-X.x stop # stops postgres services  
-rm –rf /var/lib/pgsql/X.x/data/*
-sudo service postgresql-X.x initdb
-service postgres-X.x start
+ps aux | grep post
 ```
 
-## Additional info
-The database connection will be lost until `data/pg_hba.conf` is configured. To allow all connection we add `host all all 192.168.0.0/24 trust` on `/var/lib/pgsql/X.x/data/pg_hba.conf`. This translates to allow type host to allow connection to all database, using any user, from ip range of 192.168.0.0 – 192.168.255.255, without any credentials.
+**Reset Process Warning:**
 
-## To only reset system password
-To just reset the password instead of deleting all the configuration & data-
+Please be cautious! This process will delete all PostgreSQL data and configurations.
 
+**Reset Process Steps:**
 
-#### Run The following: 
+1. Replace "X.x" with your PostgreSQL version number.
+2. Execute the following commands:
+
+```
+sudo systemctl stop postgres-X.x # stops PostgreSQL services  
+sudo -u postgres rm –rf /var/lib/pgsql/X.x/data/*
+sudo systemctl start postgresql-X.x
+```
+
+**Additional Information:**
+
+After the reset, your database connection will be lost until you configure `data/pg_hba.conf`. To allow all connections, add `host all all 192.168.0.0/24 trust` to `/var/lib/pgsql/X.x/data/pg_hba.conf`. This configuration allows connections from the IP range 192.168.0.0 to 192.168.255.255 without credentials.
+
+**Resetting System Password:**
+
+If you only want to reset the system password:
+
+1. Run PostgreSQL as the postgres user:
 
 ```
 sudo -u postgres psql
+```
+
+2. Change the password:
+
+```
 \password
-Enter new password twice 
+```
+
+3. Enter the new password twice and exit:
+
+```
 \q
 ```
