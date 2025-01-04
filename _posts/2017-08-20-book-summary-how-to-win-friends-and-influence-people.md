@@ -1,7 +1,7 @@
 ---
 title:  "Book Summary: How to Win Friends and Influence People by Dale Carnegie"
 header:
-  teaser: http://i.imgur.com/HCvLxDg.jpg
+  teaser: https://i.imgur.com/HCvLxDg.jpg
   overlay_image: http://i.imgur.com/PrcdLnV.jpg
 categories: 
   - Book Reviews & Summaries
