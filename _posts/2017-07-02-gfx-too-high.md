@@ -1,8 +1,8 @@
 ---
 title:  "Why Graphics Card prices are too damn high!"
 header:
-  teaser: /images/crypto/too-damn-hgih.jpg
-  overlay_image: /images/crypto/rx480.jpg
+  teaser: /assets/images/posts/crypto/too-damn-hgih.jpg
+  overlay_image: /assets/images/posts/crypto/rx480.jpg
 categories: 
   - Thought 
 tags:
@@ -23,17 +23,17 @@ Currently, it is near impossible to buy a reasonably priced graphics card. Turns
 
 
 # What is happening? 
-   ![alt text](/images/crypto/amazon-rx480.png "RX480 price")
+   ![alt text](/assets/images/posts/crypto/amazon-rx480.png "RX480 price")
 
 This chart shows price history of RX480 from camelcamelcamel.com. Notice the green line shows that Amazon has been out of stock for this graphics card since April 7th. 3rd party prices tripled since then.
 
 ### So why??
  
-   ![alt text](/images/crypto/eth-price-chart.png "ETH price")
+   ![alt text](/assets/images/posts/crypto/eth-price-chart.png "ETH price")
 
 This chart shows USD value of Ethereum. Value has jumped by 7X since April.
  
-   ![alt text](/images/crypto/bitcoin-price-chart.png "Bitcoin price")
+   ![alt text](/assets/images/posts/crypto/bitcoin-price-chart.png "Bitcoin price")
 This chart shows value of Bitcoin. Value jumped by 2.5X since April.
 
 One RX 480 card equals to $107 per month for Ethereum after deducting electric costs. You can clearly see why miners are after Graphics cards. You get a return on your investment in about 56 days if you had purchased your RX480card for $200.  
@@ -57,4 +57,4 @@ In addition to price of coins going high these are the reasons for the demand an
 * <https://slickdeals.net/deals/video-card/> Website that takes a high percentage of the affiliation / referral price of a sale. Nevertheless, it has deals on the GPU. 
 
 
-   ![alt text](/images/crypto/too-damn-hgih.jpg "Price is too damn high")
+   ![alt text](/assets/images/posts/crypto/too-damn-hgih.jpg "Price is too damn high")

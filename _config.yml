@@ -11,26 +11,27 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "TIL | Zobair"
+
 title_separator: "-"
-subtitle: "Today I Learned"# site tagline that appears below site title in masthead
+subtitle: "Projects, Lessons, and Adventures" # site tagline that appears below site title in masthead
 name: "Zobair Shahadat"
-description: "Today I learned"
+description: "Exploring Tech, Nature, and Beyond"
 url: "https://zobairshahadat.com"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "zmsp/zmsp.github.io"
-teaser: "images/preview.JPG" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: "/assets/images/500x300_preview.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/site-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs: false # true, false (default)
+masthead_title: "Today I Learned" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
-
-
+enable_copy_code_button: true # true, false (default)
+copyright: # "copyright" name, defaults to site.title
+copyright_url: # "copyright" URL, defaults to site.url
 comments:
   provider: "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -40,7 +41,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid: "435797910235376"
-    num_posts: 8 # 5 (default)
+    num_posts: 10 # 5 (default)
     colorscheme: "dark" # "light" (default), "dark"
   utterances:
     theme: # "github-light" (default), "github-dark"
@@ -52,6 +53,11 @@ comments:
     discussion_term: # "pathname" (default), "url", "title", "og:title"
     reactions_enabled: "1" # '1' for enabled (default), '0' for disabled
     theme: "transparent_dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    strict: 0 # 1 for enabled, 0 for disabled (default)
+    input_position: # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata: # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang: # "en" (default)
+    lazy: # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -81,7 +87,7 @@ naver_site_verification:
 baidu_site_verification:
 # Social Sharing
 twitter:
-  username: "littlebigcoder"
+  username: "taylorswift13"
 facebook:
   username:
   app_id:
@@ -95,7 +101,6 @@ social:
   links: # An array of links to social media profiles
     - "https://github.com/zmsp"
     - "https://www.linkedin.com/in/zshahadat"
-    - "https://plus.google.com/+BiggZee"
     - "https://twitter.com/littlebigcoder"
 
 # Analytics
@@ -104,7 +109,6 @@ analytics:
   google:
     tracking_id: "G-TF5LP477RR"
     anonymize_ip: # true, false (default)
-
 
 # Site Author
 author:
@@ -121,15 +125,12 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zmsp"
 
-
-
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/littlebigcoder"
-
+      url: "https://x.com/taylorswift13"
 
 # Reading Files
 include:
@@ -168,14 +169,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -188,19 +187,16 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
-paginate: 8 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:
@@ -217,7 +213,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -247,14 +242,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Collections
 collections:
