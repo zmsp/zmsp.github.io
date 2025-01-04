@@ -4,7 +4,7 @@ excerpt: "A paper from school year"
 header: 
     overlay_color: "#8d9eba"
 categories:
-  - Thought
+  - Thoughts & Opinions
 tags:
   - Opensource
   - Paper
