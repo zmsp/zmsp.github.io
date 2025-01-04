@@ -16,7 +16,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "en-US"
-
+title: "TIL" 
 title_separator: "-"
 subtitle: "Projects, Lessons, and Adventures" # site tagline that appears below site title in masthead
 name: "Zobair Shahadat"
@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "zmsp/zmsp.github.io"
 teaser: "/assets/images/500x300_preview.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/site-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "Today I Learned" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "TIL | ZOBAIR" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs: true # true, false (default)
 words_per_minute: 200
 enable_copy_code_button: true # true, false (default)
@@ -194,7 +194,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
+paginate: 16 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

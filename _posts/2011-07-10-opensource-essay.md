@@ -3,7 +3,6 @@ title:  "Open Source Software"
 excerpt: "A paper from school year"
 header: 
     overlay_color: "#8d9eba"
-    teaser: "/images/nexus6-cast.jpg"
 categories:
   - Thought
 tags:

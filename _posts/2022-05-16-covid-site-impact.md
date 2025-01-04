@@ -1,10 +1,6 @@
 ---
 title:  "Story on the impact of an app on COVID-19"
 excerpt: "This blog describes stats for web/mobile app built for tracking coronavirus"
-header:
-  teaser: https://i.imgur.com/R7CbUmn.jpg
-  og_image: https://i.imgur.com/R7CbUmn.jpg
-  overlay_image: https://i.imgur.com/R7CbUmn.jpg
 categories:
   - Project
 tags:

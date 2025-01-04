@@ -1,5 +1,5 @@
 ---
-title:  "How software engineering industry got affected by the government shutdown?"
+title:  "Impact of Government Shutdown on Software Industry"
 header:
   teaser: https://i.imgur.com/KhWE0lC.jpg
   og_image: https://i.imgur.com/KhWE0lC.jpg

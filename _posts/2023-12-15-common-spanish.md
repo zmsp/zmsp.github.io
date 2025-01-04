@@ -2,9 +2,10 @@
 title: "Traveler's Guide: Common Spanish Phrases to Know"
 excerpt: "A traveler's companion to Spanish-speaking destinations."
 header:
-  teaser: https://i.imgur.com/R7CbUmn.jpg
-  og_image: https://i.imgur.com/R7CbUmn.jpg
-  overlay_image: https://i.imgur.com/R7CbUmn.jpg
+  teaser: https://i.imgur.com/dJmtw2V.jpeg
+  og_image: https://i.imgur.com/dJmtw2V.jpeg
+  overlay_image: https://i.imgur.com/dJmtw2V.jpeg
+  overlay_filter: "0.5"
 categories:
   - Guide
 tags:
