@@ -4,7 +4,7 @@ header:
   teaser: /assets/images/posts/crypto/too-damn-hgih.jpg
   overlay_image: /assets/images/posts/crypto/rx480.jpg
 categories: 
-  - Thought 
+  - Thoughts & Opinions 
 tags:
   - cryptocurrency
   - graphics-cards

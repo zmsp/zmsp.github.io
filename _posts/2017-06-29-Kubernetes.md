@@ -4,7 +4,7 @@ header:
     overlay_image: "/images/kubernetes.png"
     teaser: "/images/kubernetes_teaser.jpg"
 categories: 
-  - Guide
+  - How-To & Guides
 tags:
   - devops
   - infrastructure

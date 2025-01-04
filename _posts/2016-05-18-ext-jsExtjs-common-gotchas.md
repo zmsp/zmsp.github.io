@@ -5,7 +5,7 @@ header:
     teaser: "/images/extjs.jpg"
     overlay_color: "#3b9943git "
 categories: 
-  - Guide
+  - How-To & Guides
 tags:
   - ExtJS
   - JavaScript

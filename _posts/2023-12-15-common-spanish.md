@@ -7,7 +7,7 @@ header:
   overlay_image: https://i.imgur.com/dJmtw2V.jpeg
   overlay_filter: "0.5"
 categories:
-  - Guide
+  - How-To & Guides
 tags:
   - Travel
   - Spanish

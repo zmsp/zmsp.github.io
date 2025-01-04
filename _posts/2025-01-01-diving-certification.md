@@ -8,7 +8,7 @@ header:
   og_image: https://i.imgur.com/E3ji0eV.jpeg
   overlay_image: https://i.imgur.com/E3ji0eV.jpeg
 categories:
-  - Guide
+  - How-To & Guides
 tags:
   - Scuba Diving
   - Certification

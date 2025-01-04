@@ -5,7 +5,7 @@ header:
   og_image: https://i.imgur.com/KhWE0lC.jpg
   overlay_image: https://i.imgur.com/KhWE0lC.jpg
 categories:
-  - Thought
+  - Thoughts & Opinions
 tags:
   - Government
   - Shutdown

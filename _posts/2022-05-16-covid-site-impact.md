@@ -2,7 +2,7 @@
 title:  "Story on the impact of an app on COVID-19"
 excerpt: "This blog describes stats for web/mobile app built for tracking coronavirus"
 categories:
-  - Project
+  - Projects & Case Studies
 tags:
   - Software
   - Flutter

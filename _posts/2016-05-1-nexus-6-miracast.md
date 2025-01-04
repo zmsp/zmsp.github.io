@@ -5,7 +5,7 @@ header:
   teaser: "/images/nexus6-cast.jpg"
   overlay_color: "#8d9eba"
 categories:
-  - Guide
+  - How-To & Guides
 tags:
   - Android
   - Tutorial

@@ -6,7 +6,7 @@ header:
   og_image: https://i.imgur.com/R7CbUmn.jpg
   overlay_image: https://i.imgur.com/R7CbUmn.jpg
 categories:
-  - Guide
+  - How-To & Guides
 tags:
   - DevOps
   - Unix

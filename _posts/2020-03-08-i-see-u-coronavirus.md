@@ -5,7 +5,7 @@ header:
   og_image: https://i.imgur.com/khtGild.png
   overlay_image: https://i.imgur.com/khtGild.png
 categories:
-  - Project
+  - Projects & Case Studies
 tags:
   - Data
   - Analytics

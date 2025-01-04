@@ -4,7 +4,7 @@ header:
   teaser: http://i.imgur.com/HCvLxDg.jpg
   overlay_image: http://i.imgur.com/PrcdLnV.jpg
 categories: 
-  - Book
+  - Book Reviews & Summaries
 tags:
   - leadership
   - business
