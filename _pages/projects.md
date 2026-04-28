@@ -6,9 +6,11 @@ collection: projects
 entries_layout: grid 
 sort_by: date
 sort_order: reverse
-excerpt: "My cool
-projects"
+header:
+  overlay_image: /assets/images/unslpash/unsplash-image-1.jpg
+  overlay_filter: 0.6
+excerpt: "A collection of my latest work, from open-source tools to hardware projects."
 classes: wide
 ---
 
-Some cool projects of mine :) 
+Welcome to my portfolio. Here you'll find a selection of my software and hardware projects, ranging from AI applications to system-level tools.

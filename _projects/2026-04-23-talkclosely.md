@@ -9,6 +9,8 @@ header:
     - label: "Launch Web App"
       url: "https://closely.pages.dev/"
 sidebar:
+  - title: "Links"
+    text: "[Web App](https://closely.pages.dev/)  \n[Promo](https://closely.pages.dev/promo)"
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/talkclosely/id6763404206){: style='width: 40px; display: inline-block;'}"
 toc: true

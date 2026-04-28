@@ -8,12 +8,10 @@ header:
   title: "Explore Categories"
   excerpt: "Find content organized by category."
   overlay_image: /assets/images/unslpash/unsplash-image-2.jpg
-  overlay_filter: 0.7
+  overlay_filter: 0.6
   actions:
-    - label: "Blogs by Year"
+    - label: "Browse by Year"
       url: "/year-archive/"
-    - label: "Blog Posts by Tag"
+    - label: "Browse by Tag"
       url: "/tags/"
-    - label: "Project Blogposts"
-      url: "/projects/"
 ---

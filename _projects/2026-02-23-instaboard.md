@@ -7,8 +7,10 @@ header:
   teaser: /assets/images/projects/instaboard.jpg
   actions:
     - label: "Launch Web App"
-      url: "https://zmsp.github.io/instaboard"
+      url: "https://save.shahadat.us"
 sidebar:
+  - title: "Links"
+    text: "[Web App](https://save.shahadat.us)  \n[Promo](https://save.shahadat.us/promo)"
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/instaboard-link-saver/id6760332364){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.instaboard){: style='width: 33px; display: inline-block;'}"
   - title: "Tech Stack"

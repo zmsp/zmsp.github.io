@@ -1,34 +1,31 @@
 ---
-layout: home
-author_profile: true
-entries_layout: grid
-excerpt: "Welcome to my ‘Today I Learned’ (TLI) page! I’m Zobair, and here I share my journey of learning, exploring tech, nature, and personal projects along the way."
+layout: splash
+author_profile: false
 header:
+  overlay_color: "#333"
+  overlay_filter: 0.6
   overlay_image: /assets/images/unslpash/unsplash-image-3.jpg
-  overlay_filter: 0.7
   actions:
-  - label: "Explore Blogs"
-    url: "/blogs"
-  - label: "View Projects"
-    url: "/projects"
-  - label: "About me"
-    url: "/about"
+    - label: "Explore Projects"
+      url: "/projects/"
+    - label: "Read Blogs"
+      url: "/blogs/"
+excerpt: "Welcome to my digital garden. I'm Zobair, sharing my journey through software engineering, personal projects, and tech explorations."
 feature_row:
   - image_path: /assets/images/projects/addaboard.jpg
     alt: "AddaBoard"
-    title: "AddaBoard"
-    excerpt: "AI-powered spatial link board for actionable plans."
-    url: "/projects/2026-02-23-addaboard/"
-    btn_label: "Learn More"
+    title: "Projects"
+    excerpt: "Showcase of my latest builds, from AI-powered boards to developer tools."
+    url: "/projects/"
+    btn_label: "View All"
     btn_class: "btn--primary"
   - image_path: /assets/images/500x300_preview.jpg
     alt: "Learning Notes"
     title: "Learning Notes"
-    excerpt: "A collection of snippets and deep dives into new technologies."
+    excerpt: "Daily bites of knowledge and deep dives into new technologies."
     url: "/blogs/"
     btn_label: "Read Blogs"
     btn_class: "btn--info"
-
 ---
 
 {% include feature_row %}

@@ -6,6 +6,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/projects/period-tracker.png
 sidebar:
+  - title: "Links"
+    text: "[Web App](https://periodcycle.pages.dev/)  \n[Promo](https://periodcycle.pages.dev/promo)"
   - title: "Focus"
     text: "**Category**: Health & Fitness  \n**Privacy**: 100% Local"
 toc: true

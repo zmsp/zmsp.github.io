@@ -9,6 +9,8 @@ header:
     - label: "Launch Web App"
       url: "https://addaboard.shahadat.us/"
 sidebar:
+  - title: "Links"
+    text: "[Web App](https://addaboard.shahadat.us/)  \n[Promo](https://addaboard.shahadat.us/promo)"
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/adda-board-link-planner/id6760598074){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.addaboard){: style='width: 33px; display: inline-block;'}"
   - title: "Tech Stack"
