@@ -1,25 +1,25 @@
 ---
-title:  "tesla-token "
-excerpt: ""
+title: "Tesla Token Generator"
+excerpt: "Web-based Tesla API token generator"
+header:
+  teaser: /assets/images/projects/tesla-token.jpg
 toc: true
 categories:
-- software
+  - software
 tags:
-- API
-- python
+  - API
+  - python
 ---
 
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/tesla-token?style=for-the-badge)](https://github.com/zmsp/tesla-token/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/tesla-token?style=for-the-badge)](https://github.com/zmsp/tesla-token)
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/tesla-token ?style=for-the-badge)](https://github.com/zmsp/tesla-token /stargazers)   
-  
+A web-based tool designed to allow users to generate a Tesla API token directly from the browser.
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/tesla-token ?style=for-the-badge)](https://github.com/zmsp/tesla-token )  
-  
+## The Story
 
-Code repository: [tesla-token ](https://github.com/zmsp/tesla-token )  
+This web app was supposed to allow users to generate a Tesla API token from the browser. However, it is currently in a broken state due to CORS requests being blocked by Tesla.
 
-# The story: 
+## Links
 
-This web is supposed to allow users to generate a tesla api token from the browser.
-
-This is at a broken state due to CORS request being blocked by tesla. 
+- **Source Code**: [GitHub Repository](https://github.com/zmsp/tesla-token)

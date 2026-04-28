@@ -1,36 +1,33 @@
 ---
-title:  "PatriotShare "
+title: "PatriotShare"
 excerpt: "Book sharing platform"
+header:
+  teaser: /assets/images/projects/PatriotShare.jpg
 toc: true
 categories:
-- software
+  - software
 tags:
-- API
-- python
+  - API
+  - python
 ---
 
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/PatriotShare?style=for-the-badge)](https://github.com/zmsp/PatriotShare/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/PatriotShare?style=for-the-badge)](https://github.com/zmsp/PatriotShare)
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/PatriotShare ?style=for-the-badge)](https://github.com/zmsp/PatriotShare /stargazers)   
-  
+**PatriotShare** is a book sharing platform that lets users share and sell their books as well as compare book sites to show the best prices available.
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/PatriotShare ?style=for-the-badge)](https://github.com/zmsp/PatriotShare )  
-  
+## The Story
 
-Code repository: [PatriotShare ](https://github.com/zmsp/PatriotShare )  
+I remember the first time I had to pay for my own books during college and they were expensive! So this application was born in my agile development class.
 
-# The story: 
+Unfortunately, this never took off. But some of the features are still functional.
 
+## Links
 
-I remember the first time I had to pay for my own books during college and they were expensive!
+- **Source Code**: [GitHub Repository](https://github.com/zmsp/PatriotShare)
+- **Live URL**: [patriotshareapp.appspot.com](http://patriotshareapp.appspot.com)
 
-So this application was born in my agile development class. 
+## Demo Credentials
 
-This web app lets user share and sell their books as well as compare booksites to show the best prices available. 
-
-unfortunately, this never took off. But some of the features are still functional. 
-
-Checkout @
-
-User Account: johnd@example.com
-Password: love2share
-URL: http://patriotshareapp.appspot.com
+- **User Account**: johnd@example.com
+- **Password**: love2share

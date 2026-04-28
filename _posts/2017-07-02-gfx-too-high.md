@@ -23,17 +23,17 @@ Currently, it is near impossible to buy a reasonably priced graphics card. Turns
 
 
 # What is happening? 
-   ![alt text](/assets/images/posts/crypto/amazon-rx480.png "RX480 price")
+   ![alt text](/assets/images/posts/crypto/amazon-rx480.jpg "RX480 price")
 
 This chart shows price history of RX480 from camelcamelcamel.com. Notice the green line shows that Amazon has been out of stock for this graphics card since April 7th. 3rd party prices tripled since then.
 
 ### So why??
  
-   ![alt text](/assets/images/posts/crypto/eth-price-chart.png "ETH price")
+   ![alt text](/assets/images/posts/crypto/eth-price-chart.jpg "ETH price")
 
 This chart shows USD value of Ethereum. Value has jumped by 7X since April.
  
-   ![alt text](/assets/images/posts/crypto/bitcoin-price-chart.png "Bitcoin price")
+   ![alt text](/assets/images/posts/crypto/bitcoin-price-chart.jpg "Bitcoin price")
 This chart shows value of Bitcoin. Value jumped by 2.5X since April.
 
 One RX 480 card equals to $107 per month for Ethereum after deducting electric costs. You can clearly see why miners are after Graphics cards. You get a return on your investment in about 56 days if you had purchased your RX480card for $200.  

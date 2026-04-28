@@ -1,23 +1,25 @@
 ---
-title:  "video_server"
-excerpt: ""
+title: "Video Server"
+excerpt: "Custom streaming."
+header:
+  teaser: /assets/images/projects/video_server.jpg
 toc: true
 categories:
-- software
+  - software
 tags:
-- API
-- python
+  - API
+  - python
 ---
 
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/video_server?style=for-the-badge)](https://github.com/zmsp/video_server/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/video_server?style=for-the-badge)](https://github.com/zmsp/video_server)
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/video_server?style=for-the-badge)](https://github.com/zmsp/video_server/stargazers)   
-  
+A tool that allows you to create a video streaming server using static video, images, cameras, and network streams.
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/video_server?style=for-the-badge)](https://github.com/zmsp/video_server)  
-  
+## The Story
 
-Code repository: [video_server](https://github.com/zmsp/video_server)  
+This tool was developed to simplify the process of setting up a streaming server that can handle multiple input types and serve them consistently.
 
-# The story: 
+## Links
 
-This tool allows you to create a video streaming server from using static video, image, camera, and network streams. 
+- **Source Code**: [GitHub Repository](https://github.com/zmsp/video_server)

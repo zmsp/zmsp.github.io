@@ -1,22 +1,44 @@
 ---
-title:  "teammaker"
-excerpt: "a balanced team maker for meetups"
+title: "Team Maker"
+excerpt: "Squad management."
+header:
+  overlay_image: /assets/images/projects/teammaker.jpg
+  overlay_filter: 0.5
+  teaser: /assets/images/projects/teammaker.jpg
+  actions:
+    - label: "Launch Web App"
+      url: "https://teambuddy.shahadat.us/"
+sidebar:
+  - title: "Download"
+    text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/captains-team-maker/id6759995215){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.teammaker){: style='width: 33px; display: inline-block;'}"
+  - title: "At a Glance"
+    image: /assets/images/projects/teammaker-logo.png
+    image_alt: "Team Maker Logo"
+    text: "**Role**: Sports Management  \n**Languages**: EN, ES, BN"
 toc: true
 categories:
-- software
+  - software
 tags:
-- API
-- python
+  - Flutter
+  - Mobile
+  - Web
+  - Sports
 ---
 
+**Captains Team Maker** is a professional squad and roster management application designed for referees, coaches, and sports organizers. It simplifies the process of creating balanced teams, managing player queues, and tracking game progress.
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/teammaker?style=for-the-badge)](https://github.com/zmsp/teammaker/stargazers)   
-  
+{: .notice--success}
+**Global Reach:** Fully localized in English, Spanish, and Bengali, making it a versatile tool for international sports communities.
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/teammaker?style=for-the-badge)](https://github.com/zmsp/teammaker)  
-  
+## Key Features
 
-Code repository: [teammaker](https://github.com/zmsp/teammaker)  
+- **Fair Team Balancing**: Automatically generates balanced teams based on player skill levels and gender.
+- **Roster Management**: Easily add, edit, or remove players with persistent local storage.
+- **Scoreboard Tools**: Built-in tools to track matches and scores in real-time.
+- **Player Queues**: Manage waiting lists and tournament schedules efficiently.
 
-# The story: 
-In order to create a more balanced team on our volleyball meetup, I put together an app. This algorithm with code takes into account each players's skills, experience, as well as their genders. With this information, the algorithm is able to create teams that are more balanced and cohesive.
+## Tech Stack
+
+- **Framework**: Flutter
+- **Storage**: `shared_preferences`, `localstorage`
+- **UI Components**: `data_table_2` for advanced data management.

@@ -1,25 +1,22 @@
 ---
-title:  "AIY-data-center-assistant"
-excerpt: "DIY google home replacement for nerds"
+title: "AIY Data Center Assistant"
+excerpt: "DIY Google Home replacement for nerds"
+header:
+  teaser: /assets/images/projects/AIY-data-center-assistant.jpg
 toc: true
 categories:
-- software
+  - software
 tags:
-- API
-- python
+  - API
+  - python
 ---
 
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/AIY-data-center-assistant?style=for-the-badge)](https://github.com/zmsp/AIY-data-center-assistant/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/AIY-data-center-assistant?style=for-the-badge)](https://github.com/zmsp/AIY-data-center-assistant)
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/AIY-data-center-assistant?style=for-the-badge)](https://github.com/zmsp/AIY-data-center-assistant/stargazers)   
-  
+A DIY voice-activated assistant built with the Google AIY Voice Kit and a Raspberry Pi, customized for data center tasks like checking IP addresses and Slack integration.
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/AIY-data-center-assistant?style=for-the-badge)](https://github.com/zmsp/AIY-data-center-assistant)  
-  
-
-Code repository: [AIY-data-center-assistant](https://github.com/zmsp/AIY-data-center-assistant)  
-
-# The story: 
-
+## The Story
 
 In May of 2017, Google released a do-it-yourself artificial intelligence (AI) kit for the Raspberry Pi 3. The Google AIY Voice Kit came with a cardboard box, a microphone, a speaker, and software to build a voice-activated assistant.
 
@@ -27,4 +24,8 @@ I was excited to get my hands on the kit, and set to work building my own AIY Vo
 
 Next, I connected the microphone and speaker to the Raspberry Pi, and installed the software. The software was easy to use, and I was soon able to train my AIY Voice Kit to recognize my voice.
 
-Now, I can ask my AIY Voice Kit to do things like sending slack messages, reading slack messages, give me ip addresses and do nslookup.
+Now, I can ask my AIY Voice Kit to do things like sending Slack messages, reading Slack messages, giving me IP addresses, and performing nslookup.
+
+## Links
+
+- **Source Code**: [GitHub Repository](https://github.com/zmsp/AIY-data-center-assistant)

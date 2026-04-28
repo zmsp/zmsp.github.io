@@ -1,58 +1,46 @@
 ---
-title:  "Tesla Python API"
-excerpt: "Python library to control Tesla"
+title: "Tesla Python API"
+excerpt: "Python library to control Tesla vehicles"
+header:
+  teaser: /assets/images/projects/python-my-tesla.jpg
+sidebar:
+  - title: "Repository"
+    text: "[![GitHub stars](https://img.shields.io/github/stars/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla/stargazers)  \n[![GitHub forks](https://img.shields.io/github/forks/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla)"
 toc: true
 categories:
-- software
+  - software
 tags:
-- API
-- python
+  - API
+  - python
 ---
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla/stargazers)   
-  
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla)  
-  
+A Python library designed to allow users to easily interface with the Tesla API and control their vehicles programmatically.
 
-Code repository: [python-my-tesla](https://github.com/zmsp/python-my-tesla)  
+## The Story
 
-# The story 
+I was excited to create a Tesla Python library that would allow others to easily interface with the Tesla API. Finally, I released the library to the public and it was an instant hit! People were able to use it to do all sorts of things.
 
-I was excited to create a Tesla Python library that would allow others to easily interface with the Tesla API. Finally, I released the library to the public and it was an instant hit! People were able to use it to do all sorts of of stuffs. 
+### Community Coverage
+- [I hacked my Tesla - it turned out to be a bad idea](https://mikesml.com/2021/01/30/i-hacked-my-tesla-it-turned-out-to-be-a-bad-idea/)
+- [Can I control my Tesla with a Python program?](https://medium.com/@Dei8ht/can-i-control-my-tesla-with-a-python-program-83e3e115af40)
 
+## Links
 
-Some stories posted by a bloggers on medium: 
-* https://mikesml.com/2021/01/30/i-hacked-my-tesla-it-turned-out-to-be-a-bad-idea/
-* https://medium.com/@Dei8ht/can-i-control-my-tesla-with-a-python-program-83e3e115af40
+- **Source Code**: [GitHub Repository](https://github.com/zmsp/python-my-tesla)
+- **PyPI Package**: [mytesla](https://pypi.org/project/mytesla)
 
+## Stats (as of release)
+- **Total downloads**: 9,197
+- **Monthly downloads**: 217
 
+## Documentation
 
-
-
-
-
-Download stats as of : 
-
+### Installation
+```bash
+pip3 install myTesla
 ```
-PyPI link
-https://pypi.org/project/mytesla
-Total downloads
-9,197
-Total downloads - 30 days
-217
-Total downloads - 7 days
-51
-```
-# Documentation
 
-# Install
-
-You can install latest stable version from PyPI:
-
-```pip3 install myTesla```
-
-# Usage:
-
+### Usage
 ```python
 import myTesla
 
@@ -60,87 +48,11 @@ my_model_s = myTesla.connect('test@example.com', 'MySecurePassword')
 charge_state = my_model_s.charge_state()
 door_lock = my_model_s.door_lock()
 my_model_s.honk_horn()
+
 print(charge_state)
 print(door_lock)
 ```
 
-# Documentation:
+## Legal Disclaimer
 
-This program was build using API documentation listed
-on  [https://tesla-api.timdorr.com/](https://tesla-api.timdorr.com/.). The functions closely follow the API
-documentation. Please see this page for detailed information of the function parameters.
-
-## Initiating connection
-
-In order to initiate connection, the following information is needed.
-
-The arguements for initiating the connection is the following:
-
-```python
-def __init__(self, email='', password='',
-            vehicle_index=0,
-            base_url="https://owner-api.teslamotors.com",
-            access_token=None,
-            tesla_backend_token_response=None,
-            ownerapi_client_id="81527cff06843c8634fdc09e8ac0abefb46ac849f38fe1e431c2ef2106796384",
-            ownerapi_client_secret="c7257eb71a564034f9419ee651c7d0e5f7aa6bfbd18bafb5c5c033b093bb2fa3",
-            )
-```
-
-### Connection argument description descriptioons:
-
-The details of these parameters can be found on this page See https://tesla-api.timdorr.com/api-basics/authentication
-
-* `email`: Your mytesla username
-* `password`: Your mytesla password
-* `vehicle_index`: Index of your vehicle, if you have multiple vehicles
-* `access_token`:  # Access token can be used instead of email and password.
-* `tesla_backend_token_response`: # A backend response can be used instead of email/password or accesss token. The
-  format of the backend response is documented here https://tesla-api.timdorr.com/api-basics/authentication#response
-* `base_url`: base_url is taken from https://timdorr.docs.apiary.io/#reference/authentication/tokens/get-an-access-token
-* `OWNERAPI_CLIENT_ID`: OWNERAPI_CLIENT_ID is taken
-  from https://tesla-api.timdorr.com/api-basics/authentication#post-oauth-token-grant_type-password
-* `OWNERAPI_CLIENT_SECRET`:  OWNERAPI_CLIENT_SECRET is taken
-  from https://tesla-api.timdorr.com/api-basics/authentication#post-oauth-token-grant_type-password
-
-## Function Descriptions
-
-* `myTesla.connect.get_access_token`: Returns access token information that could be used to authenticate instead of
-  email/password.
-* `myTesla.connect.select_vehicle`: Switches car based on index/vin/or vehicle_id if you have multiple vehicle on your
-  account.
-* `myTesla.connect.vehicles`: Retrieve a list of your owned vehicles
-* `myTesla.connect.mobile_enabled`: Determines if mobile access to the vehicle is enabled.
-* `myTesla.connect.charge_state`: Returns the state of charge in the battery.
-* `myTesla.connect.climate_state`: Returns the current temperature and climate control state.
-* `myTesla.connect.drive_state`: Returns the driving and position state of the vehicle.
-* `myTesla.connect.gui_settings`: Returns various information about the GUI settings of the car, such as unit format and
-  range display.
-* `myTesla.connect.vehicle_state`: Returns the vehicle's physical state, such as which doors are open.
-* `myTesla.connect.wake_up`: Wakes up the car from the sleep state. Necessary to get some data from the car.
-* `myTesla.connect.set_valet_mode`: Sets valet mode on or off with a PIN to disable it from within the car.
-* `myTesla.connect.reset_valet_pin`: Resets the PIN set for valet mode, if set.
-* `myTesla.connect.charge_port_door_open`: Opens the charge port.
-* `myTesla.connect.charge_standard`: Set the charge mode to standard
-* `myTesla.connect.charge_max_range`: Set the charge mode to max range
-* `myTesla.connect.set_charge_limit`:Set the charge limit to a custom percentage.
-* `myTesla.connect.charge_start`: Start charging. Must be plugged in, have power available, and not have reached your
-  charge limit.
-* `myTesla.connect.charge_stop`: Stop charging. Must already be charging.
-* `myTesla.connect.honk_horn`: Honk horn
-* `myTesla.connect.door_unlock`:  Unlock the car's doors.
-* `myTesla.connect.door_lock`: Lock the car doors.
-* `myTesla.connect.set_temps`: Set the temperature target for the HVAC system.
-* `myTesla.connect.auto_conditioning_start`: Start the climate control system. Will cool or heat automatically,
-  depending on set temperature.
-* `myTesla.connect.auto_conditioning_stop`: Stop the climate control system.
-* `myTesla.connect.sun_roof_control`: Controls the car's panoramic roof, if installed.
-* `myTesla.connect.remote_start_drive`: Start the car for keyless driving. Must start driving within 2 minutes of
-  issuing this request.
-* `myTesla.connect.trunk_open`: Open the trunk or frunk. Call the endpoint again to close (this only works on rear
-  powered trunks)
-
-# Legal Agreement/ Disclaimer
-
-This program is provided as is. This program is not supported or endorsed by Tesla Motors. By using this software, you
-agree to not hold me (Zobair Shahadat ) and any of the contributers liable for anything.
+This program is provided as is. This program is not supported or endorsed by Tesla Motors. By using this software, you agree to not hold the author (Zobair Shahadat) and any of the contributors liable for anything.

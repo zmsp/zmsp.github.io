@@ -15,7 +15,7 @@ tags:
 I built this web app with the motivation of visualizing the data that’s easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus.
 
 # This page documents the motivation and the process behind building a webapp using COVID-19 data. 
-App : [http://coronavirusdashboard.live/](http://coronavirusdashboard.live/)
+App : [zobairshahadat.com/coronavirus/](https://zobairshahadat.com/coronavirus/)
 
 # Code
 If you are here for the code, its visible on this repository https://github.com/zmsp/coronavirusdashboard/tree/master/flutter_code
@@ -23,7 +23,7 @@ If you are here for the code, its visible on this repository https://github.com/
 
 # Why I built this?
 
-I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus and help people with information.
+I built this [web app](https://zobairshahadat.com/coronavirus/)  with the motivation of visualizing the data that's easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus and help people with information.
 
 # Analytics 
 Here are some insights on death rate, recovery rate and population infection rate by countries. 

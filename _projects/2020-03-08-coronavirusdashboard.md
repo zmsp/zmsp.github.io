@@ -1,99 +1,57 @@
 ---
-title:  "coronavirus dashboard"
-excerpt: "Dashboard visualizing COVID spreads"
+title: "COVID Tracker"
+excerpt: "Global visualization."
+header:
+  teaser: /assets/images/projects/coronavirusdashboard.jpg
 toc: true
 categories:
-- software
-
+  - software
 tags:
-- data
-- analytics
-- visualization
-- flutter
-
+  - data
+  - analytics
+  - visualization
+  - flutter
 ---
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard/stargazers)   
-  
+[![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard)
 
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/coronavirusdashboard?style=for-the-badge)](https://github.com/zmsp/coronavirusdashboard)  
-  
+A user-friendly web application designed to visualize COVID-19 data, providing insights into infection rates, recoveries, and deaths worldwide.
 
-Code repository: [coronavirusdashboard](https://github.com/zmsp/coronavirusdashboard)  
+## The Story
 
+I built this web app with the motivation of visualizing data in a way that is easy to read and user-friendly. At the time I started building this, there were not many relevant sources except JHU. My goal was to provide insights on the coronavirus and help people with information.
 
+## Features
 
+- **Interactive Visualizations**: Real-time insights into death rates, recovery rates, and population infection rates.
+- **Raw Data Exploration**: Embedded dashboards for deep dives into the statistics.
+- **Universal Compatibility**: Designed for both desktop and mobile use.
 
-# This page documents the motivation and the process behind building a webapp using COVID-19 data.
-
-App : [http://coronavirusdashboard.live/](http://zmsp.github.io/coronavirus)
-
-# Code
-
-If you are here for the code, its visible on this
-repository https://github.com/zmsp/coronavirusdashboard/tree/master/flutter_code
-
-# Why I built this?
-
-I built this [web app](http://coronavirusdashboard.live/)  with the motivation of visualizing the data that's easy to
-read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except
-JHU. My goal was to provide insights on coronavirus and help people with information.
-
-# Analytics
-
-Here are some insights on death rate, recovery rate and population infection rate by countries.
+## Analytics
 
 <iframe width="800" height="650" src="https://datastudio.google.com/embed/reporting/8b0b2857-1f24-4e1f-b4e9-df7082dafe72/page/8sXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-# Raw Data:
+## Raw Data
 
-You can explore the raw data from here
 <iframe width="800" height="650" src="https://datastudio.google.com/embed/reporting/b9437400-6abc-431e-a608-cdbb988fa6a8/page/tzXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-## Data sources
+## Links
 
-The data is updated from Johns Hopkins University Center for Systems Science and
-Engineering [JHU CSSE](https://github.com/CSSEGISandData/COVID-19) repository and hosted on
-https://github.com/zmsp/coronavirus-json-api/ JHU CSSE updates the data about twice daily.
-
-Additionally, the total counts are updated every hour from https://www.worldometers.info/
+- **Source Code**: [GitHub Repository](https://github.com/zmsp/coronavirusdashboard)
+- **Live App**: [zobairshahadat.com/coronavirus/](https://zobairshahadat.com/coronavirus/)
 
 ## Tech Stack
 
-* Flutter Web
-* Github pages
-* Python
-* Numpy
-* Pandas
-* Google Maps API
-* FontAwesome
-* Windows.bat scripts
+- **Frontend**: Flutter Web
+- **Backend**: Python (Numpy, Pandas)
+- **Hosting**: GitHub Pages
+- **APIs**: Google Maps API, FontAwesome
 
-## Designing the User Interface
+## Project Timeline
 
-Borrowed some ideas form Material Design Philosophy. Flutter widgets provide some ready to use interfaces that's
-aesthetically pleasing.
-
-## issues faced while building
-
-* The data source needed to be normalized as there were some missing values.
-* The UI framework, flutter web, is still a beta product. I had to use a nontraditional way of implementing maps.
-* The UI needed to be tuned to be used in desktop and mobiles. Making it universally compatible was a challenge.
-
-## Future Plans
-
-* Add map plot (added 3/8)
-* Add time-series data  (3/10)
-* Look into more data sources
-* Improve upon UI
-* Attempt to build an android app using the same source.
-* Add statistics by demography
-
-## Project timeline
-
-* 3/6, built the API
-* 3/7, finished creating an initial site.
-* 3/8, added Google Map plot for coronavirus data
-* 3/10 Add time-series data
-* 3/12Incorporated external dashboards
-
+- **3/6**: Built the API
+- **3/7**: Finished creating initial site
+- **3/8**: Added Google Map plot
+- **3/10**: Added time-series data
+- **3/12**: Incorporated external dashboards
