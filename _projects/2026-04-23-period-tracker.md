@@ -20,7 +20,7 @@ tags:
   - Privacy
 ---
 
-I built this period tracker because I wanted a health app that was 100% private for some friends and family who were concerned about other appstore apps. No accounts, no cloud syncing, and no data sharing—everything is stored locally on your device. It’s a minimalist tool that just does what it needs to do without the clutter.
+I built this minimalist period tracker for friends and family who wanted a 100% private alternative to mainstream apps. There are no accounts, cloud syncing, or data sharing—all data stays locally on your device.
 
 ## Key Features
 - **Privacy First**: Your data never leaves your device.
