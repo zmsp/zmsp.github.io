@@ -1,18 +1,13 @@
 ---
 title: "Period Tracker"
-excerpt: "Minimal cycle tracking."
+excerpt: "Minimal, private tracking."
 header:
   overlay_image: /assets/images/projects/period-tracker.png
   overlay_filter: 0.5
   teaser: /assets/images/projects/period-tracker.png
 sidebar:
-  - title: "App Icon"
-    image: /assets/images/projects/period-tracker-logo.png
-    image_alt: "Period Tracker Logo"
   - title: "Focus"
     text: "**Category**: Health & Fitness  \n**Privacy**: 100% Local"
-  - title: "Tech"
-    text: "**Framework**: Flutter"
 toc: true
 categories:
   - software
@@ -22,18 +17,13 @@ tags:
   - Health
 ---
 
-A minimalist, privacy-focused application for tracking menstrual cycles and health data. 
-
-{: .notice--info}
-**Privacy First:** In an era of data sharing, this tracker ensures your most personal information stays exactly where it belongs—on your device.
+I built this period tracker because I wanted a health app that was 100% private for some friends and family who were concerned about other appstore apps. No accounts, no cloud syncing, and no data sharing—everything is stored locally on your device. It’s a minimalist tool that just does what it needs to do without the clutter.
 
 ## Key Features
-
-- **Privacy First**: All data is stored locally on your device. No cloud syncing, no data selling.
-- **Minimalist Interface**: Easy-to-use calendar and tracking tools without the clutter.
-- **Cycle Predictions**: Simple algorithms to help you stay ahead of your cycle and plan your month.
+- **Privacy First**: Your data never leaves your device.
+- **Minimalist**: Clean interface focused on your calendar and cycle predictions.
+- **Flutter Built**: Works smoothly on both iOS and Android.
 
 ## Tech Stack
-
-- **Framework**: Flutter (Multi-platform)
-- **Data Storage**: Local Persistence
+- **Framework**: Flutter
+- **Storage**: Local SQLite persistence

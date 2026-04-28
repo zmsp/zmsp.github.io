@@ -1,6 +1,6 @@
 ---
 title: "Tesla Python API"
-excerpt: "Python library to control Tesla vehicles"
+excerpt: "Reverse engineering and wrapping the Tesla API."
 header:
   teaser: /assets/images/projects/python-my-tesla.jpg
 sidebar:
@@ -12,26 +12,20 @@ categories:
 tags:
   - API
   - python
+  - IoT
 ---
 
-A Python library designed to allow users to easily interface with the Tesla API and control their vehicles programmatically.
+I’ve been driving a 2014 Model S for years, and being a developer, I couldn't help but poke around the API. I started writing a Python wrapper to automate some of my own car's behavior, and it turned out a lot of other people wanted to do the same. 
 
-## The Story
+It’s been a fun way to bridge the gap between my software skills and my interest in automotive tech. With over **28 stars** and **10 forks** on GitHub, it’s one of those projects that proved to be genuinely useful to the community.
 
-I was excited to create a Tesla Python library that would allow others to easily interface with the Tesla API. Finally, I released the library to the public and it was an instant hit! People were able to use it to do all sorts of things.
+### Reverse Engineering the API
+Writing this library involved a lot of digging into undocumented or complex API endpoints. Since I was already maintaining my own car's battery systems, I had a good handle on what kind of data was important. I wanted to create something clean and reusable so that other Python developers could easily honk the horn, check the charge state, or lock the doors programmatically.
 
-### Community Coverage
-- [I hacked my Tesla - it turned out to be a bad idea](https://mikesml.com/2021/01/30/i-hacked-my-tesla-it-turned-out-to-be-a-bad-idea/)
-- [Can I control my Tesla with a Python program?](https://medium.com/@Dei8ht/can-i-control-my-tesla-with-a-python-program-83e3e115af40)
-
-## Links
-
+## Community & Usage
+It’s been cool to see people integrate this into their own home automation setups or custom dashboards.
 - **Source Code**: [GitHub Repository](https://github.com/zmsp/python-my-tesla)
 - **PyPI Package**: [mytesla](https://pypi.org/project/mytesla)
-
-## Stats (as of release)
-- **Total downloads**: 9,197
-- **Monthly downloads**: 217
 
 ## Documentation
 
@@ -44,15 +38,15 @@ pip3 install myTesla
 ```python
 import myTesla
 
+# Connect to your vehicle
 my_model_s = myTesla.connect('test@example.com', 'MySecurePassword')
+
+# Control and query
 charge_state = my_model_s.charge_state()
-door_lock = my_model_s.door_lock()
 my_model_s.honk_horn()
 
-print(charge_state)
-print(door_lock)
+print(f"Current Charge: {charge_state}%")
 ```
 
 ## Legal Disclaimer
-
-This program is provided as is. This program is not supported or endorsed by Tesla Motors. By using this software, you agree to not hold the author (Zobair Shahadat) and any of the contributors liable for anything.
+This program is not supported or endorsed by Tesla Motors. By using this software, you agree to not hold the author (Zobair Shahadat) liable for any issues.

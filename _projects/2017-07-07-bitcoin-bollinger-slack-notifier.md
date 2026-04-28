@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin Bollinger Slack Notifier"
-excerpt: "Script that sends Slack messages for Bitcoin trading signals"
+excerpt: "Slack messages for Bitcoin trading signals"
 header:
   teaser: /assets/images/projects/bitcoin-bollinger-slack-notifier.jpg
 sidebar:
@@ -14,14 +14,10 @@ tags:
   - python
 ---
 
-A Python script that sends Slack notifications when it detects a buy or sell signal for Bitcoin based on Bollinger Bands.
+I made this while learning about machine learning for trading. It's a simple Python script that pings Slack whenever Bollinger Bands suggest a buy or sell signal for Bitcoin.
 
-## The Story
-
-Bollinger Bands were created by John Bollinger in the 1980s as a way to measure market volatility. The idea is that when markets are more volatile, the bands will widen, and when markets are less volatile, the bands will narrow. Bollinger Bands are typically calculated using a 20-day moving average, with the upper and lower bands being 2 standard deviations above and below the moving average.
-
-I was first introduced to Bollinger Bands when I was learning about machine learning for trading.
+## How it works
+Bollinger Bands measure market volatility. When the price hits the upper or lower bands (2 standard deviations from the 20-day moving average), the script triggers a notification so I don't have to keep an eye on the charts all day.
 
 ## Links
-
 - **Source Code**: [GitHub Repository](https://github.com/zmsp/bitcoin-bollinger-slack-notifier)

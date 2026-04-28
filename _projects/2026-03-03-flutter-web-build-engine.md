@@ -8,27 +8,16 @@ categories:
   - software
 tags:
   - Flutter
-  - Web
   - DevOps
   - CI/CD
 ---
 
-[![GitHub stars](https://img.shields.io/github/stars/zmsp/flutter-web-build-engine?style=for-the-badge)](https://github.com/zmsp/flutter-web-build-engine/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/zmsp/flutter-web-build-engine?style=for-the-badge)](https://github.com/zmsp/flutter-web-build-engine)
-
-A robust CI/CD engine designed to automate the build and deployment process for Flutter web applications.
+I built this CI/CD engine to automate the annoying parts of deploying Flutter web apps. It uses GitHub Actions to handle remote deployments and cache management, so I can go from code to live site with almost no manual effort.
 
 ## Features
-
-- **Automated Deployments**: Remote deployment workflows using GitHub Actions.
+- **Automated Deployments**: Remote workflows using GitHub Actions.
 - **Cache Management**: Efficient clear-cache workflows to ensure fresh builds.
-- **Optimized for Web**: Specifically tuned for the nuances of Flutter web building and hosting.
+- **Optimized for Web**: Specifically tuned for the nuances of Flutter web hosting.
 
 ## Links
-
 - **Source Code**: [GitHub Repository](https://github.com/zmsp/flutter-web-build-engine.git)
-
-## Tech Stack
-
-- **Framework**: Flutter (Web)
-- **CI/CD**: GitHub Actions, YAML

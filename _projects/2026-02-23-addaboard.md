@@ -41,22 +41,16 @@ tags:
   - Productivity
 ---
 
-**AddaBoard** is an AI-powered spatial link board designed to turn your "Saved" items into actionable plans. Whether it's a recipe from Instagram, a travel spot from TikTok, or an event from a website, AddaBoard extracts the steps, ingredients, and locations automatically.
+**AddaBoard** started as a personal solution to a common problem: I was saving hundreds of links to recipes, travel spots, and events on Instagram and TikTok, but I never actually looked at them again. I wanted a way to turn those "saved" items into real, actionable plans.
 
-{: .notice--primary}
-**What makes it different?** Unlike traditional bookmarking apps, AddaBoard focuses on *action*. It doesn't just save a link; it builds a plan.
+What began as a side project (originally named *InstaBoard*) has grown into my most significant production app
 
-## Key Technical Features
 
-- **AI Extraction (V3)**: Automatically identifies Recipes, Locations, Events, and Shop items from URLs.
-- **Actionable Plans**: Converts links into step-by-step checklists.
-- **Immersive Reel View**: A high-speed way to browse your saved links with a glassmorphic UI.
-- **Smart Categorization**: Beautifully organized cards using vibrant, AI-determined color palettes.
-- **Planner Integration**: One-tap calendar additions and map routing.
 
-## Screenshots
-
-{% include gallery %}
+### What it does
+- **Smart Extraction**: It doesn't just save a link; it pulls out the steps, ingredients, or locations automatically so you can get moving.
+- **Visual Planning**: I built an "Immersive Reel" view that makes browsing your saved plans feel as fast and fluid as the social apps you found them on.
+- **Action-Oriented**: Everything is designed to be a checklist. One tap to add a recipe ingredient to your grocery list or a travel spot to your maps.
 
 ## Tech Stack
 

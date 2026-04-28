@@ -11,10 +11,6 @@ header:
 sidebar:
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/talkclosely/id6763404206){: style='width: 40px; display: inline-block;'}"
-  - title: "At a Glance"
-    image: /assets/images/projects/talkclosely-logo.png
-    image_alt: "TalkClosely Logo"
-    text: "**Platform**: Mobile (iOS/Android)  \n**Tech**: Flutter"
 toc: true
 categories:
   - software
@@ -24,18 +20,13 @@ tags:
   - Social
 ---
 
-**TalkClosely** is a new way to connect through meaningful questions. Designed to spark deep conversations, it helps people learn more about each other in a fun, interactive way.
-
-{: .notice--info}
-**Why TalkClosely?** In a world of digital distractions, we often forget to have deep, meaningful conversations. TalkClosely provides the spark needed to reconnect with friends, family, and partners.
+TalkClosely is an app I created to help people have more meaningful conversations. It’s filled with curated question sets designed to move past small talk and help you learn more about your friends, family, and partners in a fun, interactive way.
 
 ## Key Features
-
-- **Curated Question Sets**: Hand-picked questions designed to break the ice and deepen relationships.
-- **Interactive UI**: Smooth transitions and engaging design to keep the conversation flowing.
-- **Cross-Platform**: Built with Flutter for a consistent experience on iOS and Android.
+- **Curated Questions**: Hand-picked prompts to break the ice and deepen relationships.
+- **Interactive UI**: Smooth, engaging design built with Flutter.
+- **Cross-Platform**: Available on iOS, Android, and Web.
 
 ## Tech Stack
-
 - **Framework**: Flutter
-- **Platform**: iOS, Android, and Web
+- **Hosting**: Cloudflare Pages (Web)
