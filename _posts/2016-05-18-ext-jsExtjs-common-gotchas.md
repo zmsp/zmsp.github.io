@@ -1,6 +1,6 @@
 ---
-title:  "Extjs common gotchas"
-excerpt: "Pitfall of Extjs"
+title: "ExtJS Pitfalls & Fixes"
+excerpt: "Identifying and avoiding common development traps in ExtJS."
 header:
     teaser: "/images/extjs.jpg"
     overlay_color: "#3b9943git "

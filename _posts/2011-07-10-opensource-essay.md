@@ -1,5 +1,5 @@
 ---
-title:  "Open Source Software"
+title: "Future of Open Source"
 excerpt: "A paper from school year"
 header: 
     overlay_color: "#8d9eba"

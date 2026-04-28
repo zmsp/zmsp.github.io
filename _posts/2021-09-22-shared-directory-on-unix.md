@@ -1,6 +1,6 @@
 ---
-title:  "Creating a shared directory for a group of users"
-excerpt: "Shared directories and file permission management on unix"
+title: "Unix Shared Directories"
+excerpt: "A quick guide to managing file permissions for group collaboration."
 header:
   teaser: https://i.imgur.com/R7CbUmn.jpg
   og_image: https://i.imgur.com/R7CbUmn.jpg
@@ -11,53 +11,81 @@ tags:
   - DevOps
   - Unix
   - Linux
+toc: true
 ---
 
-TLDR: the following command creates a group and adds two users. We, then, link the group to the
-directory and set permissions. Users (userone/usertwo) now will have access to read/write/execute
-permission to the directory. Newly created folder and files will be assigned to the same parent group. 
+Managing a shared directory in a multi-user Unix environment can be tricky. By default, files created by a user belong to their primary group, and permissions are dictated by their personal `umask`. This often leads to "Permission Denied" errors when another team member tries to edit a file you just created.
+
+This guide covers how to set up a robust shared folder where everything "just works."
+
+## The Quick Setup (TLDR)
+
+The following commands create a group, add users, and set the `setgid` bit on the directory so that all new files inherit the group ownership.
 
 ```shell
-groupadd sharedgroup
-usermod -a -G sharedgroup userone
-usermod -a -G sharedgroup usertwo
+# 1. Create the group
+sudo groupadd sharedgroup
 
+# 2. Add users to the group
+sudo usermod -a -G sharedgroup userone
+sudo usermod -a -G sharedgroup usertwo
+
+# 3. Create the directory and set ownership
 mkdir shareddir
-chgrp -R sharedgroup ./shareddir
-chmod -R g+rwx  ./shareddir/
-chmod g+s shareddir
+sudo chgrp -R sharedgroup ./shareddir
+
+# 4. Set permissions and the SGID bit
+sudo chmod -R 2775 ./shareddir/
 ```
 
-## Notes:
-* The best way to get permission is to assign permissions to groups of users instead of to individuals.
-* Permissions are assigned in World Permissions, Group Permissions, and Owner Permissions.
-* The three numbers that are shown in the `ls -l` output are the owner's permissions, group permissions, and world permissions respectively, in that order.
-* You must be the owner of blob to change its permissions. Enter `ls -la` to see who has file permissions.
-* Directory Permission sets default permission for the files and folders created in the directory.
+> **Note:** The `2` in `2775` sets the **setgid** (Set Group ID) bit.
 
+---
 
+## Core Concepts
 
-## Setting directory permissions 
-The command `chmod <permission> <directory>`is used to set permissions for the files and folders. 
-For instance to set a file permission to be readable by others but only modifiable by the owner of the file, 
-you could issue:
+### 1. The Magic of the SGID Bit
+On a directory, the `setgid` (set group ID) bit tells the OS: *"Any file created inside this folder should inherit the group of the folder itself, rather than the primary group of the user who created it."*
+
+- **Command:** `chmod g+s <dir>` or `chmod 2xxx <dir>`
+- **Why it matters:** Without this, `userone` creates a file as `userone:userone`. With this, they create it as `userone:sharedgroup`.
+
+### 2. The Umask Problem
+Even if the group ownership is correct, the permissions might still be too restrictive. Most Linux systems have a default `umask` of `0022`, which creates files with `644` (rw-r--r--) permissions. This means the group can **read** the file but not **edit** it.
+
+To fix this globally, users need a `umask` of `002`, but changing global umasks can be risky.
+
+### 3. The Modern Solution: ACLs (Access Control Lists)
+If your filesystem supports it (most modern Linux distros do), **ACLs** are the most reliable way to handle shared directories. They allow you to set "Default ACLs" that are forced onto every new file, regardless of the user's umask.
+
+```shell
+# Set default permissions for the group to rwx
+sudo setfacl -d -m g:sharedgroup:rwx ./shareddir
+
+# Set current permissions
+sudo setfacl -m g:sharedgroup:rwx ./shareddir
 ```
-chmod 755 myfile.txt
-```
-Few common permission codes from [Wikipedia](https://en.wikipedia.org/wiki/File-system_permissions#Numeric_notation)
-```
-Symbolic    Numeric Description
-----------	0000	no permissions
--rwx------	0700	read, write, & execute only for owner
--rwxrwx---	0770	read, write, & execute for owner and group
--rwxrwxrwx	0777	read, write, & execute for owner, group and others
----x--x--x	0111	execute
---w--w--w-	0222	write
---wx-wx-wx	0333	write & execute
--r--r--r--	0444	read
--r-xr-xr-x	0555	read & execute
--rw-rw-rw-	0666	read & write
--rwxr-----	0740	owner can read, write, & execute; group can only read; others have no permissions
-```
-A POSIX (Portable Operating System Interface for Unix) file permission model is used, with the
-  first digit representing file type, and permissions for read (4), write (2), and execute (1). [Read more](https://www.guru99.com/file-permissions.html)
+
+---
+
+## Permission Reference Table
+
+Unix permissions are calculated by adding values: **4 (Read), 2 (Write), 1 (Execute)**.
+
+| Symbolic | Numeric | Description |
+| :--- | :--- | :--- |
+| `rwx------` | `0700` | Full access for owner only |
+| `rwxrwx---` | `0770` | Full access for owner and group |
+| `rwxr-xr-x` | `0755` | Everyone can read/execute, only owner can write |
+| `rw-rw-r--` | `0664` | Owner/Group can read/write, others read-only |
+| `rwxrwsr-x` | `2775` | SGID set: Group inheritance + group write access |
+
+---
+
+## Best Practices
+* **Avoid 777:** Never give "World" write permissions (`777`) unless you absolutely have to. It's a significant security risk.
+* **Sticky Bit:** If you want users to be able to create files but **not delete** each other's files, add the sticky bit: `chmod +t <dir>` or `chmod 1xxx <dir>`.
+* **Group Membership:** Remember that users must log out and back in for new group assignments (`usermod -a -G`) to take effect.
+
+For more deep dives into POSIX models, check out the [Linux Documentation Project](https://tldp.org/LDP/lame/LAME/linux-admin-made-easy/local-user-administration.html).
+

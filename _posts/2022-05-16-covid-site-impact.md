@@ -1,6 +1,6 @@
 ---
-title:  "Story on the impact of an app on COVID-19"
-excerpt: "This blog describes stats for web/mobile app built for tracking coronavirus"
+title: "COVID-19 App Impact"
+excerpt: "Measuring the real-world usage and reach of a pandemic tracking tool."
 categories:
   - Projects & Case Studies
 tags:

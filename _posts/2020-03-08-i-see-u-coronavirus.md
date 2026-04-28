@@ -1,5 +1,6 @@
 ---
-title:  "Coronavirus webapp development"
+title: "Visualizing COVID-19"
+excerpt: "Building a user-friendly data dashboard for pandemic transparency."
 header:
   teaser: https://i.imgur.com/khtGild.png
   og_image: https://i.imgur.com/khtGild.png

@@ -1,6 +1,6 @@
 ---
-title: "Traveler's Guide: Common Spanish Phrases to Know"
-excerpt: "A traveler's companion to Spanish-speaking destinations."
+title: "Essential Spanish Phrases"
+excerpt: "A practical language guide for navigating Spanish-speaking destinations."
 header:
   teaser: https://i.imgur.com/dJmtw2V.jpeg
   og_image: https://i.imgur.com/dJmtw2V.jpeg

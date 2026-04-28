@@ -1,5 +1,6 @@
 ---
-title: "Why Georgia Tech"
+title: "Why I Chose Georgia Tech"
+excerpt: "My motivations for pursuing a degree at a top-tier tech university."
 header:
   overlay_image: "/images/20170514-gt.jpg"
   teaser: "/images/20170514-gt.jpg"

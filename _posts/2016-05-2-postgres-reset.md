@@ -1,5 +1,6 @@
 ---
-title:  "How to Reset PostgreSQL"
+title: "Resetting PostgreSQL"
+excerpt: "A step-by-step technical walkthrough for a clean database reset."
 header:
     teaser: "images/til-page.jpg"
 categories: 

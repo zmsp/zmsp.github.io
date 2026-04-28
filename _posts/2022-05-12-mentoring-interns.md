@@ -1,6 +1,6 @@
 ---
-title:  "How do I mentor interns?"
-excerpt: "Personal Perspective - on running an internship program in a tech company"
+title: "Mentoring Tech Interns"
+excerpt: "Strategies for building and running a successful internship program."
 header:
   teaser: https://i.imgur.com/R7CbUmn.jpg
   og_image: https://i.imgur.com/R7CbUmn.jpg

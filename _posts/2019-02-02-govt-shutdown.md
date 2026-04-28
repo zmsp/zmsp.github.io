@@ -1,5 +1,6 @@
 ---
-title:  "Impact of Government Shutdown on Software Industry"
+title: "Shutdowns & Software"
+excerpt: "Analyzing how government instability affects the tech industry."
 header:
   teaser: https://i.imgur.com/KhWE0lC.jpg
   og_image: https://i.imgur.com/KhWE0lC.jpg

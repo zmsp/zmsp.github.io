@@ -1,6 +1,6 @@
 ---
-title: "Miracast on Nexus 6"
-excerpt: "Enable Miracast on Nexus 6"
+title: "Enable Nexus 6 Miracast"
+excerpt: "A quick tutorial on enabling wireless display features on the Nexus 6."
 header:
   teaser: "/images/nexus6-cast.jpg"
   overlay_color: "#8d9eba"

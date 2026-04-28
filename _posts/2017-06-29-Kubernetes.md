@@ -1,5 +1,6 @@
 ---
-title:  "Kubernetes Overview"
+title: "Kubernetes Essentials"
+excerpt: "A high-level breakdown of Google’s container orchestration tool."
 header:
     overlay_image: "/images/kubernetes.png"
     teaser: "/images/kubernetes_teaser.jpg"

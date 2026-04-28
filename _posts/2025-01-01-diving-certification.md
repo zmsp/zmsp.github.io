@@ -1,6 +1,6 @@
 ---
-title: "Scuba diving certification and tips"
-excerpt: "My experience getting scuba certified—from and things learned from first dives"
+title: "Getting Scuba Certified"
+excerpt: "Lessons learned from my first dives and the certification process."
 header:
   overlay_color: "#0000FF"  # Blue color for overlay
   overlay_filter: "0.5"

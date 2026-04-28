@@ -1,5 +1,6 @@
 ---
-title:  "Experience in Docker, Clojure and JVM"
+title: "Tech Stack Snapshot"
+excerpt: "A summary of my professional growth in Docker, Clojure, and the JVM."
 header: "Experience"
 categories: 
   - Thoughts & Opinions

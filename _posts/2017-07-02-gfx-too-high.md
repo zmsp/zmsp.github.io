@@ -1,5 +1,6 @@
 ---
-title:  "Why Graphics Card prices are too damn high!"
+title: "The GPU Price Crisis"
+excerpt: "Exploring how the cryptocurrency boom inflated the graphics card market."
 header:
   teaser: /assets/images/posts/crypto/too-damn-hgih.jpg
   overlay_image: /assets/images/posts/crypto/rx480.jpg
