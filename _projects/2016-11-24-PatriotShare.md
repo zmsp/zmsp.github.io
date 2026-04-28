@@ -7,8 +7,9 @@ toc: true
 categories:
   - software
 tags:
-  - API
-  - python
+  - Web
+  - Full-Stack
+  - Python
 ---
 
 [![GitHub stars](https://img.shields.io/github/stars/zmsp/PatriotShare?style=for-the-badge)](https://github.com/zmsp/PatriotShare/stargazers)

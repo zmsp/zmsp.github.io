@@ -7,8 +7,10 @@ toc: true
 categories:
   - software
 tags:
+  - Web
+  - Backend
   - API
-  - python
+  - Open Source
 ---
 
 I developed this tool to simplify the process of setting up a video streaming server. It’s designed to handle multiple input types—like static videos, images, or live camera feeds—and serve them all consistently from one place.

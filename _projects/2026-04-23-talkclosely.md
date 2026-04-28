@@ -17,9 +17,10 @@ toc: true
 categories:
   - software
 tags:
-  - Flutter
   - Mobile
-  - Social
+  - Communication
+  - Flutter
+  - Web
 ---
 
 TalkClosely is an app I created to help people have more meaningful conversations. It’s filled with curated question sets designed to move past small talk and help you learn more about your friends, family, and partners in a fun, interactive way.

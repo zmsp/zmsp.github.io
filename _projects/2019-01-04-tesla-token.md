@@ -7,8 +7,9 @@ toc: true
 categories:
   - software
 tags:
+  - Web
+  - Security
   - API
-  - python
 ---
 
 [![GitHub stars](https://img.shields.io/github/stars/zmsp/tesla-token?style=for-the-badge)](https://github.com/zmsp/tesla-token/stargazers)

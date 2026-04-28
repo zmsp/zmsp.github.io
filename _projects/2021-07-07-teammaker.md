@@ -21,10 +21,9 @@ toc: true
 categories:
   - software
 tags:
-  - Flutter
   - Mobile
+  - Productivity
   - Web
-  - Sports
 ---
 
 **Team Maker Buddy** is the smartest way to organize matches, manage rosters, and balance teams based on skill and gender. Built by Referees, for the game.

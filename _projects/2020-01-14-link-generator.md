@@ -12,10 +12,9 @@ toc: true
 categories:
   - software
 tags:
-  - Flutter
   - Mobile
   - Web
-  - Social
+  - Productivity
 ---
 
 [![GitHub stars](https://img.shields.io/github/stars/zmsp/link_generator?style=for-the-badge)](https://github.com/zmsp/link_generator/stargazers)

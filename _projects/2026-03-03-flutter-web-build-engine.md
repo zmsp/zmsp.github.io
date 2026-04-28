@@ -7,8 +7,9 @@ toc: true
 categories:
   - software
 tags:
-  - Flutter
   - DevOps
+  - Automation
+  - Web
   - CI/CD
 ---
 

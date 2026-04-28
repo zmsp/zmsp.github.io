@@ -12,9 +12,9 @@ toc: true
 categories:
   - software
 tags:
-  - Flutter
   - Mobile
-  - Sports
+  - Flutter
+  - Productivity
 ---
 
 **Scoreboard** is a professional real-time tool designed to keep the game moving. While it started as a standalone project, it is now a core feature of [Team Maker Buddy](https://teambuddy.shahadat.us/), providing referees and players with the smartest way to manage match progress.

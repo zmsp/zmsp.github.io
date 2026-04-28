@@ -10,8 +10,9 @@ toc: true
 categories:
   - software
 tags:
-  - security
-  - clojure
+  - Open Source
+  - DevOps
+  - Security
 ---
 
 A plugin that can detect security issues in Clojure code by scanning and identifying potential security threats.

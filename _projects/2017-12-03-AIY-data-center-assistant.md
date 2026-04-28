@@ -7,8 +7,9 @@ toc: true
 categories:
   - software
 tags:
-  - API
-  - python
+  - AI
+  - IoT
+  - Python
 ---
 
 I built this using the Google AIY Voice Kit and a Raspberry Pi. It’s a custom voice assistant that I programmed to handle data center tasks—like checking IP addresses or performing `nslookup`—without needing to type anything.

@@ -7,10 +7,9 @@ toc: true
 categories:
   - software
 tags:
-  - data
-  - analytics
-  - visualization
-  - python
+  - Data
+  - API
+  - Automation
 ---
 
 [![GitHub stars](https://img.shields.io/github/stars/zmsp/coronavirus-json-api?style=for-the-badge)](https://github.com/zmsp/coronavirus-json-api/stargazers)

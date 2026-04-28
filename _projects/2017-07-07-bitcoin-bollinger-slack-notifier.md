@@ -10,8 +10,9 @@ toc: true
 categories:
   - software
 tags:
-  - API
-  - python
+  - Automation
+  - Data
+  - Python
 ---
 
 I made this while learning about machine learning for trading. It's a simple Python script that pings Slack whenever Bollinger Bands suggest a buy or sell signal for Bitcoin.

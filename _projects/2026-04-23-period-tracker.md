@@ -14,9 +14,10 @@ toc: true
 categories:
   - software
 tags:
-  - Flutter
   - Mobile
   - Health
+  - Web
+  - Privacy
 ---
 
 I built this period tracker because I wanted a health app that was 100% private for some friends and family who were concerned about other appstore apps. No accounts, no cloud syncing, and no data sharing—everything is stored locally on your device. It’s a minimalist tool that just does what it needs to do without the clutter.

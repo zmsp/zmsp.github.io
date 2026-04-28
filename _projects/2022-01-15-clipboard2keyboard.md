@@ -9,8 +9,7 @@ categories:
 tags:
   - Automation
   - Productivity
-  - macOS
-  - Linux
+  - CLI
 ---
 
 **Clipboard2Keyboard** is a utility that types the content of your clipboard as if you were typing it manually. This is incredibly useful in environments where copy-pasting is restricted or not supported (like some remote consoles or legacy apps).

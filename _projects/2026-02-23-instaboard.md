@@ -29,8 +29,8 @@ categories:
   - software
 tags:
   - AI
-  - Flutter
   - Mobile
+  - Web
   - Productivity
 ---
 

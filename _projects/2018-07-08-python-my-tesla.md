@@ -10,9 +10,9 @@ toc: true
 categories:
   - software
 tags:
+  - Open Source
   - API
-  - python
-  - IoT
+  - Automation
 ---
 
 I’ve been driving a 2014 Model S for years, and being a developer, I couldn't help but poke around the API. I started writing a Python wrapper to automate some of my own car's behavior, and it turned out a lot of other people wanted to do the same. 

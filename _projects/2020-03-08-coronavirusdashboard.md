@@ -7,8 +7,9 @@ toc: true
 categories:
   - software
 tags:
-  - data
-  - flutter
+  - Data
+  - Web
+  - Visualization
 ---
 
 I built this dashboard early in the pandemic when reliable data was hard to find and even harder to visualize. I wanted to create a tool that was easy to read and provided real-time insights into infection and recovery rates worldwide.

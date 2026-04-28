@@ -9,8 +9,13 @@ sort_order: reverse
 header:
   overlay_image: /assets/images/unslpash/unsplash-image-1.jpg
   overlay_filter: 0.6
+  actions:
+    - label: "Browse by Tag"
+      url: "/projects/tags/"
 excerpt: "A collection of my latest work, from open-source tools to hardware projects."
 classes: wide
 ---
 
-Welcome to my portfolio. Here you'll find a selection of my software and hardware projects, ranging from AI applications to system-level tools.
+Welcome to my portfolio. Here you'll find a selection of my software and hardware projects, ranging from AI applications to system-level tools. 
+
+[Explore Projects by Tag](/projects/tags/){: .btn .btn--info}
