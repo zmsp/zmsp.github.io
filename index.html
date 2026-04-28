@@ -11,21 +11,35 @@ header:
     - label: "Read Blogs"
       url: "/blogs/"
 excerpt: "Welcome to my digital garden. I'm Zobair, sharing my journey through software engineering, personal projects, and tech explorations."
-feature_row:
-  - image_path: /assets/images/projects/addaboard.jpg
-    alt: "AddaBoard"
-    title: "Projects"
+home_recent_sections:
+  - title: "Projects"
     excerpt: "Showcase of my latest builds, from AI-powered boards to developer tools."
-    url: "/projects/"
-    btn_label: "View All"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/500x300_preview.jpg
-    alt: "Learning Notes"
-    title: "Learning Notes"
+    collection: projects
+    limit: 3
+    view_all_label: "View All Projects"
+    view_all_url: "/projects/"
+  - title: "Learning Notes"
     excerpt: "Daily bites of knowledge and deep dives into new technologies."
-    url: "/blogs/"
-    btn_label: "Read Blogs"
-    btn_class: "btn--info"
+    collection: posts
+    limit: 3
+    view_all_label: "Read Blogs"
+    view_all_url: "/blogs/"
 ---
 
-{% include feature_row %}
+{% for section in page.home_recent_sections %}
+<div class="archive">
+  <h2 class="archive__subtitle">{{ section.title }}</h2>
+  {% if section.excerpt %}
+    <p>{{ section.excerpt }}</p>
+  {% endif %}
+  <div class="grid__wrapper">
+    {% assign entries = site[section.collection] | sort: 'date' | reverse %}
+    {% for post in entries limit:section.limit %}
+      {% include archive-single.html type="grid" %}
+    {% endfor %}
+  </div>
+  {% if section.view_all_label %}
+    <p><a href="{{ section.view_all_url | relative_url }}" class="btn btn--primary">{{ section.view_all_label }}</a></p>
+  {% endif %}
+</div>
+{% endfor %}
