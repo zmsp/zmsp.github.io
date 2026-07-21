@@ -4,7 +4,7 @@ excerpt: "Professional Squad Management. Fair Teams. Fast Games."
 header:
   overlay_image: /assets/images/projects/teammaker.jpg
   overlay_filter: 0.5
-  teaser: /assets/images/projects/teammaker.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
   actions:
     - label: "Launch App"
       url: "https://teambuddy.shahadat.us/"

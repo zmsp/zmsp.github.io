@@ -2,7 +2,7 @@
 title: "Tesla Python API"
 excerpt: "Reverse engineering and wrapping the Tesla API."
 header:
-  teaser: /assets/images/projects/python-my-tesla.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 sidebar:
   - title: "Repository"
     text: "[![GitHub stars](https://img.shields.io/github/stars/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla/stargazers)  \n[![GitHub forks](https://img.shields.io/github/forks/zmsp/python-my-tesla?style=for-the-badge)](https://github.com/zmsp/python-my-tesla)"

@@ -4,7 +4,7 @@ excerpt: "Deepen your connections."
 header:
   overlay_image: /assets/images/projects/talkclosely.jpg
   overlay_filter: 0.6
-  teaser: /assets/images/projects/talkclosely.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
   actions:
     - label: "Launch Web App"
       url: "https://closely.pages.dev/"

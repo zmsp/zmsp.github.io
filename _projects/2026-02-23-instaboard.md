@@ -4,7 +4,7 @@ excerpt: "AI link organizer."
 header:
   overlay_image: /assets/images/projects/instaboard.jpg
   overlay_filter: 0.5
-  teaser: /assets/images/projects/instaboard.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
   actions:
     - label: "Launch Web App"
       url: "https://save.shahadat.us"

@@ -2,7 +2,7 @@
 title: "Video Server"
 excerpt: "Custom streaming tool."
 header:
-  teaser: /assets/images/projects/video_server.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 toc: true
 categories:
   - software

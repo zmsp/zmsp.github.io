@@ -2,7 +2,7 @@
 title: "Bitcoin Bollinger Slack Notifier"
 excerpt: "Slack messages for Bitcoin trading signals"
 header:
-  teaser: /assets/images/projects/bitcoin-bollinger-slack-notifier.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 sidebar:
   - title: "Repository"
     text: "[![GitHub stars](https://img.shields.io/github/stars/zmsp/bitcoin-bollinger-slack-notifier?style=for-the-badge)](https://github.com/zmsp/bitcoin-bollinger-slack-notifier/stargazers)  \n[![GitHub forks](https://img.shields.io/github/forks/zmsp/bitcoin-bollinger-slack-notifier?style=for-the-badge)](https://github.com/zmsp/bitcoin-bollinger-slack-notifier)"

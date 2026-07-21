@@ -2,7 +2,7 @@
 title: "AIY Data Center Assistant"
 excerpt: "DIY Google Home for nerds"
 header:
-  teaser: /assets/images/projects/AIY-data-center-assistant.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 toc: true
 categories:
   - software

@@ -4,7 +4,7 @@ excerpt: "Minimal, private tracking."
 header:
   overlay_image: /assets/images/projects/period-tracker.png
   overlay_filter: 0.5
-  teaser: /assets/images/projects/period-tracker.png
+  teaser: /assets/images/projects/placeholder_small.jpeg
 sidebar:
   - title: "Links"
     text: "[Web App](https://periodcycle.pages.dev/)  \n[Promo](https://periodcycle.pages.dev/promo)"

@@ -2,7 +2,7 @@
 title: "Flutter Web CI"
 excerpt: "Streamlined deployments."
 header:
-  teaser: /assets/images/projects/flutter-web-build-engine.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 toc: true
 categories:
   - software

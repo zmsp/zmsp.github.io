@@ -2,7 +2,7 @@
 title: "Tesla Token Generator"
 excerpt: "Web-based Tesla API token generator"
 header:
-  teaser: /assets/images/projects/tesla-token.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 toc: true
 categories:
   - software

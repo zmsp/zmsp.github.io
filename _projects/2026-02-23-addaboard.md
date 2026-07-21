@@ -4,7 +4,7 @@ excerpt: "AI spatial planner."
 header:
   overlay_image: /assets/images/projects/addaboard.png
   overlay_filter: 0.5
-  teaser: /assets/images/projects/addaboard.png
+  teaser: /assets/images/projects/placeholder_small.jpeg
   actions:
     - label: "Launch Web App"
       url: "https://addaboard.shahadat.us/"

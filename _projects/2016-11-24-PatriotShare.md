@@ -2,7 +2,7 @@
 title: "PatriotShare"
 excerpt: "Book sharing platform"
 header:
-  teaser: /assets/images/projects/PatriotShare.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 toc: true
 categories:
   - software

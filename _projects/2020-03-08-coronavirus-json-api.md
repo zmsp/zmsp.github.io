@@ -2,7 +2,7 @@
 title: "Coronavirus JSON API"
 excerpt: "COVID statistics automatically pulled and served via JSON"
 header:
-  teaser: /assets/images/projects/coronavirus-json-api.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 toc: true
 categories:
   - software

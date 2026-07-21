@@ -2,7 +2,7 @@
 title: "Link Generator"
 excerpt: "Create shareable social network and messaging links"
 header:
-  teaser: /assets/images/projects/link-generator.jpg
+  teaser: /assets/images/projects/placeholder_small.jpeg
 sidebar:
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/linkify-link-generator/id6760180889){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.link_generator){: style='width: 33px; display: inline-block;'}"
