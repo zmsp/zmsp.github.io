@@ -1,0 +1,57 @@
+<!-- Custom CSS for project icons, teasers, and horizontal preview images centering -->
+<style>
+  /* Ensure project icon teasers in grid view are centered horizontally without cutoff */
+  .archive__item-teaser {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+    max-height: 220px !important;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 8px;
+  }
+
+  .archive__item-teaser img {
+    max-height: 100% !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    margin: 0 auto !important;
+  }
+
+  /* Center align project sidebar logo/icon */
+  .sidebar .author__avatar,
+  .sidebar .sidebar__item img,
+  .sidebar img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+  }
+
+  /* Center align horizontal preview images and gallery screenshots */
+  .gallery,
+  figure.gallery-item,
+  .gallery figure {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .gallery img,
+  .page__content img,
+  .page__content p img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    max-width: 100% !important;
+  }
+</style>

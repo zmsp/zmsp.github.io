@@ -2,7 +2,7 @@
 title: "COVID Tracker"
 excerpt: "Early pandemic data visualization."
 header:
-  teaser: /assets/images/projects/placeholder_small.jpeg
+  teaser: /assets/images/projects/placeholder_large.jpeg
 toc: true
 categories:
   - software

@@ -2,7 +2,7 @@
 title: "Scoreboard"
 excerpt: "Professional real-time score tracking."
 header:
-  teaser: /assets/images/projects/placeholder_small.jpeg
+  teaser: /assets/images/projects/placeholder_large.jpeg
 sidebar:
   - title: "Available In"
     text: "**[Team Maker Buddy](https://teambuddy.shahadat.us/)**"

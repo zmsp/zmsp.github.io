@@ -2,7 +2,7 @@
 title: "Clipboard2Keyboard"
 excerpt: "Automatically type your clipboard contents into any application."
 header:
-  teaser: /assets/images/projects/placeholder_small.jpeg
+  teaser: /assets/images/projects/placeholder_large.jpeg
 toc: true
 categories:
   - software

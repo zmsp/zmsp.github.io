@@ -2,9 +2,9 @@
 title: "InstaBoard"
 excerpt: "AI link organizer."
 header:
-  overlay_image: /assets/images/projects/instaboard.jpg
+  overlay_image: /assets/images/projects/instaboard-screen-1.webp
   overlay_filter: 0.5
-  teaser: /assets/images/projects/placeholder_small.jpeg
+  teaser: /assets/images/projects/instaboard-icon.webp
   actions:
     - label: "Launch Web App"
       url: "https://save.shahadat.us"
@@ -14,16 +14,19 @@ sidebar:
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/instaboard-link-saver/id6760332364){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.instaboard){: style='width: 33px; display: inline-block;'}"
   - title: "Tech Stack"
-    image: /assets/images/projects/instaboard-logo.jpg
+    image: /assets/images/projects/instaboard-icon.webp
     image_alt: "InstaBoard Logo"
     text: "**Framework**: Flutter  \n**Backend**: Cloudflare Workers  \n**Database**: SQLite"
 gallery:
-  - url: /assets/images/projects/instaboard-screenshot1.jpg
-    image_path: /assets/images/projects/instaboard-screenshot1.jpg
-    alt: "InstaBoard Screenshot 1"
-  - url: /assets/images/projects/instaboard-screenshot2.jpg
-    image_path: /assets/images/projects/instaboard-screenshot2.jpg
-    alt: "InstaBoard Screenshot 2"
+  - url: /assets/images/projects/instaboard-screen-1.webp
+    image_path: /assets/images/projects/instaboard-screen-1.webp
+    alt: "InstaBoard Screen 1"
+  - url: /assets/images/projects/instaboard-screen-2.webp
+    image_path: /assets/images/projects/instaboard-screen-2.webp
+    alt: "InstaBoard Screen 2"
+  - url: /assets/images/projects/instaboard-screen-3.webp
+    image_path: /assets/images/projects/instaboard-screen-3.webp
+    alt: "InstaBoard Screen 3"
 toc: true
 categories:
   - software

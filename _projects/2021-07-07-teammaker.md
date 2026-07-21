@@ -2,9 +2,9 @@
 title: "Team Maker Buddy"
 excerpt: "Professional Squad Management. Fair Teams. Fast Games."
 header:
-  overlay_image: /assets/images/projects/teammaker.jpg
+  overlay_image: /assets/images/projects/teammaker-screenshot.webp
   overlay_filter: 0.5
-  teaser: /assets/images/projects/placeholder_small.jpeg
+  teaser: /assets/images/projects/teammaker-icon.webp
   actions:
     - label: "Launch App"
       url: "https://teambuddy.shahadat.us/"
@@ -14,9 +14,13 @@ sidebar:
   - title: "Download"
     text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/app/id6759995215){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.teammaker){: style='width: 33px; display: inline-block;'}"
   - title: "At a Glance"
-    image: /assets/images/projects/teammaker-logo.png
+    image: /assets/images/projects/teammaker-icon.webp
     image_alt: "Team Maker Buddy Logo"
     text: "**Role**: Sports Management  \n**Languages**: EN, ES, BN"
+gallery:
+  - url: /assets/images/projects/teammaker-screenshot.webp
+    image_path: /assets/images/projects/teammaker-screenshot.webp
+    alt: "Team Maker Buddy Screenshot"
 toc: true
 categories:
   - software
@@ -37,6 +41,10 @@ Everything you need to manage your sports community in one place.
 
 ### Why I built it
 I'm a big volleyball fan, but managing teams and rosters at the gym was always a mess. I built **Team Maker Buddy** because I was tired of spending twenty minutes just trying to get a fair game started. It started as a scrappy little tool for my local pickup group, but it’s grown into a professional management app used by coaches, referees, and league organizers around the world.
+
+## Screenshots
+
+{% include gallery %}
 
 ## Tech Stack
 - **Framework**: Flutter

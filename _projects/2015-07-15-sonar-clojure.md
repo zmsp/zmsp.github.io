@@ -2,7 +2,7 @@
 title: "Sonar-clojure plugin"
 excerpt: "A plugin that can detect security issues in clojure code"
 header:
-  teaser: /assets/images/projects/placeholder_small.jpeg
+  teaser: /assets/images/projects/placeholder_large.jpeg
 sidebar:
   - title: "Repository"
     text: "[![GitHub stars](https://img.shields.io/github/stars/zmsp/sonar-clojure?style=for-the-badge)](https://github.com/zmsp/sonar-clojure/stargazers)  \n[![GitHub forks](https://img.shields.io/github/forks/zmsp/sonar-clojure?style=for-the-badge)](https://github.com/zmsp/sonar-clojure)"
