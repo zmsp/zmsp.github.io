@@ -2,7 +2,6 @@
 layout: splash
 permalink: /
 hidden: true
-classes: wide
 header:
   overlay_image: /assets/images/unslpash/unsplash-image-3.jpg
   overlay_filter: 0.5
@@ -16,6 +15,13 @@ header:
     - label: "GitHub"
       url: "https://github.com/zmsp"
 feature_row:
+  - image_path: /assets/images/projects/tesla-portal-screen-1.webp
+    alt: "Tesla Infotainment Portal"
+    title: "Tesla Infotainment Portal"
+    excerpt: "Flutter Web SPA tailored for Tesla MCU2 hardware featuring clock & weather, flight tracker, local events lookup, and full-screen theater mode."
+    url: "/projects/2026-07-21-tesla-portal/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
   - image_path: /assets/images/projects/cardtrack-icon.webp
     alt: "CardTrack"
     title: "CardTrack"
@@ -28,13 +34,6 @@ feature_row:
     title: "TripTale Map"
     excerpt: "Privacy-first, offline-first travel journal and memory reconstruction app."
     url: "/projects/2026-07-17-triptale/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - image_path: /assets/images/projects/triviathon-icon.webp
-    alt: "Triviathon"
-    title: "Triviathon"
-    excerpt: "Fast-paced trivia and quiz game."
-    url: "/projects/2026-05-02-triviathon/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
 ---
