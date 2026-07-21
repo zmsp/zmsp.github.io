@@ -2,9 +2,9 @@
 title: "Mentoring Tech Interns"
 excerpt: "Strategies for building and running a successful internship program."
 header:
-  teaser: https://i.imgur.com/R7CbUmn.jpg
-  og_image: https://i.imgur.com/R7CbUmn.jpg
-  overlay_image: https://i.imgur.com/R7CbUmn.jpg
+  teaser: /assets/images/posts/mentoring-interns-heart.jpg
+  og_image: /assets/images/posts/mentoring-interns-heart.jpg
+  overlay_image: /assets/images/posts/mentoring-interns-heart.jpg
 categories:
   - How-To & Guides
 tags:

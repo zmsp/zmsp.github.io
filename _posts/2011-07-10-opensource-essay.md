@@ -1,7 +1,10 @@
 ---
 title: "Future of Open Source"
 excerpt: "A paper from school year"
-header: 
+header:
+    overlay_image: /assets/images/overlays/yosemite-mountains.webp
+    teaser: /assets/images/overlays/yosemite-mountains.webp
+    og_image: /assets/images/overlays/yosemite-mountains.webp
     overlay_color: "#8d9eba"
 categories:
   - Thoughts & Opinions

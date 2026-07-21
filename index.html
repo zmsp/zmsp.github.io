@@ -1,47 +1,42 @@
 ---
 layout: splash
-author_profile: false
+classes: wide
 header:
-  overlay_color: "#333"
-  overlay_filter: 0.6
   overlay_image: /assets/images/unslpash/unsplash-image-3.jpg
+  overlay_filter: 0.5
+  title: "TIL | ZOBAIR"
+  excerpt: "A journey through code and creativity. Hi there! I'm Zobair. I share my evolution through engineering experiments and learning."
   actions:
-    - label: "See What I'm Building"
+    - label: "Explore Projects"
       url: "/projects/"
-    - label: "Dive Into My Notes"
+    - label: "Read Notes"
       url: "/blogs/"
     - label: "GitHub"
       url: "https://github.com/zmsp"
-excerpt: "Hi there! I'm Zobair. I share my journey through code and creativity. Glad you are visiting!"
-home_recent_sections:
-  - title: "Projects"
-    excerpt: "Explore some of the things I've been working on lately, from AI experiments to handy developer tools."
-    collection: projects
-    limit: 3
-    view_all_label: "See All Projects"
-    view_all_url: "/projects/"
-  - title: "Learning Notes"
-    excerpt: "I love learning in public. Here are some of my recent notes and deep dives into the world of tech."
-    collection: posts
-    limit: 3
-    view_all_label: "Browse All Notes"
-    view_all_url: "/blogs/"
 ---
 
-{% for section in page.home_recent_sections %}
 <div class="archive">
-  <h2 class="archive__subtitle">{{ section.title }}</h2>
-  {% if section.excerpt %}
-    <p>{{ section.excerpt }}</p>
-  {% endif %}
+  <h2 class="archive__subtitle">Projects</h2>
+  <p>Explore featured software applications, from AI experiments to handy developer tools.</p>
   <div class="grid__wrapper">
-    {% assign entries = site[section.collection] | sort: 'date' | reverse %}
-    {% for post in entries limit:section.limit %}
-      {% include archive-single.html type="grid" %}
+    {% assign recent_projects = site.projects | sort: 'date' | reverse %}
+    {% for post in recent_projects limit: 4 %}
+    {% include archive-single.html type="grid" %}
     {% endfor %}
   </div>
-  {% if section.view_all_label %}
-    <p><a href="{{ section.view_all_url | relative_url }}" class="btn btn--primary">{{ section.view_all_label }}</a></p>
-  {% endif %}
+  <p style="margin-top: 1.5em;"><a href="{{ '/projects/' | relative_url }}" class="btn btn--primary">Browse All Projects</a></p>
 </div>
-{% endfor %}
+
+<hr style="margin: 3em 0; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.12);" />
+
+<div class="archive">
+  <h2 class="archive__subtitle">Learning Notes</h2>
+  <p>Here are my recent deep dives into the world of tech.</p>
+  <div class="entries-list">
+    {% assign recent_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in recent_posts limit: 5 %}
+    {% include archive-single.html type="list" %}
+    {% endfor %}
+  </div>
+  <p style="margin-top: 1.5em;"><a href="{{ '/blogs/' | relative_url }}" class="btn btn--primary">Browse All Learning Notes</a></p>
+</div>

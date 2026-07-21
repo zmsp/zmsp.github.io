@@ -2,6 +2,9 @@
 title: "Setting Up Antigravity IDE for Flutter Development on macOS"
 excerpt: "A complete walkthrough for configuring Google's Antigravity IDE with Flutter on macOS — from installing dependencies to building your first AI-assisted app."
 header:
+  overlay_image: /assets/images/overlays/volcano-crater.webp
+  teaser: /assets/images/overlays/volcano-crater.webp
+  og_image: /assets/images/overlays/volcano-crater.webp
   overlay_color: "#0d1117"
   overlay_filter: "0.6"
 categories:
@@ -15,8 +18,6 @@ tags:
   - AI
 toc: true
 ---
-
-# Setting Up Flutter + Google Antigravity on macOS (Apple Silicon)
 
 If you haven’t tried **Antigravity** yet, it’s Google’s new agentic IDE built on top of VS Code. Unlike basic autocomplete or chat assistants, Antigravity functions like a lightweight co-developer—it reads/writes files, handles terminal commands, installs packages, runs tests, and creates execution plans before touching your codebase.
 
@@ -32,10 +33,7 @@ Before diving in, make sure you have:
 * **Homebrew** installed. If you don't have it:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 ```
-
-
 * A Google account to sign into Antigravity.
 
 ---
@@ -46,14 +44,12 @@ The cleanest way to handle Flutter on macOS is through Homebrew:
 
 ```bash
 brew install flutter
-
 ```
 
 Confirm it’s installed and check your channels:
 
 ```bash
 flutter --version
-
 ```
 
 ---
@@ -74,7 +70,6 @@ sudo xcodebuild -runFirstLaunch
 
 # Accept the license agreement
 sudo xcodebuild -license accept
-
 ```
 
 > **Quick Tip:** Open Xcode manually at least once after installing. It will prompt you to install additional platform SDKs. Make sure to check the box for the **iOS SDK**.
@@ -87,7 +82,6 @@ CocoaPods manages native iOS dependencies for Flutter plugins. Grab it via Brew:
 
 ```bash
 brew install cocoapods
-
 ```
 
 ---
@@ -110,7 +104,6 @@ sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.1"
 
 # Final license agreement pass through Flutter
 flutter doctor --android-licenses
-
 ```
 
 ---
@@ -121,7 +114,6 @@ Run Flutter's diagnostic tool to ensure your environment is healthy:
 
 ```bash
 flutter doctor -v
-
 ```
 
 If you get green checkmarks across Flutter, Android, Xcode, and Chrome, you’re good to go.
@@ -145,7 +137,6 @@ If Antigravity doesn't pick up Flutter automatically, open **Settings** (`⌘ + 
 
 ```text
 /opt/homebrew/bin/flutter
-
 ```
 
 ### Enable the Dart/Flutter MCP Server
@@ -175,7 +166,6 @@ flutter run
 
 # Run on Chrome
 flutter run -d chrome
-
 ```
 
 ---
@@ -199,5 +189,4 @@ flutter doctor --android-licenses
 # Verification & Running
 flutter doctor -v
 flutter run
-
 ```

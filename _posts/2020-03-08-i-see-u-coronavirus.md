@@ -2,9 +2,9 @@
 title: "Visualizing COVID-19"
 excerpt: "Building a user-friendly data dashboard for pandemic transparency."
 header:
-  teaser: https://i.imgur.com/khtGild.png
-  og_image: https://i.imgur.com/khtGild.png
-  overlay_image: https://i.imgur.com/khtGild.png
+  teaser: /assets/images/posts/coronavirus-dashboard.png
+  og_image: /assets/images/posts/coronavirus-dashboard.png
+  overlay_image: /assets/images/posts/coronavirus-dashboard.png
 categories:
   - Projects & Case Studies
 tags:

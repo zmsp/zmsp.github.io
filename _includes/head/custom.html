@@ -1,3 +1,10 @@
+<!-- Google Fonts: Plus Jakarta Sans & Inter -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+  rel="stylesheet">
+
 <!-- Custom CSS for project icons, teasers, and horizontal preview images centering -->
 <style>
   /* Ensure project icon teasers in grid view are centered horizontally without cutoff */
@@ -53,5 +60,72 @@
     object-fit: contain !important;
     object-position: center !important;
     max-width: 100% !important;
+  }
+
+  /* Enforce base typography: Plus Jakarta Sans */
+  body,
+  html,
+  input,
+  button,
+  select,
+  textarea,
+  .page__title,
+  .archive__item-title,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  }
+
+  /* High contrast bright titles & headers */
+  .page__title,
+  .archive__item-title,
+  .archive__item-title a,
+  .archive__subtitle,
+  .taxonomy__title,
+  .taxonomy__section h2,
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .page__content h4,
+  .page__content h5,
+  .page__content h6,
+  .masthead__menu-item,
+  .site-title {
+    color: #e1e9f0 !important;
+  }
+
+  .archive__item-title a:hover,
+  .page__title a:hover {
+    color: #c9d5e3 !important;
+  }
+
+  /* Category taxonomy index links and count badges */
+  .taxonomy__index a {
+    color: #d7e7f7 !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  }
+
+  .taxonomy__index a:hover {
+    color: #f8ecec !important;
+    background-color: rgba(255, 255, 255, 0.22) !important;
+  }
+
+  .taxonomy__count {
+    color: #cbd5e1 !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+  }
+
+  /* Back to Top links */
+  .back-to-top {
+    color: #cbd5e1 !important;
+  }
+
+  .back-to-top:hover {
+    color: #ffffff !important;
   }
 </style>

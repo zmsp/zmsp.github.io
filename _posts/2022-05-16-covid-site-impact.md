@@ -31,7 +31,7 @@ I received an email saying the domain name zobairshahadat.com/coronavirus/ expir
 And then… I decided to look into the stats of the site and how much of an impact the site had. 
 I was surprised and decided to take a closer look. This was the impact as shown on the following screenshot. 
 
-![Pretty Data!](https://i.imgur.com/5RRMdh7.png)
+![Pretty Data!](/assets/images/posts/covid-impact-analytics.png)
 
 
 Calculated all the numbers to convert to hours. The total hours spent on sites by all users totaled 91 hours! Wow, that's something! 

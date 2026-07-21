@@ -4,9 +4,9 @@ excerpt: "Lessons learned from my first dives and the certification process."
 header:
   overlay_color: "#0000FF"  # Blue color for overlay
   overlay_filter: "0.5"
-  teaser: https://i.imgur.com/E3ji0eV.jpeg
-  og_image: https://i.imgur.com/E3ji0eV.jpeg
-  overlay_image: https://i.imgur.com/E3ji0eV.jpeg
+  teaser: /assets/images/posts/diving-scuba-reef.jpg
+  og_image: /assets/images/posts/diving-scuba-reef.jpg
+  overlay_image: /assets/images/posts/diving-scuba-reef.jpg
 categories:
   - How-To & Guides
 tags:

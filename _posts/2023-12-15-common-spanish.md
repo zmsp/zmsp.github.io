@@ -2,9 +2,9 @@
 title: "Essential Spanish Phrases"
 excerpt: "A practical language guide for navigating Spanish-speaking destinations."
 header:
-  teaser: https://i.imgur.com/dJmtw2V.jpeg
-  og_image: https://i.imgur.com/dJmtw2V.jpeg
-  overlay_image: https://i.imgur.com/dJmtw2V.jpeg
+  teaser: /assets/images/posts/common-spanish-pyramid.jpg
+  og_image: /assets/images/posts/common-spanish-pyramid.jpg
+  overlay_image: /assets/images/posts/common-spanish-pyramid.jpg
   overlay_filter: "0.5"
 categories:
   - How-To & Guides

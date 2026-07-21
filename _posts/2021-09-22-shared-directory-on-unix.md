@@ -2,9 +2,9 @@
 title: "Unix Shared Directories"
 excerpt: "A quick guide to managing file permissions for group collaboration."
 header:
-  teaser: https://i.imgur.com/R7CbUmn.jpg
-  og_image: https://i.imgur.com/R7CbUmn.jpg
-  overlay_image: https://i.imgur.com/R7CbUmn.jpg
+  teaser: /assets/images/overlays/grayscale-pond-grass.webp
+  og_image: /assets/images/overlays/grayscale-pond-grass.webp
+  overlay_image: /assets/images/overlays/grayscale-pond-grass.webp
 categories:
   - How-To & Guides
 tags:

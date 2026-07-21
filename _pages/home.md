@@ -2,37 +2,60 @@
 layout: splash
 permalink: /
 hidden: true
+classes: wide
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/unslpash/unsplash-image-3.jpg
+  overlay_filter: 0.5
+  title: "TIL | ZOBAIR"
+  excerpt: "A journey through code and creativity. Hi there! I'm Zobair. I share my evolution through engineering experiments and public learning."
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+    - label: "Explore Projects"
+      url: "/projects/"
+    - label: "Read Notes"
+      url: "/blogs/"
+    - label: "GitHub"
+      url: "https://github.com/zmsp"
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/projects/cardtrack-icon.webp
+    alt: "CardTrack"
+    title: "CardTrack"
+    excerpt: "Track credit card rewards, statement credits, bonus points, and merchant offers in one private dashboard."
+    url: "/projects/2026-07-21-cardtrack/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    btn_label: "Learn More"
+  - image_path: /assets/images/projects/triptale-icon.png
+    alt: "TripTale Map"
+    title: "TripTale Map"
+    excerpt: "Privacy-first, offline-first travel journal and memory reconstruction app."
+    url: "/projects/2026-07-17-triptale/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "Learn More"
+  - image_path: /assets/images/projects/triviathon-icon.webp
+    alt: "Triviathon"
+    title: "Triviathon"
+    excerpt: "Fast-paced trivia and quiz game."
+    url: "/projects/2026-05-02-triviathon/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn More"
 ---
 
+<div class="archive">
+  <h2 class="archive__subtitle">Projects</h2>
+  <p>Explore featured software applications, from AI experiments to handy developer tools.</p>
+</div>
+
 {% include feature_row %}
+
+<hr style="margin: 3em 0; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.12);" />
+
+<div class="archive">
+  <h2 class="archive__subtitle">Learning Notes</h2>
+  <p>Here are my recent deep dives into the world of tech.</p>
+  <div class="entries-list">
+    {% assign recent_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in recent_posts limit: 5 %}
+      {% include archive-single.html type="list" %}
+    {% endfor %}
+  </div>
+  <p style="margin-top: 1.5em;"><a href="{{ '/blogs/' | relative_url }}" class="btn btn--primary">Browse All Learning Notes</a></p>
+</div>

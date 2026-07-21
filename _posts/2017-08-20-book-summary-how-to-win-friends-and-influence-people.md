@@ -2,8 +2,8 @@
 title: "Review: How to Win Friends"
 excerpt: "Core takeaways from Dale Carnegie’s classic on human relations."
 header:
-  teaser: https://i.imgur.com/HCvLxDg.jpg
-  overlay_image: http://i.imgur.com/PrcdLnV.jpg
+  teaser: /assets/images/posts/win-friends-meme.jpg
+  overlay_image: /assets/images/posts/win-friends-overlay.jpg
 categories: 
   - Book Reviews & Summaries
 tags:
@@ -111,7 +111,7 @@ Tl;dr: Read the book and don't be the annoying guy.
 
 ### To hammer the nail
 
-![You can make more friends in two months by being interested in them, than in two years by making them interested in you](http://i.imgur.com/9Dvr1Mu.jpg "quote")
+![You can make more friends in two months by being interested in them, than in two years by making them interested in you](/assets/images/posts/win-friends-quote.jpg "quote")
 
 #### But don't become this guy --
 
