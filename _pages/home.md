@@ -15,6 +15,13 @@ header:
     - label: "GitHub"
       url: "https://github.com/zmsp"
 feature_row:
+  - image_path: /assets/images/projects/apprankly-screen-1.png
+    alt: "AppRankly"
+    title: "AppRankly"
+    excerpt: "Self-hosted mobile app store analytics pipeline, AI-powered ASO studio, and glassmorphic dashboard."
+    url: "/projects/2026-07-24-apprankly/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
   - image_path: /assets/images/projects/tesla-portal-screen-1.webp
     alt: "Tesla Infotainment Portal"
     title: "Tesla Infotainment Portal"
@@ -27,13 +34,6 @@ feature_row:
     title: "CardTrack"
     excerpt: "Track credit card rewards, statement credits, bonus points, and merchant offers in one private dashboard."
     url: "/projects/2026-07-21-cardtrack/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - image_path: /assets/images/projects/triptale-icon.png
-    alt: "TripTale Map"
-    title: "TripTale Map"
-    excerpt: "Privacy-first, offline-first travel journal and memory reconstruction app."
-    url: "/projects/2026-07-17-triptale/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
 ---
