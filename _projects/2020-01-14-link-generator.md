@@ -38,7 +38,7 @@ tags:
 
 Create shareable social network and messaging links for WhatsApp, Facebook, X/Twitter, LinkedIn, Instagram, TikTok, and more!
 
-![Link Generator Banner](/assets/images/projects/linkgenerator-header.webp)
+{% include figure image_path="/assets/images/projects/linkgenerator-header.webp" alt="Link Generator Banner" popup=true %}
 
 ## Features
 

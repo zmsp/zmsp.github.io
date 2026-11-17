@@ -47,7 +47,7 @@ tags:
 ## Tesla Portal
 
 **Tesla Portal** is a website designed specifically to run smoothly on your Tesla's in-car screen. It brings together everything you need into one clean, easy-to-use dashboard while you are on the road or parked.
-![Tesla Theater & AI Assistant Spotlight](/assets/images/projects/tesla-portal-screen-5.webp)
+{% include figure image_path="/assets/images/projects/tesla-portal-screen-5.webp" alt="Tesla Theater & AI Assistant Spotlight" popup=true %}
 ## Key Features
 
 * **Clock & Weather**: Shows the current time and your local weather side-by-side based on your zip code.

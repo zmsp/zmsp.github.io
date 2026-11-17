@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
-minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin: "catppuccin_latte" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale: "en-US"
@@ -122,10 +122,15 @@ author:
   bio: "Software Engineer"
   location: "United States"
   email: "zobair.career@gmail.com"
+  fediverse: "@zprimecreates@mastodon.social"
   links:
     - label: "X"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/zprimecreates"
+      rel: "me"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.social/@zprimecreates"
       rel: "me"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -136,8 +141,12 @@ author:
 footer:
   links:
     - label: "X"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/zprimecreates"
+      rel: "me"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.social/@zprimecreates"
       rel: "me"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -289,6 +298,8 @@ defaults:
       related: true
       show_date: true
       show_taxonomy: true # true (default), false
+      toc: true
+      toc_sticky: true
   # _pages
   - scope:
       path: ""
@@ -309,6 +320,8 @@ defaults:
       related: true
       show_date: true
       show_taxonomy: true # true (default), false
+      toc: true
+      toc_sticky: true
   # _docs
   - scope:
       path: ""

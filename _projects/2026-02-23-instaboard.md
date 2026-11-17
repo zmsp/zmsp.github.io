@@ -39,7 +39,7 @@ tags:
 
 **InstaBoard** is an AI-powered companion for organizing Instagram and web links. Tired of losing great tips in your "Saved" folder? Send them to InstaBoard and let our intelligent worker do the rest.
 
-![InstaBoard Banner](/assets/images/projects/instaboard-header.webp)
+{% include figure image_path="/assets/images/projects/instaboard-header.webp" alt="InstaBoard Banner" popup=true %}
 
 {: .notice--info}
 **The Story:** We've all been there—saving a recipe, a travel location, or an event on Instagram, only for it to get lost in a sea of bookmarked posts. InstaBoard was created to turn your "Saved" list into an actionable to-do list by extracting the core utility of every link you share.

@@ -37,7 +37,7 @@ The GoWild! pass rules are honestly confusing. Domestic flights only open up 1 d
 
 So I built **Frontier Helper** to keep track of all that for me. It shows available routes, the booking window calendar, and lets me pull up my boarding pass QR without digging through emails.
 
-![Frontier Helper Banner](/assets/images/projects/frontierhelper-header.webp)
+{% include figure image_path="/assets/images/projects/frontierhelper-header.webp" alt="Frontier Helper Banner" popup=true %}
 
 ## Key Features
 

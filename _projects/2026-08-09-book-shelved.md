@@ -37,7 +37,7 @@ I use Audiobookshelf to self-host my audiobook and ebook library, and there wasn
 
 **Book Shelved** (Shelved) is what I ended up building. It connects to your personal media server, handles both audiobooks and EPUBs, and tries to stay out of your way so you can just read or listen.
 
-![Book Shelved Banner](/assets/images/projects/bookshelved-header.webp)
+{% include figure image_path="/assets/images/projects/bookshelved-header.webp" alt="Book Shelved Banner" popup=true %}
 
 ## Key Features
 

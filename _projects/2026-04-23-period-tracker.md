@@ -37,7 +37,7 @@ tags:
 
 I built this minimalist period tracker for friends and family who wanted a 100% private alternative to mainstream apps. There are no accounts, cloud syncing, or data sharing—all data stays locally on your device.
 
-![Period Tracker Banner](/assets/images/projects/periodtracker-header.webp)
+{% include figure image_path="/assets/images/projects/periodtracker-header.webp" alt="Period Tracker Banner" popup=true %}
 
 ## Screenshots
 
