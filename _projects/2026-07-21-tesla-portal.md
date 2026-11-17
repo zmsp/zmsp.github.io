@@ -14,8 +14,11 @@ sidebar:
     image: /assets/images/projects/tesla-portal-icon.webp
     image_alt: "Tesla Infotainment Portal Logo"
     text: "**Category**: Automotive / Web SPA  \n**Target**: Tesla MCU2 (Chromium)  \n**Platform**: Web (Cloudflare Pages)"
-  - title: "Live Demo"
-    text: "[Launch Tesla Portal](https://teslaportal.pages.dev/){: .btn .btn--primary .btn--large}"
+  - title: "Links"
+    text: |
+      [Launch Web App](https://teslaportal.pages.dev/){: .btn .btn--primary .btn--block}
+
+      [Apps Page](https://apps.shahadat.us/apps/teslaportal/){: .btn .btn--info .btn--block}
 gallery:
   - url: /assets/images/projects/tesla-portal-screen-2.webp
     image_path: /assets/images/projects/tesla-portal-screen-2.webp
@@ -67,3 +70,5 @@ tags:
 * **Designed for Tesla**: Built using modern web tools optimized to load fast and run reliably inside the car's browser.
 * **Smart Saving**: Remember where you left off, even if the car temporarily puts the browser to sleep in the background.
 * **Free & Live**: Hosted online and completely free to use. You can access it directly at [https://teslaportal.pages.dev/](https://teslaportal.pages.dev/).
+
+{% include app-cta-box.html %}

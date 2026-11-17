@@ -1,22 +1,34 @@
 ---
-title: "Team Maker Buddy"
-excerpt: "Professional Squad Management. Fair Teams. Fast Games."
+title: "Team Maker Buddy (Captain's Team Maker)"
+excerpt: "Fair team generator & tournament roster manager for pickup sports, matches, and leagues."
 header:
   overlay_image: /assets/images/projects/teammaker-screenshot.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/teammaker-icon.webp
   actions:
-    - label: "Launch App"
+    - label: "App Store"
+      url: "https://apps.apple.com/us/app/captains-team-maker/id6759995215"
+    - label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=io.github.zmsp.teammaker"
+    - label: "Web App"
       url: "https://teambuddy.shahadat.us/"
 sidebar:
-  - title: "Links"
-    text: "[Web App](https://teambuddy.shahadat.us)  \n[Promo](https://teambuddy.shahadat.us/promo)"
-  - title: "Download"
-    text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/app/id6759995215){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.teammaker){: style='width: 33px; display: inline-block;'}"
-  - title: "At a Glance"
+  - title: "App Info"
     image: /assets/images/projects/teammaker-icon.webp
     image_alt: "Team Maker Buddy Logo"
-    text: "**Role**: Sports Management  \n**Languages**: EN, ES, BN"
+    text: "**Role**: Sports Management  \n**Languages**: EN, ES, BN  \n**Platform**: iOS, Android & Web"
+  - title: "Links"
+    text: |
+      [Web App](https://teambuddy.shahadat.us){: .btn .btn--primary .btn--block}
+
+      [Apps Page](https://apps.shahadat.us/apps/teammaker/){: .btn .btn--info .btn--block}
+
+      [Promo Page](https://teambuddy.shahadat.us/promo){: .btn .btn--info .btn--block}
+  - title: "Download"
+    text: |
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/captains-team-maker/id6759995215)
+
+      [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.teammaker)
 gallery:
   - url: /assets/images/projects/teammaker-screenshot.webp
     image_path: /assets/images/projects/teammaker-screenshot.webp
@@ -50,3 +62,5 @@ I'm a big volleyball fan, but managing teams and rosters at the gym was always a
 - **Framework**: Flutter
 - **Storage**: `shared_preferences`, `localstorage`
 - **UI Components**: `data_table_2` for advanced data management.
+
+{% include app-cta-box.html %}

@@ -1,13 +1,13 @@
 ---
-title: "CardTrack"
-excerpt: "Track credit card rewards, statement credits, bonus points, and merchant offers in one private dashboard."
+title: "CardTrack — Rewards & Credits Tracker"
+excerpt: "Track credit card rewards, statement credits, bonus points, and merchant offers in one private, offline-first dashboard."
 header:
   overlay_image: /assets/images/projects/cardtrack-screen-1.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/cardtrack-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/cardtrack/id6789731069"
+      url: "https://apps.apple.com/us/app/cardtrack-rewards-tracker/id6789731069"
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=io.github.zmsp.cardtrack"
 sidebar:
@@ -15,9 +15,11 @@ sidebar:
     image: /assets/images/projects/cardtrack-icon.webp
     image_alt: "CardTrack Logo"
     text: "**Category**: Finance  \n**Privacy**: 100% Local / Offline-First  \n**Platform**: iOS & Android"
+  - title: "Links"
+    text: "[Apps Page](https://apps.shahadat.us/apps/cardtrack/){: .btn .btn--info .btn--block}"
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/cardtrack/id6789731069)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/cardtrack-rewards-tracker/id6789731069)
 
       [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.cardtrack)
 feature_row:

@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/projects/bookshelved-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/shelved-audiobooks-books/id6798978127"
+      url: "https://apps.apple.com/us/app/shelved-audiobookshelf-reader/id6798978127"
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=io.github.zmsp.books"
 sidebar:
@@ -19,7 +19,7 @@ sidebar:
     text: "[Apps Page](https://apps.shahadat.us/apps/bookshelved/){: .btn .btn--info .btn--block}"
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/shelved-audiobooks-books/id6798978127)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/shelved-audiobookshelf-reader/id6798978127)
 
       [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.books)
 feature_row:

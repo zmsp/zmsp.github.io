@@ -1,28 +1,34 @@
 ---
-title: "TalkClosely"
-excerpt: "Deepen your connections."
+title: "TalkClosely (SparkPlay)"
+excerpt: "Curated conversation starters and quiz games to break past small talk and deepen connections."
 header:
   overlay_image: /assets/images/projects/talkclosely-screenshot.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/talkclosely-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/talkclosely/id6763404206"
+      url: "https://apps.apple.com/us/app/sparkplay-couples-game-quiz/id6763404206"
+    - label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=io.github.zmsp.closely"
     - label: "Web App"
       url: "https://closely.pages.dev/"
 sidebar:
   - title: "App Info"
     image: /assets/images/projects/talkclosely-icon.webp
     image_alt: "TalkClosely Logo"
-    text: "**Category**: Communication  \n**Platform**: iOS & Web"
+    text: "**Category**: Communication  \n**Platform**: iOS, Android & Web"
   - title: "Links"
     text: |
       [Web App](https://closely.pages.dev/){: .btn .btn--primary .btn--block}
 
+      [Apps Page](https://apps.shahadat.us/apps/talkclosely/){: .btn .btn--info .btn--block}
+
       [Promo Page](https://closely.pages.dev/promo){: .btn .btn--info .btn--block}
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/talkclosely/id6763404206)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/sparkplay-couples-game-quiz/id6763404206)
+
+      [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.closely)
 feature_row:
   - image_path: /assets/images/projects/talkclosely-screen-1.webp
     alt: "Curated Question Sets"
@@ -72,6 +78,6 @@ TalkClosely is an app I created to help people have more meaningful conversation
 
 - **Framework**: Flutter
 - **Hosting**: Cloudflare Pages (Web)
-- **Platforms**: iOS & Web
+- **Platforms**: iOS, Android & Web
 
 {% include app-cta-box.html %}

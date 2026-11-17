@@ -1,17 +1,23 @@
 ---
-title: "Triviathon"
-excerpt: "Fast-paced trivia and quiz game."
+title: "Triviathon — AI Quiz Party"
+excerpt: "Fast-paced trivia and multiplayer quiz game across endless topics with custom question packs and global leaderboards."
 header:
   overlay_image: /assets/images/projects/triviathon-screenshot.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/triviathon-icon.webp
+  actions:
+    - label: "App Store"
+      url: "https://apps.apple.com/us/app/triviathon-ai-quiz-party/id6786449581"
 sidebar:
   - title: "App Info"
     image: /assets/images/projects/triviathon-icon.webp
     image_alt: "Triviathon Logo"
-    text: "**Category**: Games & Entertainment  \n**Platform**: Mobile & Web"
-  - title: "Release Status"
-    text: "*Coming soon to the Apple App Store and Google Play.*"
+    text: "**Category**: Games & Entertainment  \n**Platform**: iOS & Web"
+  - title: "Links"
+    text: "[Apps Page](https://apps.shahadat.us/apps/triviathon/){: .btn .btn--info .btn--block}"
+  - title: "Download"
+    text: |
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/triviathon-ai-quiz-party/id6786449581)
 gallery:
   - url: /assets/images/projects/triviathon-screenshot.webp
     image_path: /assets/images/projects/triviathon-screenshot.webp
@@ -42,3 +48,5 @@ tags:
 
 - **Framework**: Flutter
 - **Backend**: Cloudflare Workers / Firebase
+
+{% include app-cta-box.html %}

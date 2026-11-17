@@ -6,8 +6,11 @@ header:
 sidebar:
   - title: "Available In"
     text: "**[Team Maker Buddy](https://teambuddy.shahadat.us/)**"
+  - title: "Links"
+    text: "[Apps Page](https://apps.shahadat.us/apps/teammaker/){: .btn .btn--info .btn--block}"
   - title: "Download"
-    text: "[![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.scoreboard){: style='width: 33px; display: inline-block;'}"
+    text: |
+      [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.scoreboard)
 toc: true
 categories:
   - software

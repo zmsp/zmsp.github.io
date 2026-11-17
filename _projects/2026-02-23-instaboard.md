@@ -1,13 +1,13 @@
 ---
-title: "InstaBoard"
-excerpt: "AI link organizer."
+title: "InstaBoard (SocialBoard) — Save Link & Media"
+excerpt: "AI-powered companion for organizing Instagram and web links. Extract recipes, locations, and events with one tap."
 header:
   overlay_image: /assets/images/projects/instaboard-header.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/instaboard-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/instaboard-link-saver/id6760332364"
+      url: "https://apps.apple.com/us/app/socialboard-save-link-media/id6760332364"
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=io.github.zmsp.instaboard"
     - label: "Web App"
@@ -21,10 +21,12 @@ sidebar:
     text: |
       [Web App](https://save.shahadat.us){: .btn .btn--primary .btn--block}
 
+      [Apps Page](https://apps.shahadat.us/apps/socialboard/){: .btn .btn--info .btn--block}
+
       [Promo Page](https://save.shahadat.us/promo){: .btn .btn--info .btn--block}
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/instaboard-link-saver/id6760332364)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/socialboard-save-link-media/id6760332364)
 
       [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.instaboard)
 feature_row:

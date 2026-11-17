@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/projects/receiptbox-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/receiptbox/id6802949285"
+      url: "https://apps.apple.com/us/app/receipt-baksho-scan-expense/id6802949285"
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=io.github.zmsp.receiptbox&hl=en_US"
 sidebar:
@@ -19,7 +19,7 @@ sidebar:
     text: "[Apps Page](https://apps.shahadat.us/apps/receiptbox/){: .btn .btn--info .btn--block}"
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/receiptbox/id6802949285)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/receipt-baksho-scan-expense/id6802949285)
 
       [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.receiptbox&hl=en_US)
 feature_row:

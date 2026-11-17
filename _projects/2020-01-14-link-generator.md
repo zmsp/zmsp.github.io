@@ -1,17 +1,32 @@
 ---
-title: "Link Generator"
-excerpt: "Create shareable social network and messaging links"
+title: "Link Generator (Linkify) — Bio Link & QR Code"
+excerpt: "Universal social link and WhatsApp deep link generator with custom QR codes and smart app deep linking."
 header:
   overlay_image: /assets/images/projects/linkgenerator-header.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/linkgenerator-icon.webp
+  actions:
+    - label: "App Store"
+      url: "https://apps.apple.com/us/app/linkify-bio-link-qr-code/id6760180889"
+    - label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=io.github.zmsp.link_generator"
+    - label: "GitHub"
+      url: "https://github.com/zmsp/link_generator"
 sidebar:
-  - title: "Download"
-    text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/linkify-link-generator/id6760180889){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.link_generator){: style='width: 33px; display: inline-block;'}"
-  - title: "At a Glance"
+  - title: "App Info"
     image: /assets/images/projects/linkgenerator-icon.webp
     image_alt: "Link Generator Logo"
-    text: "Create and share social links effortlessly."
+    text: "**Category**: Productivity  \n**Platform**: iOS, Android & Web"
+  - title: "Links"
+    text: |
+      [GitHub Repository](https://github.com/zmsp/link_generator){: .btn .btn--primary .btn--block}
+
+      [Apps Page](https://apps.shahadat.us/apps/linkgenerator/){: .btn .btn--info .btn--block}
+  - title: "Download"
+    text: |
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/linkify-bio-link-qr-code/id6760180889)
+
+      [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.link_generator)
 gallery:
   - url: /assets/images/projects/linkgenerator-screenshot.webp
     image_path: /assets/images/projects/linkgenerator-screenshot.webp
@@ -53,13 +68,8 @@ Create shareable social network and messaging links for WhatsApp, Facebook, X/Tw
 
 {% include gallery %}
 
-## Links
-
-[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/linkify-link-generator/id6760180889){: style="width: 80px;"}
-[![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.link_generator){: style="width: 66px;"}
-
-- **Source Code**: [GitHub Repository](https://github.com/zmsp/link_generator)
-
 ## Tech Stack
 
 - **Framework**: Flutter
+
+{% include app-cta-box.html %}

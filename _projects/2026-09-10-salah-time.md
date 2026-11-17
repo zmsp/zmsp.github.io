@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/projects/salahtime-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/salah-time/id6810905983"
+      url: "https://apps.apple.com/us/app/salah-time-prayer-app-lock/id6810905983"
     - label: "GitHub"
       url: "https://github.com/zmsp/salahtime"
 sidebar:
@@ -22,7 +22,7 @@ sidebar:
       [Apps Page](https://apps.shahadat.us/apps/salahtime/){: .btn .btn--info .btn--block}
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/salah-time/id6810905983)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/salah-time-prayer-app-lock/id6810905983)
 feature_row:
   - image_path: /assets/images/projects/salahtime-screen-1.webp
     alt: "Prayer Timetable Overview"

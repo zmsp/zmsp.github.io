@@ -7,7 +7,7 @@ header:
   teaser: /assets/images/projects/frontierhelper-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/frontier-helper/id6796272726"
+      url: "https://apps.apple.com/us/app/gowild-frontier-flight-pass/id6796272726"
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=io.github.zmsp.frontierhelper"
 sidebar:
@@ -19,7 +19,7 @@ sidebar:
     text: "[Apps Page](https://apps.shahadat.us/apps/frontierhelper/){: .btn .btn--info .btn--block}"
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/frontier-helper/id6796272726)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/gowild-frontier-flight-pass/id6796272726)
 
       [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.frontierhelper)
 feature_row:

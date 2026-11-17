@@ -1,23 +1,34 @@
 ---
 title: "Period Tracker"
-excerpt: "Minimal, private tracking."
+excerpt: "Privacy-first cycle & symptom tracker with 100% on-device data. No accounts, no cloud sync, and zero tracking."
 header:
   overlay_image: /assets/images/projects/periodtracker-header.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/periodtracker-icon.webp
   actions:
+    - label: "App Store"
+      url: "https://apps.apple.com/us/app/period-tracker-secure-privacy/id6763639084"
+    - label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=io.github.zmsp.periodtracker"
     - label: "Launch Web App"
       url: "https://periodcycle.pages.dev/"
 sidebar:
   - title: "App Info"
     image: /assets/images/projects/periodtracker-icon.webp
     image_alt: "Period Tracker Logo"
-    text: "**Category**: Health & Fitness  \n**Privacy**: 100% Local  \n**Platform**: iOS, Android & Web"
+    text: "**Category**: Health & Fitness  \n**Privacy**: 100% On-Device / Local  \n**Platform**: iOS, Android & Web"
   - title: "Links"
     text: |
       [Web App](https://periodcycle.pages.dev/){: .btn .btn--primary .btn--block}
 
+      [Apps Page](https://apps.shahadat.us/apps/periodtracker/){: .btn .btn--info .btn--block}
+
       [Promo Page](https://periodcycle.pages.dev/promo){: .btn .btn--info .btn--block}
+  - title: "Download"
+    text: |
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/period-tracker-secure-privacy/id6763639084)
+
+      [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.periodtracker)
 feature_row:
   - image_path: /assets/images/projects/period-screen-1.webp
     alt: "Period Tracker Cycle Calendar"

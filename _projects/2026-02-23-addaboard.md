@@ -1,13 +1,13 @@
 ---
-title: "AddaBoard"
-excerpt: "AI spatial planner."
+title: "AddaBoard — Trip & Event Spatial Planner"
+excerpt: "Visual spatial planner for turning saved ideas into plans. Extract recipes, itineraries, and events into an actionable board."
 header:
   overlay_image: /assets/images/projects/addaboard-screenshot.webp
   overlay_filter: 0.75
   teaser: /assets/images/projects/addaboard-icon.webp
   actions:
     - label: "App Store"
-      url: "https://apps.apple.com/us/app/adda-board-link-planner/id6760598074"
+      url: "https://apps.apple.com/us/app/addaboard-trip-event-plan/id6760598074"
     - label: "Google Play"
       url: "https://play.google.com/store/apps/details?id=io.github.zmsp.addaboard"
     - label: "Web App"
@@ -21,10 +21,12 @@ sidebar:
     text: |
       [Web App](https://addaboard.shahadat.us/){: .btn .btn--primary .btn--block}
 
+      [Apps Page](https://apps.shahadat.us/apps/addaboard/){: .btn .btn--info .btn--block}
+
       [Promo Page](https://addaboard.shahadat.us/promo){: .btn .btn--info .btn--block}
   - title: "Download"
     text: |
-      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/adda-board-link-planner/id6760598074)
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/addaboard-trip-event-plan/id6760598074)
 
       [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.addaboard)
 feature_row:

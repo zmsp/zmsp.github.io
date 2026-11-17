@@ -81,7 +81,7 @@ Rote repetition does not stick. Hermann Ebbinghaus's forgetting curve shows huma
 
 ## 4. Practice with TopWords
 
-I built [TopWords](https://apps.apple.com/us/app/topwords/id6821096763) to put this method into a clean, lightweight tool:
+I built [TopWords](https://apps.apple.com/us/app/topwords-frequency-vocabulary/id6821096763) to put this method into a clean, lightweight tool:
 
 - **Ranked by frequency:** Study high-yield words first.
 - **SRS engine:** Automatic review intervals so words stick.
