@@ -2,7 +2,7 @@
 title: "Link Generator"
 excerpt: "Create shareable social network and messaging links"
 header:
-  overlay_image: /assets/images/projects/linkgenerator-screenshot.webp
+  overlay_image: /assets/images/projects/linkgenerator-header.webp
   overlay_filter: 0.5
   teaser: /assets/images/projects/linkgenerator-icon.webp
 sidebar:
@@ -37,6 +37,8 @@ tags:
 ![App Icon](/assets/images/projects/linkgenerator-icon.webp){: .align-center style="width: 100px; display: block; margin: 0 auto 1.5rem;"}
 
 Create shareable social network and messaging links for WhatsApp, Facebook, X/Twitter, LinkedIn, Instagram, TikTok, and more!
+
+![Link Generator Banner](/assets/images/projects/linkgenerator-header.webp)
 
 ## Features
 

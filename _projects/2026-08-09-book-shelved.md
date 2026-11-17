@@ -2,7 +2,7 @@
 title: "Book Shelved"
 excerpt: "Personal library companion for streaming audiobooks and reading digital EPUB books."
 header:
-  overlay_image: /assets/images/projects/bookshelved-screen-1.webp
+  overlay_image: /assets/images/projects/bookshelved-header.webp
   overlay_filter: 0.5
   teaser: /assets/images/projects/bookshelved-icon.webp
 sidebar:
@@ -36,6 +36,8 @@ tags:
 I use Audiobookshelf to self-host my audiobook and ebook library, and there wasn't a great mobile client for it. Most apps either only do audiobooks or only do EPUBs, and the ones that do both are pretty clunky.
 
 **Book Shelved** (Shelved) is what I ended up building. It connects to your personal media server, handles both audiobooks and EPUBs, and tries to stay out of your way so you can just read or listen.
+
+![Book Shelved Banner](/assets/images/projects/bookshelved-header.webp)
 
 ## Key Features
 

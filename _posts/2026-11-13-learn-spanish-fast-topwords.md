@@ -4,9 +4,9 @@ excerpt: "Phrasebooks get you stuck. Learning the top 2,000 most common Spanish 
 date: 2026-11-13
 last_modified_at: 2026-11-13
 header:
-  teaser: /assets/images/projects/topwords-screen-1.webp
-  og_image: /assets/images/projects/topwords-screen-1.webp
-  overlay_image: /assets/images/projects/topwords-screen-1.webp
+  teaser: /assets/images/projects/topwords-icon.webp
+  og_image: /assets/images/projects/topwords-header.webp
+  overlay_image: /assets/images/projects/topwords-header.webp
   overlay_filter: "0.5"
   image_description: "TopWords Spanish flashcard app showing high-frequency vocabulary study session"
 categories:
@@ -93,6 +93,8 @@ The modern implementation of this idea is **FSRS** (Free Spaced Repetition Sched
 ---
 
 ## 4. TopWords: Study Only What Matters
+
+![TopWords App Banner](/assets/images/projects/topwords-header.webp)
 
 [TopWords](https://apps.apple.com/us/app/topwords/id6821096763) is a free mobile app built around one idea: learn the words that matter most, in the order your brain is ready to absorb them.
 

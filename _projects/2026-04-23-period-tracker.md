@@ -2,7 +2,7 @@
 title: "Period Tracker"
 excerpt: "Minimal, private tracking."
 header:
-  overlay_image: /assets/images/projects/period-tracker-screenshot.webp
+  overlay_image: /assets/images/projects/periodtracker-header.webp
   overlay_filter: 0.5
   teaser: /assets/images/projects/periodtracker-icon.webp
 sidebar:
@@ -36,6 +36,8 @@ tags:
 ---
 
 I built this minimalist period tracker for friends and family who wanted a 100% private alternative to mainstream apps. There are no accounts, cloud syncing, or data sharing—all data stays locally on your device.
+
+![Period Tracker Banner](/assets/images/projects/periodtracker-header.webp)
 
 ## Screenshots
 
