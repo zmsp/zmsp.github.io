@@ -15,7 +15,7 @@ header:
     - label: "GitHub"
       url: "https://github.com/zmsp"
 feature_row:
-  - image_path: /assets/images/projects/apprankly-screen-1.png
+  - image_path: /assets/images/projects/apprankly-screen-1.webp
     alt: "AppRankly"
     title: "AppRankly"
     excerpt: "Self-hosted mobile app store analytics pipeline, AI-powered ASO studio, and glassmorphic dashboard."

@@ -30,3 +30,25 @@ codekit-config.json
 _asset_bundler_cache
 _site
 attic
+# Tokless & AI Tools
+.codegraph/
+.codegraph.lock
+codegraph.json
+.projectmem/
+.projectmem.lock
+.pjm/
+RTK.md
+.rtk/
+rtk.toml
+.rtk.toml
+.headroom/
+headroom.log
+headroom.pid
+*.sock
+.context-mode/
+context.db*
+CLAUDE.local.md
+*.local.md
+.agents/scratch/
+.gemini/scratch/
+.cursor/scratch/

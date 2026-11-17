@@ -10,8 +10,8 @@ sidebar:
     image: /assets/images/projects/triviathon-icon.webp
     image_alt: "Triviathon Logo"
     text: "**Category**: Games & Entertainment  \n**Platform**: Mobile & Web"
-  - title: "Download"
-    text: "[![App Store](/assets/images/app-store-icon.svg)](#){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](#){: style='width: 33px; display: inline-block;'}"
+  - title: "Release Status"
+    text: "*Coming soon to the Apple App Store and Google Play.*"
 gallery:
   - url: /assets/images/projects/triviathon-screenshot.webp
     image_path: /assets/images/projects/triviathon-screenshot.webp

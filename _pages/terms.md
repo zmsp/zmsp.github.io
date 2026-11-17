@@ -1,6 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
+excerpt: "Terms of service and privacy policy for Zobair's website and software applications."
 last_modified_at: 2017-10-20T12:42:38-04:00
 toc: true
 ---

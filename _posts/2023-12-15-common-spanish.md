@@ -61,9 +61,9 @@ With these phrases in your pocket, you're not just another tourist but a travele
 
 
 
-# More advanced phrases for different scenes
+## More advanced phrases for different scenes
 
-Including phrases based on the top 100 words in the Spanish language expands our list significantly. Here’s an extended table of phrases, categorized by situation and including a pronunciation guide:
+Including phrases based on the top 100 words in the Spanish language expands our list significantly. Here's an extended table of phrases, categorized by situation and including a pronunciation guide:
 Here is the table divided into categories based on different occasions or scenes where you might use these phrases:
 
 ### Expressing Gratitude
@@ -122,4 +122,3 @@ Here is the table divided into categories based on different occasions or scenes
 | English Translation                       | Spanish Phrase                          | Pronunciation (Phonetic Approximation)    |
 |------------------------------------------|-----------------------------------------|-------------------------------------------|
 | How much does it cost?                   | ¿Cuánto cuesta?                         | KWAN-toh KWEHS-tah?                       |
-

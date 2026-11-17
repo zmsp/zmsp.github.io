@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Sitemap"
+excerpt: "Complete overview of all articles, technical notes, and software projects published by Zobair."
 permalink: /sitemap/
 author_profile: false
 ---

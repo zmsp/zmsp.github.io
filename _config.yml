@@ -19,9 +19,9 @@ locale: "en-US"
 title: "TIL" 
 title_separator: "-"
 subtitle: "Projects, Lessons, and Adventures" # site tagline that appears below site title in masthead
-name: "Zobair Shahadat"
+name: "Zobair "
 description: "Exploring Tech, Nature, and Beyond"
-url: "https://zobairshahadat.com"
+url: "https://www.zobairshahadat.com"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "zmsp/zmsp.github.io"
 teaser: "/assets/images/500x300_preview.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -54,10 +54,10 @@ comments:
     reactions_enabled: "1" # '1' for enabled (default), '0' for disabled
     theme: "transparent_dark" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
     strict: 0 # 1 for enabled, 0 for disabled (default)
-    input_position: # "top", "bottom" # The comment input box will be placed above or below the comments
+    input_position: "top" # "top", "bottom" # The comment input box will be placed above or below the comments
     emit_metadata: # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
     lang: # "en" (default)
-    lazy: # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    lazy: true # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch: # "master"
     endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -87,23 +87,22 @@ naver_site_verification:
 baidu_site_verification:
 # Social Sharing
 twitter:
-  username: "taylorswift13"
+  username: "zprimecreates"
 facebook:
   username:
   app_id:
   publisher:
 og_image: "/assets/images/site-logo.png" # Open Graph/Twitter default site image
-og_image_alt: "Site Logo"
-twitter_image_alt: "Site Logo"
+og_image_alt: "Zobair — Software Engineer & Builder"
+twitter_image_alt: "Zobair — Software Engineer & Builder"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: "Person" # Person or Organization (defaults to Person)
-  name: "Zobair Shahadat" # If the user or organization name differs from the site's name
+  name: "Zobair" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://github.com/zmsp"
-    - "https://www.linkedin.com/in/zshahadat"
-    - "https://twitter.com/littlebigcoder"
+    - "https://x.com/zprimecreates"
 
 # Fediverse Support
 fediverse:
@@ -114,11 +113,11 @@ analytics:
   provider: "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id: "G-TF5LP477RR"
-    anonymize_ip: # true, false (default)
+    anonymize_ip: true # true, false (default)
 
 # Site Author
 author:
-  name: "Zobair Shahadat"
+  name: "Zobair "
   avatar: "https://avatars0.githubusercontent.com/u/949058?v=3&s=560"
   bio: "Software Engineer"
   location: "United States"
@@ -126,7 +125,7 @@ author:
   links:
     - label: "X"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/littlebigcoder"
+      url: "https://x.com/zprimecreates"
       rel: "me"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -138,7 +137,7 @@ footer:
   links:
     - label: "X"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/littlebigcoder"
+      url: "https://x.com/zprimecreates"
       rel: "me"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

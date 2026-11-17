@@ -16,7 +16,7 @@ toc: true
 
 tldr- I created a COVID-19 tracker called zobairshahadat.com/coronavirus/ and it had 91 hours of total user engagement before the domain name expired.
 
-# The story
+## The story
 
 
 I was sitting in my room, scrolling through my phone when I saw the news. Another outbreak of a new virus. This one was called Covid-19. I immediately thought of my family and friends and how this could affect them. I decided to do something about it by writing a covid stat tracking application. 
@@ -31,7 +31,7 @@ I received an email saying the domain name zobairshahadat.com/coronavirus/ expir
 And then… I decided to look into the stats of the site and how much of an impact the site had. 
 I was surprised and decided to take a closer look. This was the impact as shown on the following screenshot. 
 
-![Pretty Data!](/assets/images/posts/covid-impact-analytics.png)
+![Pretty Data!](/assets/images/posts/covid-impact-analytics.webp)
 
 
 Calculated all the numbers to convert to hours. The total hours spent on sites by all users totaled 91 hours! Wow, that's something! 

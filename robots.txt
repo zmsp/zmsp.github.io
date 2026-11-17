@@ -1,0 +1,12 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+# Internal files
+Disallow: /attic/
+Disallow: /scratch/
+
+# Sitemap location
+Sitemap: {{ site.url }}/sitemap.xml

@@ -49,4 +49,4 @@ print(f"Current Charge: {charge_state}%")
 ```
 
 ## Legal Disclaimer
-This program is not supported or endorsed by Tesla Motors. By using this software, you agree to not hold the author (Zobair Shahadat) liable for any issues.
+This program is not supported or endorsed by Tesla Motors. By using this software, you agree to not hold the author (Zobair) liable for any issues.

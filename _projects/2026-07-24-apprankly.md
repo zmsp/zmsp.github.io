@@ -2,25 +2,25 @@
 title: "AppRankly — Mobile App Store Analytics & ASO Dashboard"
 excerpt: "Self-hosted analytics pipeline, AI-powered App Store Optimization (ASO) studio, and glassmorphic web dashboard for tracking mobile app performance across Google Play & Apple App Store."
 header:
-  overlay_image: /assets/images/projects/apprankly-screen-1.png
+  overlay_image: /assets/images/projects/apprankly-screen-1.webp
   overlay_filter: 0.5
-  teaser: /assets/images/projects/apprankly-icon.png
+  teaser: /assets/images/projects/apprankly-icon.webp
 sidebar:
   - title: "App Info"
-    image: /assets/images/projects/apprankly-icon.png
+    image: /assets/images/projects/apprankly-icon.webp
     image_alt: "AppRankly Logo"
     text: "**Category**: Mobile Analytics / Dev Tools  \n**License**: MIT Open Source  \n**Platform**: Web (Docker, Unraid, Node.js)"
   - title: "Links"
     text: "[GitHub Repository](https://github.com/zmsp/AppRankly){: .btn .btn--primary .btn--large}\n\n[Live Interactive Demo](https://zmsp.github.io/AppRankly/#demo){: .btn .btn--success .btn--large}\n\n[Apps Page](https://apps.shahadat.us/apps/apprankly/){: .btn .btn--info .btn--large}\n\n[Unraid App Listing](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy){: .btn .btn--warning .btn--large}"
 gallery:
-  - url: /assets/images/projects/apprankly-screen-1.png
-    image_path: /assets/images/projects/apprankly-screen-1.png
+  - url: /assets/images/projects/apprankly-screen-1.webp
+    image_path: /assets/images/projects/apprankly-screen-1.webp
     alt: "Unified Analytics Dashboard Overview"
-  - url: /assets/images/projects/apprankly-screen-2.png
-    image_path: /assets/images/projects/apprankly-screen-2.png
+  - url: /assets/images/projects/apprankly-screen-2.webp
+    image_path: /assets/images/projects/apprankly-screen-2.webp
     alt: "Detailed App Metrics & Daily Trends"
-  - url: /assets/images/projects/apprankly-screen-3.png
-    image_path: /assets/images/projects/apprankly-screen-3.png
+  - url: /assets/images/projects/apprankly-screen-3.webp
+    image_path: /assets/images/projects/apprankly-screen-3.webp
     alt: "AI-Powered ASO Keyword & Metadata Studio"
 toc: true
 categories:
@@ -38,13 +38,13 @@ tags:
 > **Live Demo**: Try the interactive web dashboard instantly: **[AppRankly Live Demo](https://zmsp.github.io/AppRankly/#demo)** *(Running in simulated demo mode with sample data)*  
 > **Links**: [GitHub Repository](https://github.com/zmsp/AppRankly) | [Apps Directory](https://apps.shahadat.us/apps/apprankly/) | [Unraid Store](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy)
 
-# AppRankly
+## AppRankly
 
 **AppRankly** is an open-source, self-hosted dashboard built to simplify how you track your mobile apps. Instead of jumping back and forth between developer consoles, AppRankly pulls data directly from Google Cloud Storage (Google Play) and the App Store Connect API to give you a single, clean overview of your app performance.
 
 It also includes a built-in AI assistant to help you optimize your App Store Optimization (ASO) strategy without relying on expensive monthly subscriptions.
 
-![AppRankly Overview Dashboard](/assets/images/projects/apprankly-screen-1.png)
+![AppRankly Overview Dashboard](/assets/images/projects/apprankly-screen-1.webp)
 
 ## Key Features
 

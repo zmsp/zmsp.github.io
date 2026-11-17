@@ -44,7 +44,7 @@ tags:
 > **How to Use**: Load your in-car Tesla Web Browser and navigate to **[https://teslaportal.pages.dev/](https://teslaportal.pages.dev/)**
 
 
-# Tesla Portal
+## Tesla Portal
 
 **Tesla Portal** is a website designed specifically to run smoothly on your Tesla's in-car screen. It brings together everything you need into one clean, easy-to-use dashboard while you are on the road or parked.
 ![Tesla Theater & AI Assistant Spotlight](/assets/images/projects/tesla-portal-screen-5.webp)

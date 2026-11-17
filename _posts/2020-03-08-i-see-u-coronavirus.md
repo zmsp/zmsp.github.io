@@ -2,9 +2,9 @@
 title: "Visualizing COVID-19"
 excerpt: "Building a user-friendly data dashboard for pandemic transparency."
 header:
-  teaser: /assets/images/posts/coronavirus-dashboard.png
-  og_image: /assets/images/posts/coronavirus-dashboard.png
-  overlay_image: /assets/images/posts/coronavirus-dashboard.png
+  teaser: /assets/images/posts/coronavirus-dashboard.webp
+  og_image: /assets/images/posts/coronavirus-dashboard.webp
+  overlay_image: /assets/images/posts/coronavirus-dashboard.webp
 categories:
   - Projects & Case Studies
 tags:
@@ -15,23 +15,23 @@ tags:
 ---
 I built this web app with the motivation of visualizing the data that’s easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus.
 
-# This page documents the motivation and the process behind building a webapp using COVID-19 data. 
+## This page documents the motivation and the process behind building a webapp using COVID-19 data. 
 App : [zobairshahadat.com/coronavirus/](https://zobairshahadat.com/coronavirus/)
 
-# Code
+## Code
 If you are here for the code, its visible on this repository https://github.com/zmsp/coronavirusdashboard/tree/master/flutter_code
 
 
-# Why I built this?
+## Why I built this?
 
 I built this [web app](https://zobairshahadat.com/coronavirus/)  with the motivation of visualizing the data that's easy to read and user friendly. At the time of when I started building this webapp, there were not many relevent sources except JHU. My goal was to provide insights on coronavirus and help people with information.
 
-# Analytics 
+## Analytics 
 Here are some insights on death rate, recovery rate and population infection rate by countries. 
 
 <iframe width="800" height="650" src="https://datastudio.google.com/embed/reporting/8b0b2857-1f24-4e1f-b4e9-df7082dafe72/page/8sXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-# Raw Data:
+## Raw Data:
 You can explore the raw data from here
 <iframe width="800" height="650" src="https://datastudio.google.com/embed/reporting/b9437400-6abc-431e-a608-cdbb988fa6a8/page/tzXIB" frameborder="0" style="border:0" allowfullscreen></iframe>
 

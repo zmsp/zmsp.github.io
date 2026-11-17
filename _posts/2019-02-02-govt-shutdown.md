@@ -23,7 +23,7 @@ Government shutdowns can have a big impact on the software industry. Some specif
 * Tech revenue goes down during
 
 
-# Main event
+## Main event
 
 Starting on December 22, the US Government was shut down for the longest period of time of 35 days. This article lists the effect of the government shutdown on software industry but before we go further let's start with why government shutdown happens.
 
@@ -62,7 +62,7 @@ I am aware of a project dealing with Oceanic and Atmospheric data project team. 
 Furthermore, data collections stop. Due to a government shutdown, data can't be collected when the linked specific government offices are closed. Which causes an information gap,
 
 ### Transportation industry becomes less efficient:
-![alt text](/assets/images/posts/govt-shutdown-seattle.jpg "Transportation")
+![Seattle transportation during government shutdown](/assets/images/posts/govt-shutdown-seattle.jpg "Transportation")
 
 Generally, transportation is an essential part of most jobs including software industry. Transportation industry becomes less efficient during the shutdown. Some specific examples include-*   TSA employees (people who check your bag at the airport for a bomb) were not showing up resulting in huge lines during flight check-in, and flights get delayed or canceled.
 *   Many of the transit safely inspectors stop working resulting in risk in safety.
@@ -80,7 +80,7 @@ For instance, NIST, an organization that's responsible for measurements, standar
 Government is a big source of money circulation and government shutdown showed an ill effect on all of the tech companies due to people/businesses not spending. You can easily observe this data by looking at the stock data. Microsoft (MSFT), stock during the government shutdown fall 34% from it's highest peak. The same pattern is seen on Microsoft(MSFT) and Amazon.com (AMZN) and many other tech company stocks.
 ush
 Data Link: [Yahoo finance](https://goo.gl/xNNNRi)
-![alt text](/assets/images/posts/govt-shutdown-stocks.png "Stock data during government shutdown")
+![Stock market performance during government shutdown](/assets/images/posts/govt-shutdown-stocks.webp "Stock data during government shutdown")
 
 ### Other indirect effects on people:
 

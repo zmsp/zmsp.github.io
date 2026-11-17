@@ -12,13 +12,13 @@ tags:
   - WebDevelopment
   - FrontendDevelopment
 ---
-# tldr: 
+## tldr: 
 - Do not edit Extjs core.
 - Do not use ID.
 - Keep your code clean and simple.
 - Learn and use debugging tools.
 
-# Extjs 
+## Extjs 
 
 After coding in ExtJs for more then a year, these are my tips. Some of these are from readings others are personal experience. 
 
@@ -63,7 +63,7 @@ If you find yourself writing same code over the second time, find a way to expor
 Learn chrome debugging tools, and familiarize yourself with javascript debugging tools. 
 
 
-# EXT JS resources
+## EXT JS resources
 - <http://docs.sencha.com/extjs/4.2.2/#!/example/sandbox/sandbox.html> Live code example. Helpful if you want to play around with code without setting up a dev environment. 
 - <https://docs.sencha.com/extjs/4.2.6/> Docs
 

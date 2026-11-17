@@ -14,17 +14,17 @@ tags:
 Lists of my experiece as of this day. 
 
 
-# Docker
+## Docker
 * Containerized Oracle 12 using docker-compose.
 * Containerized SVN server
 * Containerized [NodeJS app](https://github.com/zmsp/docker-nodejs-git) 
 * Created, and maintained various dockerized app including Gitlab, Nexus (maven repo mirror), Jenkins, Docker repository and more.  
 
-# Clojure/Clojure Script
+## Clojure/Clojure Script
 * Created a clojure code linting plugin for Sonar-Qube. [Sonar-Clojure](https://github.com/zmsp/sonar-clojure)
 * Created a clojure-script web app for gamification of tasks for training new team members in our organization.
 
-# Java
+## Java
 About 1.5 years of experience in java and knowledge in the following areas.
 * Database and JDBC
 * Rest
@@ -32,7 +32,7 @@ About 1.5 years of experience in java and knowledge in the following areas.
 * JSP
 * Jboss
 
-# Javascript
+## Javascript
 Knowledge in the following areas in the order of experience
 * ExtJs
 * React Native
@@ -46,7 +46,7 @@ Knowledge in the following areas in the order of experience
 * Created internet speed test tool in Javascript.
 * Created a video chat web application using webRTC and react js using pubnub backend. 
 
-# Other Technologies
+## Other Technologies
 * IBM Data power programming and automation
 * Postgres
 * Ozone Widget Framework

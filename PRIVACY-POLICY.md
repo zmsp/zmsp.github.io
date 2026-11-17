@@ -1,13 +1,20 @@
+---
+layout: single
+title: "Privacy Policy"
+permalink: /privacy/
+sitemap: false
+---
+
 Privacy Policy
 ==============
 
 Effective date: July 30, 2018
 
-TLI-Zobair ("us", "we", or "our") operates the zmsp.github.io website (the "Service").
+TLI-Zobair ("us", "we", or "our") operates the www.zobairshahadat.com website (the "Service").
 
-This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. This Privacy Policy for TLI-Zobair is powered by [FreePrivacyPolicy.com](https://www.freeprivacypolicy.com/free-privacy-policy-generator.php).
+This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from zmsp.github.io
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from www.zobairshahadat.com/terms/
 
 Information Collection And Use
 ------------------------------

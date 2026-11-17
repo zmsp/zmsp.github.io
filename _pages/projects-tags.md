@@ -1,5 +1,6 @@
 ---
 title: "Projects by Tag"
+excerpt: "Browse software projects, developer tools, and applications organized by technology and tag."
 permalink: /projects/tags/
 layout: archive
 author_profile: true
