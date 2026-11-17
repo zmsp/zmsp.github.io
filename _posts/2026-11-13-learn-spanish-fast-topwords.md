@@ -20,6 +20,9 @@ tags:
   - Spaced Repetition
   - TopWords
 toc: true
+toc_sticky: true
+toc_label: "In This Guide"
+author_profile: false
 ---
 
 Phrasebooks teach scripted questions like *"¿Dónde está el baño?"*, but fail the moment a native speaker responds at normal speed. 
@@ -34,6 +37,7 @@ Languages follow a power law. Instead of memorizing random vocabulary themes (co
 
 - **Top 1,000 words:** cover ~80% of everyday spoken Spanish.
 - **Top 2,000 words:** cover ~97% of daily conversation.
+{: .notice--info}
 
 Once you know the top 2,000 words, you can infer unknown words from context and carry natural conversations without stalling.
 
@@ -52,7 +56,8 @@ Combine high-frequency anchor verbs with any infinitive:
 | **Necesito** | I need | *Necesito encontrar mi hotel.* (I need to find my hotel.) |
 | **Voy a** | I'm going to | *Voy a comer.* (I'm going to eat.) |
 
-`[Quiero / Necesito / Voy a] + [Infinitive]` expresses almost any intent without conjugating.
+**Formula:** `[Quiero / Necesito / Voy a] + [Infinitive]` expresses almost any intent without conjugating.
+{: .notice--info}
 
 ### Instant Cognates
 English and Spanish share thousands of Latin roots. Convert English words into Spanish with these reliable patterns:
@@ -83,6 +88,6 @@ I built [TopWords](https://apps.apple.com/us/app/topwords/id6821096763) to put t
 - **100% offline & private:** No accounts, no subscriptions, no ads, no cloud sync needed.
 - **Native audio:** Listen to correct pronunciation for each card.
 
-[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/topwords/id6821096763){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.topwords){: style='width: 33px; display: inline-block; margin-right: 10px;'} Or use the free [Web App](https://topwords.pages.dev).
+{% include app-cta-box.html project="topwords" %}
 
 For quick travel survival phrases, see [Essential Spanish Phrases]({% post_url 2023-12-15-common-spanish %}).

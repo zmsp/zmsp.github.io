@@ -3,17 +3,34 @@ title: "Frontier Helper"
 excerpt: "The ultimate flight, route, and booking window companion for Frontier GoWild! pass holders."
 header:
   overlay_image: /assets/images/projects/frontierhelper-header.webp
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   teaser: /assets/images/projects/frontierhelper-icon.webp
+  actions:
+    - label: "App Store"
+      url: "https://apps.apple.com/us/app/frontier-helper/id6796272726"
+    - label: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=io.github.zmsp.frontierhelper"
 sidebar:
   - title: "App Info"
     image: /assets/images/projects/frontierhelper-icon.webp
     image_alt: "Frontier Helper Logo"
     text: "**Category**: Travel  \n**Privacy**: 100% On-Device  \n**Platform**: iOS & Android"
   - title: "Links"
-    text: "[Apps Page](https://apps.shahadat.us/apps/frontierhelper/){: .btn .btn--info .btn--large}"
+    text: "[Apps Page](https://apps.shahadat.us/apps/frontierhelper/){: .btn .btn--info .btn--block}"
   - title: "Download"
-    text: "[![App Store](/assets/images/app-store-icon.svg)](https://apps.apple.com/us/app/frontier-helper/id6796272726){: style='width: 40px; display: inline-block; margin-right: 10px;'} [![Google Play](/assets/images/google-play-icon.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.frontierhelper){: style='width: 33px; display: inline-block;'}"
+    text: |
+      [![App Store](/assets/images/app-store-badge.svg)](https://apps.apple.com/us/app/frontier-helper/id6796272726)
+
+      [![Google Play](/assets/images/google-play-badge.svg)](https://play.google.com/store/apps/details?id=io.github.zmsp.frontierhelper)
+feature_row:
+  - image_path: /assets/images/projects/frontierhelper-screen-1.webp
+    alt: "GoWild Route & Flight Finder"
+    title: "Route & Flight Finder"
+    excerpt: "Discover eligible Frontier routes across North America and search available flights from your home base airport."
+  - image_path: /assets/images/projects/frontierhelper-screen-2.webp
+    alt: "Booking Window & Blackout Calendar"
+    title: "Booking Window Calendar"
+    excerpt: "Track domestic and international booking windows alongside official GoWild blackout dates on an interactive calendar."
 gallery:
   - url: /assets/images/projects/frontierhelper-screen-1.webp
     image_path: /assets/images/projects/frontierhelper-screen-1.webp
@@ -21,7 +38,6 @@ gallery:
   - url: /assets/images/projects/frontierhelper-screen-2.webp
     image_path: /assets/images/projects/frontierhelper-screen-2.webp
     alt: "Booking Window & Blackout Calendar"
-toc: true
 categories:
   - software
 tags:
@@ -41,6 +57,8 @@ So I built **Frontier Helper** to keep track of all that for me. It shows availa
 
 ## Key Features
 
+{% include feature_row %}
+
 * **GoWild! Route & Flight Finder**: Discover eligible Frontier routes across North America and Latin America, and search available flights from your home base airport.
 * **Booking Window & Blackout Calendar**: Track domestic (0–2 days) and international (0–11 days) booking windows alongside official GoWild blackout dates on an interactive calendar.
 * **Traveler Pass & Boarding Pass Wallet**: Save Frontier IDs, TSA PreCheck numbers, and scan or crop boarding pass QR codes securely right on your device.
@@ -57,3 +75,5 @@ So I built **Frontier Helper** to keep track of all that for me. It shows availa
 * **Data & Storage**: SQLite & On-Device Caching
 * **Flight Data**: ADS-B Telemetry & Route Graph Engine
 * **Platforms**: iOS (iPhone & iPad) & Android
+
+{% include app-cta-box.html %}

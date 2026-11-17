@@ -3,7 +3,7 @@ title: "Tesla Infotainment Portal"
 excerpt: "A Flutter Web SPA designed and optimized specifically for Tesla MCU2 hardware, featuring clock & weather, flight tracking, local events lookup, AI tools, and full-screen theater mode."
 header:
   overlay_image: /assets/images/projects/tesla-portal-screen-1.webp
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   og_image: /assets/images/projects/tesla-portal-screen-1.webp
   teaser: /assets/images/projects/tesla-portal-icon.webp
   actions:

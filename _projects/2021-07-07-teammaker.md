@@ -3,7 +3,7 @@ title: "Team Maker Buddy"
 excerpt: "Professional Squad Management. Fair Teams. Fast Games."
 header:
   overlay_image: /assets/images/projects/teammaker-screenshot.webp
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   teaser: /assets/images/projects/teammaker-icon.webp
   actions:
     - label: "Launch App"

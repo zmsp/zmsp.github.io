@@ -1,28 +1,47 @@
 ---
-title: "AppRankly — Mobile App Store Analytics & ASO Dashboard"
-excerpt: "Self-hosted analytics pipeline, AI-powered App Store Optimization (ASO) studio, and glassmorphic web dashboard for tracking mobile app performance across Google Play & Apple App Store."
+title: "AppRankly — Open-Source App Store Analytics & ASO Studio"
+excerpt: "Stop constantly switching between App Store Connect and Google Play Console. AppRankly brings your iOS and Android performance metrics together into a single, self-hosted dashboard."
 header:
   overlay_image: /assets/images/projects/apprankly-screen-1.webp
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   teaser: /assets/images/projects/apprankly-icon.webp
+  actions:
+    - label: "GitHub"
+      url: "https://github.com/zmsp/AppRankly"
+    - label: "Live Demo"
+      url: "https://zmsp.github.io/AppRankly/#demo"
 sidebar:
   - title: "App Info"
     image: /assets/images/projects/apprankly-icon.webp
     image_alt: "AppRankly Logo"
-    text: "**Category**: Mobile Analytics / Dev Tools  \n**License**: MIT Open Source  \n**Platform**: Web (Docker, Unraid, Node.js)"
+    text: "**Category**: Developer Tools  \n**License**: MIT Open Source  \n**Platform**: Self-Hosted Web, Docker & Unraid"
   - title: "Links"
-    text: "[GitHub Repository](https://github.com/zmsp/AppRankly){: .btn .btn--primary .btn--large}\n\n[Live Interactive Demo](https://zmsp.github.io/AppRankly/#demo){: .btn .btn--success .btn--large}\n\n[Apps Page](https://apps.shahadat.us/apps/apprankly/){: .btn .btn--info .btn--large}\n\n[Unraid App Listing](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy){: .btn .btn--warning .btn--large}"
+    text: |
+      [GitHub Repository](https://github.com/zmsp/AppRankly){: .btn .btn--primary .btn--block}
+
+      [Live Interactive Demo](https://zmsp.github.io/AppRankly/#demo){: .btn .btn--success .btn--block}
+
+      [Apps Page](https://apps.shahadat.us/apps/apprankly/){: .btn .btn--info .btn--block}
+
+      [Unraid App Listing](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy){: .btn .btn--warning .btn--block}
+
+      [Docker Container](https://github.com/zmsp/AppRankly/pkgs/container/apprankly){: .btn .btn--danger .btn--block}
+feature_row:
+  - image_path: /assets/images/projects/apprankly-screen-1.webp
+    alt: "Unified Analytics Dashboard Overview"
+    title: "Unified App Store Metrics"
+    excerpt: "Pull data directly from Google Cloud Storage (Google Play) and the App Store Connect API into a single clean performance overview."
+  - image_path: /assets/images/projects/apprankly-screen-2.webp
+    alt: "AI-Powered ASO Keyword & Metadata Studio"
+    title: "AI-Powered ASO Studio"
+    excerpt: "Discover keyword ideas using live store autocomplete data, run listing health checks, and draft metadata with OpenAI, Anthropic, or Gemini."
 gallery:
   - url: /assets/images/projects/apprankly-screen-1.webp
     image_path: /assets/images/projects/apprankly-screen-1.webp
     alt: "Unified Analytics Dashboard Overview"
   - url: /assets/images/projects/apprankly-screen-2.webp
     image_path: /assets/images/projects/apprankly-screen-2.webp
-    alt: "Detailed App Metrics & Daily Trends"
-  - url: /assets/images/projects/apprankly-screen-3.webp
-    image_path: /assets/images/projects/apprankly-screen-3.webp
     alt: "AI-Powered ASO Keyword & Metadata Studio"
-toc: true
 categories:
   - software
 tags:
@@ -31,28 +50,27 @@ tags:
   - ASO
   - Self-Hosted
   - Docker
+  - Unraid
   - Open Source
   - Node.js
 ---
 
 > **Live Demo**: Try the interactive web dashboard instantly: **[AppRankly Live Demo](https://zmsp.github.io/AppRankly/#demo)** *(Running in simulated demo mode with sample data)*  
-> **Links**: [GitHub Repository](https://github.com/zmsp/AppRankly) | [Apps Directory](https://apps.shahadat.us/apps/apprankly/) | [Unraid Store](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy)
+> **Links**: [GitHub Repository](https://github.com/zmsp/AppRankly) | [Apps Directory](https://apps.shahadat.us/apps/apprankly/) | [Unraid Store](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy) | [Docker Image](https://github.com/zmsp/AppRankly/pkgs/container/apprankly)
 
 ## AppRankly
 
-**AppRankly** is an open-source, self-hosted dashboard built to simplify how you track your mobile apps. Instead of jumping back and forth between developer consoles, AppRankly pulls data directly from Google Cloud Storage (Google Play) and the App Store Connect API to give you a single, clean overview of your app performance.
-
-It also includes a built-in AI assistant to help you optimize your App Store Optimization (ASO) strategy without relying on expensive monthly subscriptions.
-
-![AppRankly Overview Dashboard](/assets/images/projects/apprankly-screen-1.webp)
+Stop constantly switching between App Store Connect and Google Play Console. **AppRankly** brings your iOS and Android performance metrics together into a single, self-hosted dashboard. Track installs, audit listing health, and uncover high-ranking keywords—all while keeping your API keys and analytics 100% private on your own server.
 
 ## Key Features
 
-* **Unified Dashboard**: View installs, uninstalls, active devices, and country stats for both Google Play and Apple App Store side by side.
-* **Deep App Metrics**: Zoom into individual app trends, track version adoption over time, and see detailed geographic breakdowns.
-* **AI-Powered ASO Studio**: Discover keyword ideas using live store autocomplete data, run listing health checks, and draft metadata with OpenAI, Anthropic, or Gemini.
-* **CLI & Automation**: Run background syncs, export raw reports, or trigger daily updates using standard cron jobs.
-* **Easy Deployment**: Run it anywhere using Docker Compose, or install it directly via [Unraid Community Applications](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy).
+{% include feature_row %}
+
+* **Unified App Store Metrics**: Track installs, uninstalls, active devices, and country-by-country breakdowns for both iOS and Android in one view.
+* **AI-Powered ASO Studio**: Discover keyword ideas using live store autocomplete data, run instant listing audits, and generate AI-optimized app metadata with OpenAI, Anthropic, or Gemini.
+* **100% Self-Hosted & Private**: Your credentials and metrics stay strictly on your server. No third-party trackers, no telemetry, no data collection.
+* **Docker & Unraid Container Ready**: Spin up in under a minute using Docker Compose, GHCR images, or [Unraid Community Applications](https://ca.unraid.net/apps/apprankly-1bdjnw60t14ouy).
+* **CLI & Automation**: Run background syncs, export raw reports, or trigger scheduled daily updates using standard cron jobs.
 
 ## Screenshots
 
@@ -60,7 +78,13 @@ It also includes a built-in AI assistant to help you optimize your App Store Opt
 
 ## Tech Stack
 
-* **Frontend**: HTML5, Vanilla CSS3, JavaScript (Lightweight SPA)
+* **Frontend**: HTML5, Vanilla CSS3, JavaScript (Lightweight Glassmorphic SPA)
 * **Backend**: Node.js & Express REST API
 * **AI Integrations**: OpenAI, Anthropic (Claude), and Google Gemini
 * **Deployment**: Docker, Docker Compose, GHCR, Unraid CA
+
+{% include app-cta-box.html
+   web_url="https://zmsp.github.io/AppRankly/#demo"
+   web_label="Launch Live Demo"
+   github="https://github.com/zmsp/AppRankly"
+%}

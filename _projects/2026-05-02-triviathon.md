@@ -3,7 +3,7 @@ title: "Triviathon"
 excerpt: "Fast-paced trivia and quiz game."
 header:
   overlay_image: /assets/images/projects/triviathon-screenshot.webp
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   teaser: /assets/images/projects/triviathon-icon.webp
 sidebar:
   - title: "App Info"

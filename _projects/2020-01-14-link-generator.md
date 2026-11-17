@@ -3,7 +3,7 @@ title: "Link Generator"
 excerpt: "Create shareable social network and messaging links"
 header:
   overlay_image: /assets/images/projects/linkgenerator-header.webp
-  overlay_filter: 0.5
+  overlay_filter: 0.75
   teaser: /assets/images/projects/linkgenerator-icon.webp
 sidebar:
   - title: "Download"

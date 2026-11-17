@@ -66,4 +66,237 @@
   .archive__item-excerpt {
     display: block !important;
   }
+
+  /* Header permalink anchor icons: hide until hover, hide sr-only text */
+  .header-link {
+    opacity: 0 !important;
+    transition: opacity 0.2s ease-in-out !important;
+    text-decoration: none !important;
+    margin-left: 0.35em !important;
+  }
+  h1:hover .header-link,
+  h2:hover .header-link,
+  h3:hover .header-link,
+  h4:hover .header-link,
+  h5:hover .header-link,
+  h6:hover .header-link {
+    opacity: 1 !important;
+  }
+  .header-link .sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+
+  /* Center reading column when author sidebar is disabled */
+  @media (min-width: 1024px) {
+    #main:not(:has(.sidebar)) .page,
+    #main > .page:only-child {
+      float: none !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      width: 100% !important;
+    }
+  }
+
+  /* Mobile Table of Contents (TOC) Collapsible Toggle */
+  @media (max-width: 1023px) {
+    .toc {
+      margin-bottom: 1.5em !important;
+      background-color: rgba(0, 0, 0, 0.03) !important;
+      border: 1px solid rgba(0, 0, 0, 0.1) !important;
+      border-radius: 8px !important;
+      overflow: hidden !important;
+    }
+    .toc .nav__title {
+      cursor: pointer !important;
+      user-select: none !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      padding: 0.6em 1em !important;
+      margin: 0 !important;
+      font-size: 0.9em !important;
+    }
+    .toc .nav__title::after {
+      content: "" !important;
+      display: inline-block !important;
+      width: 8px !important;
+      height: 8px !important;
+      border-right: 2px solid currentColor !important;
+      border-bottom: 2px solid currentColor !important;
+      transform: rotate(45deg) !important;
+      transition: transform 0.2s ease !important;
+      margin-left: 0.75em !important;
+      flex-shrink: 0 !important;
+    }
+    .toc.is-open .nav__title::after {
+      transform: rotate(-135deg) !important;
+    }
+    .toc .toc__menu {
+      display: none !important;
+      padding: 0.5em 0 !important;
+      border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+    }
+    .toc.is-open .toc__menu {
+      display: block !important;
+    }
+
+    /* Mobile Table font scaling to avoid horizontal scrolling */
+    .page__content table {
+      font-size: 0.85em !important;
+    }
+    .page__content table th,
+    .page__content table td {
+      padding: 0.5em 0.5em !important;
+    }
+  }
+
+  /* App Download Row & Badges */
+  .app-download-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 12px !important;
+    margin: 1.25em 0 !important;
+  }
+  .app-download-row a {
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    line-height: 0 !important;
+  }
+  .app-download-row img.store-badge,
+  .app-download-row img {
+    height: 40px !important;
+    width: auto !important;
+    display: block !important;
+    margin: 0 !important;
+    border-radius: 6px !important;
+  }
+  .app-download-row .btn,
+  .app-download-row a.btn {
+    height: 40px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 1.25em !important;
+    font-size: 0.9em !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+    box-sizing: border-box !important;
+    border-radius: 6px !important;
+  }
+
+  .app-cta-box {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 1.25em 1.5em;
+    margin: 2em 0;
+  }
+  .app-cta-box__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0.75em;
+  }
+  .app-cta-box__icon {
+    width: 52px !important;
+    height: 52px !important;
+    border-radius: 12px !important;
+    object-fit: cover !important;
+    margin: 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+    flex-shrink: 0;
+  }
+  .app-cta-box__meta {
+    flex: 1;
+  }
+  .app-cta-box__title {
+    margin: 0 0 0.2em 0 !important;
+    font-size: 1.15em !important;
+    border-bottom: none !important;
+  }
+  .app-cta-box__tagline {
+    margin: 0 !important;
+    font-size: 0.88em !important;
+    opacity: 0.85;
+    line-height: 1.4 !important;
+  }
+
+  /* Sidebar Store Badges & Download Icons */
+  .sidebar a[href*="apple.com"],
+  .sidebar a[href*="play.google.com"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    line-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  .sidebar p:has(img[src*="badge"]),
+  .sidebar p:has(img[src*="app-store-icon"]),
+  .sidebar p:has(img[src*="google-play-icon"]),
+  .sidebar p:has(a[href*="apple.com"]),
+  .sidebar p:has(a[href*="play.google.com"]) {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin: 0.5em 0 !important;
+  }
+
+  /* Compact rectangular store badges (App Store / Google Play) */
+  .sidebar img[src*="badge"],
+  .sidebar a[href*="apple.com"] img,
+  .sidebar a[href*="play.google.com"] img {
+    width: auto !important;
+    height: 34px !important;
+    max-height: 34px !important;
+    max-width: 120px !important;
+    display: inline-block !important;
+    margin: 0 !important;
+    border-radius: 6px !important;
+    transition: transform 0.15s ease, opacity 0.15s ease !important;
+  }
+
+  /* Square store icons (app-store-icon.svg / google-play-icon.svg) */
+  .sidebar img[src*="app-store-icon"],
+  .sidebar img[src*="google-play-icon"] {
+    width: 36px !important;
+    height: 36px !important;
+    max-width: 36px !important;
+    max-height: 36px !important;
+    border-radius: 8px !important;
+    object-fit: contain !important;
+  }
+
+  .sidebar a[href*="apple.com"]:hover img,
+  .sidebar a[href*="play.google.com"]:hover img {
+    transform: translateY(-2px);
+    opacity: 0.85;
+  }
 </style>
+
+<script>
+  /* Mobile TOC toggle */
+  document.addEventListener("DOMContentLoaded", function () {
+    var toc = document.querySelector(".sidebar__right .toc");
+    if (!toc) return;
+    var tocTitle = toc.querySelector(".nav__title");
+    if (!tocTitle) return;
+    tocTitle.addEventListener("click", function () {
+      if (window.innerWidth < 1024) {
+        toc.classList.toggle("is-open");
+      }
+    });
+  });
+</script>

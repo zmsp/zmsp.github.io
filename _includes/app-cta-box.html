@@ -1,0 +1,122 @@
+{% comment %}
+  Reusable App CTA Box
+  Usage Examples:
+    1. Auto-detected from current project page:
+       {% include app-cta-box.html %}
+    2. Looking up another project by name:
+       {% include app-cta-box.html project="topwords" %}
+    3. Custom links & overrides:
+       {% include app-cta-box.html
+          title="Cutr"
+          tagline="Local-first creative studio."
+          icon="/assets/images/projects/cutr-icon.webp"
+          app_store="https://..."
+          google_play="https://..."
+          web_url="https://..."
+          web_label="Launch Web App"
+          github="https://github.com/..."
+       %}
+{% endcomment %}
+
+{% assign source = nil %}
+{% if include.project %}
+  {% assign source = site.projects | where_exp: "item", "item.path contains include.project" | first %}
+{% elsif page.collection == "projects" %}
+  {% assign source = page %}
+{% endif %}
+
+{% assign cta_title = include.title | default: source.title | default: page.title %}
+{% assign cta_tagline = include.tagline | default: include.excerpt | default: source.excerpt | default: page.excerpt %}
+
+{% assign cta_icon = include.icon | default: include.image | default: source.header.teaser | default: page.header.teaser %}
+{% if cta_icon == nil and source.sidebar %}
+  {% assign cta_icon = source.sidebar[0].image %}
+{% endif %}
+{% if cta_icon == nil and page.sidebar %}
+  {% assign cta_icon = page.sidebar[0].image %}
+{% endif %}
+
+{% assign app_store_url = include.app_store | default: include.ios | default: include.app_store_url %}
+{% assign google_play_url = include.google_play | default: include.android | default: include.google_play_url %}
+{% assign web_url = include.web_url | default: include.web %}
+{% assign github_url = include.github | default: include.github_url %}
+
+{% if app_store_url == nil and source.header.actions %}
+  {% for action in source.header.actions %}
+    {% if action.label contains "App Store" %}
+      {% assign app_store_url = action.url %}
+    {% elsif action.label contains "Google Play" %}
+      {% assign google_play_url = action.url %}
+    {% elsif action.label contains "Web" %}
+      {% assign web_url = web_url | default: action.url %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if app_store_url == nil and page.header.actions %}
+  {% for action in page.header.actions %}
+    {% if action.label contains "App Store" %}
+      {% assign app_store_url = action.url %}
+    {% elsif action.label contains "Google Play" %}
+      {% assign google_play_url = action.url %}
+    {% elsif action.label contains "Web" %}
+      {% assign web_url = web_url | default: action.url %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="app-cta-box">
+  <div class="app-cta-box__header">
+    {% if cta_icon %}
+      <img src="{{ cta_icon | relative_url }}" alt="{{ cta_title | default: 'App Icon' }}" class="app-cta-box__icon">
+    {% endif %}
+    <div class="app-cta-box__meta">
+      {% if cta_title %}
+        <h3 class="app-cta-box__title">{{ cta_title }}</h3>
+      {% endif %}
+      {% if cta_tagline %}
+        <p class="app-cta-box__tagline">{{ cta_tagline }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="app-download-row">
+    {% if app_store_url %}
+      <a href="{{ app_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+        <img src="{{ '/assets/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store" class="store-badge">
+      </a>
+    {% endif %}
+
+    {% if google_play_url %}
+      <a href="{{ google_play_url }}" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
+        <img src="{{ '/assets/images/google-play-badge.svg' | relative_url }}" alt="Get it on Google Play" class="store-badge">
+      </a>
+    {% endif %}
+
+    {% if web_url %}
+      <a href="{{ web_url }}" class="btn {{ include.web_btn_class | default: 'btn--primary' }}" target="_blank" rel="noopener noreferrer">
+        {{ include.web_label | default: "Launch Web App" }}
+      </a>
+    {% endif %}
+
+    {% if github_url %}
+      <a href="{{ github_url }}" class="btn {{ include.github_btn_class | default: 'btn--info' }}" target="_blank" rel="noopener noreferrer">
+        {{ include.github_label | default: "GitHub" }}
+      </a>
+    {% endif %}
+
+    {% if include.btn_url %}
+      <a href="{{ include.btn_url }}" class="btn {{ include.btn_class | default: 'btn--primary' }}" target="_blank" rel="noopener noreferrer">
+        {{ include.btn_label | default: "Learn More" }}
+      </a>
+    {% endif %}
+
+    {% if include.links %}
+      {% for link in include.links %}
+        <a href="{{ link.url }}" class="btn {{ link.class | default: 'btn--primary' }}" target="_blank" rel="noopener noreferrer">
+          {{ link.label }}
+        </a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
